@@ -5,6 +5,7 @@ backoff are enforced in one place rather than per-source.
 """
 import logging
 import random
+import re
 import threading
 import time
 from typing import Optional
@@ -18,6 +19,24 @@ except ImportError:  # pragma: no cover
     from requests.packages.urllib3.util.retry import Retry  # type: ignore
 
 log = logging.getLogger(__name__)
+
+# Secrets travel in URLs (Telegram puts the bot token in the path, CallMeBot
+# puts the API key in the query string). Every log line and every error message
+# derived from a URL goes through _redact first — GitHub Actions logs are
+# readable by anyone with access to the repo.
+_SECRET_PATTERNS = [
+    re.compile(r"(/bot)[^/]+(/)", re.IGNORECASE),          # api.telegram.org/bot<token>/
+    re.compile(r"((?:apikey|api_key|token|key)=)[^&\s]+", re.IGNORECASE),
+]
+
+
+def redact(text: str) -> str:
+    """Mask credentials that appear inside a URL or an error message."""
+    out = text or ""
+    for rx in _SECRET_PATTERNS:
+        out = rx.sub(lambda m: m.group(1) + "***" + (m.group(2) if m.lastindex > 1 else ""), out)
+    return out
+
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -97,7 +116,7 @@ def get(url: str, **kwargs) -> requests.Response:
 
     _throttle(urlparse(url).netloc)
     kwargs.setdefault("timeout", DEFAULT_TIMEOUT)
-    log.debug("GET %s", url)
+    log.debug("GET %s", redact(url))
     return get_session().get(url, **kwargs)
 
 
@@ -106,3 +125,17 @@ def get_json(url: str, **kwargs):
     resp = get(url, **kwargs)
     resp.raise_for_status()
     return resp.json()
+
+
+def post_json(url: str, payload: dict, **kwargs) -> requests.Response:
+    """Throttled JSON POST. Returns the response without raising on status.
+
+    Callers that talk to an API which reports failures in the *body* (Telegram
+    answers 200 with `ok: false`) need to inspect it themselves.
+    """
+    from urllib.parse import urlparse
+
+    _throttle(urlparse(url).netloc)
+    kwargs.setdefault("timeout", DEFAULT_TIMEOUT)
+    log.debug("POST %s", redact(url))
+    return get_session().post(url, json=payload, **kwargs)

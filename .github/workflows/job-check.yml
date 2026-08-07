@@ -31,11 +31,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Without this the run would "succeed" while printing the digest to the
+      # Actions log and delivering nothing — indistinguishable from a quiet day.
+      - name: Verify delivery is configured
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "::error::Missing repository secrets TELEGRAM_BOT_TOKEN and/or TELEGRAM_CHAT_ID."
+            echo "Add them under Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
       - name: Check for new jobs
         env:
-          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
-          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
-          FACEBOOK_COOKIE: ${{ secrets.FACEBOOK_COOKIE }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DIGEST_MAX_JOBS: ${{ vars.DIGEST_MAX_JOBS || 12 }}
         run: python -m jobtracker run
 
       - name: Commit updated state

@@ -46,8 +46,30 @@ class Company:
     extra: Optional[Dict[str, Any]] = None
 
 
+def write_env(key: str, value: str, path: Optional[Path] = None) -> Path:
+    """Set one key in .env, replacing an existing line if there is one.
+
+    Used by `setup-telegram` so the discovered chat id is persisted without the
+    user hand-editing a file. .env is gitignored; nothing here is ever committed.
+    """
+    path = path or (ROOT / ".env")
+    line = "%s=%s" % (key, value)
+    lines = path.read_text(encoding="utf-8").splitlines() if path.exists() else []
+    for i, existing in enumerate(lines):
+        if existing.strip().split("=", 1)[0].strip() == key:
+            lines[i] = line
+            break
+    else:
+        lines.append(line)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    os.environ[key] = value
+    return path
+
+
 @dataclass
 class Settings:
+    telegram_bot_token: str
+    telegram_chat_id: str
     callmebot_phone: str
     callmebot_apikey: str
     facebook_cookie: str
@@ -56,11 +78,17 @@ class Settings:
     @classmethod
     def from_env(cls) -> "Settings":
         return cls(
+            telegram_bot_token=os.getenv("TELEGRAM_BOT_TOKEN", "").strip(),
+            telegram_chat_id=os.getenv("TELEGRAM_CHAT_ID", "").strip(),
             callmebot_phone=os.getenv("CALLMEBOT_PHONE", "").strip(),
             callmebot_apikey=os.getenv("CALLMEBOT_APIKEY", "").strip(),
             facebook_cookie=os.getenv("FACEBOOK_COOKIE", "").strip(),
             digest_max_jobs=int(os.getenv("DIGEST_MAX_JOBS", "12")),
         )
+
+    @property
+    def telegram_ready(self) -> bool:
+        return bool(self.telegram_bot_token and self.telegram_chat_id)
 
     @property
     def whatsapp_ready(self) -> bool:

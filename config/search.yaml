@@ -177,10 +177,17 @@ location:
     - worldwide
     - international
   # ...but reject remote postings explicitly scoped to somewhere else.
+  # These are matched as whole words, and only ever consulted for a remote
+  # posting that named no Israeli city — so a bare "us" here cannot misfire on
+  # "Jerusalem" or on a job already located in Israel.
   remote_reject_regions:
     - united states
     - usa
+    - us
+    - u.s.
     - us only
+    - north america
+    - americas
     - canada
     - latam
     - apac

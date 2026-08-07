@@ -1,8 +1,16 @@
-"""Turn matched jobs into the WhatsApp digest text.
+"""Turn matched jobs into the alert text.
 
-Kept plain-text and compact: CallMeBot sends the message in a URL, and WhatsApp
-renders *bold* with single asterisks.
+Two renderings of the same digest:
+
+    telegram  HTML — the job title becomes the link, which is both shorter and
+                     nicer to tap than a bare URL on its own line.
+    plain     asterisk-bold — readable in a terminal, and what WhatsApp renders.
+
+Everything the source gave us is untrusted text, so the HTML rendering escapes
+it. An unescaped '&' or '<' in a job title makes Telegram reject the whole
+message with a parse error — which would look exactly like "no jobs today".
 """
+import html
 from collections import OrderedDict
 from datetime import datetime
 from typing import List
@@ -16,40 +24,61 @@ ROLE_ICON = {
 }
 
 
-def build_digest(jobs: List[Job], max_jobs: int = 12) -> str:
-    """Group by role, newest sources first, capped so the message stays sendable."""
+def _esc(text: str, style: str) -> str:
+    return html.escape(text or "") if style == "telegram" else (text or "")
+
+
+def _bold(text: str, style: str) -> str:
+    return "<b>%s</b>" % text if style == "telegram" else "*%s*" % text
+
+
+def _italic(text: str, style: str) -> str:
+    return "<i>%s</i>" % text if style == "telegram" else "[%s]" % text
+
+
+def build_digest(jobs: List[Job], remaining: int = 0, style: str = "plain") -> str:
+    """Render exactly the jobs passed in, grouped by role.
+
+    `jobs` is already capped by the caller — this function never drops any, so
+    what it renders is exactly what gets marked as seen. `remaining` is how many
+    more are waiting for the next run, and is only mentioned in a footer.
+    """
     if not jobs:
         return ""
 
     total = len(jobs)
-    shown = jobs[:max_jobs]
-
     grouped: "OrderedDict[str, List[Job]]" = OrderedDict()
-    for job in shown:
+    for job in jobs:
         grouped.setdefault(job.matched_role or "Other", []).append(job)
 
     stamp = datetime.now().strftime("%d/%m %H:%M")
-    header = "*%d new job%s* · %s" % (total, "" if total == 1 else "s", stamp)
-    lines = [header, ""]
+    lines = ["%s · %s" % (_bold("%d new job%s" % (total, "" if total == 1 else "s"), style),
+                          stamp), ""]
 
     for role, role_jobs in grouped.items():
-        lines.append("%s *%s* (%d)" % (ROLE_ICON.get(role, "•"), role, len(role_jobs)))
+        lines.append("%s %s (%d)" % (ROLE_ICON.get(role, "•"),
+                                     _bold(_esc(role, style), style), len(role_jobs)))
         for job in role_jobs:
+            title = _esc(job.title, style)
+            if job.url and style == "telegram":
+                title = '<a href="%s">%s</a>' % (html.escape(job.url, quote=True), title)
+
             tags = []
             if job.seniority:
                 tags.append(job.seniority)
             if job.is_remote:
                 tags.append("remote")
-            tag_str = " [%s]" % ", ".join(tags) if tags else ""
-            lines.append("• %s — %s%s" % (job.title, job.company, tag_str))
-            lines.append("  %s · %s" % (job.location or "Israel", job.source))
-            if job.url:
+            tag_str = " " + _italic(", ".join(tags), style) if tags else ""
+
+            lines.append("• %s — %s%s" % (title, _esc(job.company, style), tag_str))
+            lines.append("  %s · %s" % (_esc(job.location or "Israel", style),
+                                        _esc(job.source, style)))
+            if job.url and style != "telegram":
                 lines.append("  %s" % job.url)
         lines.append("")
 
-    if total > len(shown):
-        lines.append("…and %d more. Run `jobtracker list` to see them all."
-                     % (total - len(shown)))
+    if remaining > 0:
+        lines.append("…and %d more queued — they arrive in the next run." % remaining)
 
     return "\n".join(lines).strip()
 

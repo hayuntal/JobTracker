@@ -6,9 +6,9 @@ from typing import Dict, List, Optional
 from .config import STATE_DIR, Settings, load_companies, load_search
 from .matching import Matcher
 from .models import Job, SourceResult
-from .notify import CallMeBotNotifier, ConsoleNotifier, Notifier, build_digest
-from .sources import (AllJobsSource, ATSSource, DrushimSource,
-                      FacebookGroupsSource, GlassdoorSource, JobMasterSource,
+from .notify import (CallMeBotNotifier, ConsoleNotifier, Notifier,
+                     TelegramNotifier, build_digest)
+from .sources import (ATSSource, FacebookGroupsSource, GlassdoorSource,
                       LinkedInSource)
 from .sources.ats import enrich_descriptions
 from .store import SeenStore
@@ -35,10 +35,13 @@ class RunReport:
     collected: int = 0
     matched: int = 0
     new: int = 0
+    sent: int = 0          # included in this digest
+    deferred: int = 0      # over the cap; held back for the next run
     notified: bool = False
     notify_error: Optional[str] = None
     digest: str = ""
     new_jobs: List[Job] = field(default_factory=list)
+    sent_jobs: List[Job] = field(default_factory=list)
 
     @property
     def failed_sources(self) -> List[SourceResult]:
@@ -58,12 +61,6 @@ def build_sources(settings: Settings, enabled: List[str]) -> List:
         out.append(ATSSource(companies))
     if "linkedin" in enabled:
         out.append(LinkedInSource(DEFAULT_QUERIES[:3]))
-    if "drushim" in enabled:
-        out.append(DrushimSource(DEFAULT_QUERIES[:3]))
-    if "alljobs" in enabled:
-        out.append(AllJobsSource(DEFAULT_QUERIES[:3]))
-    if "jobmaster" in enabled:
-        out.append(JobMasterSource(DEFAULT_QUERIES[:3]))
     if "glassdoor" in enabled:
         out.append(GlassdoorSource(DEFAULT_QUERIES[:2]))
     if "facebook" in enabled:
@@ -72,18 +69,30 @@ def build_sources(settings: Settings, enabled: List[str]) -> List:
 
 
 def pick_notifier(settings: Settings, dry_run: bool) -> Notifier:
+    """Telegram first, CallMeBot/WhatsApp as a fallback, console as a last resort.
+
+    Falling back to the console rather than raising is deliberate: a run that
+    still reports its findings to stdout is useful, and `run` exits non-zero on
+    a genuine delivery *failure* — only missing configuration lands here.
+    """
     if dry_run:
         return ConsoleNotifier()
-    notifier = CallMeBotNotifier(settings.callmebot_phone, settings.callmebot_apikey)
-    if not notifier.available():
-        log.warning("WhatsApp not configured (%s) — printing to console instead",
-                    notifier.unavailable_reason())
-        return ConsoleNotifier()
-    return notifier
+
+    candidates = [
+        TelegramNotifier(settings.telegram_bot_token, settings.telegram_chat_id),
+        CallMeBotNotifier(settings.callmebot_phone, settings.callmebot_apikey),
+    ]
+    for notifier in candidates:
+        if notifier.available():
+            return notifier
+
+    log.warning("No delivery channel configured (%s) — printing to console instead",
+                candidates[0].unavailable_reason())
+    return ConsoleNotifier()
 
 
 def run(enabled: List[str], dry_run: bool = False,
-        settings: Optional[Settings] = None) -> RunReport:
+        settings: Optional[Settings] = None, notify: bool = True) -> RunReport:
     settings = settings or Settings.from_env()
     matcher = Matcher(load_search())
     store = SeenStore(STATE_FILE)
@@ -126,22 +135,37 @@ def run(enabled: List[str], dry_run: bool = False,
                  report.collected, report.matched)
         return report
 
-    # 5. Notify.
-    report.digest = build_digest(new_jobs, settings.digest_max_jobs)
+    # `seed` wants the full set of current matches without a digest being built
+    # or sent — it records them itself.
+    if not notify:
+        log.info("Notification skipped (%d new jobs identified)", report.new)
+        return report
+
+    # 5. Notify. The digest is capped, and only the jobs actually in it are
+    #    marked as seen — anything over the cap is deferred to the next run
+    #    rather than being silently dropped. A backlog therefore drains at
+    #    `digest_max_jobs` per run instead of being lost.
     notifier = pick_notifier(settings, dry_run)
+    cap = settings.digest_max_jobs
+    sent_jobs = new_jobs[:cap] if cap > 0 else list(new_jobs)
+    report.sent_jobs = sent_jobs
+    report.sent = len(sent_jobs)
+    report.deferred = len(new_jobs) - len(sent_jobs)
+    report.digest = build_digest(sent_jobs, remaining=report.deferred,
+                                 style=notifier.digest_style)
     try:
         notifier.send(report.digest)
         report.notified = True
     except Exception as exc:  # noqa: BLE001
         # Deliberately do NOT mark jobs as seen if delivery failed — otherwise a
-        # transient CallMeBot outage would silently swallow those jobs forever.
+        # transient outage would silently swallow those jobs forever.
         report.notify_error = "%s: %s" % (type(exc).__name__, exc)
         log.error("Notification failed, jobs left unmarked for retry: %s", exc)
         return report
 
     # 6. Persist only after a confirmed send.
     if not dry_run:
-        store.mark_seen(new_jobs)
+        store.mark_seen(sent_jobs)
         store.prune()
         store.save()
         log.info("State saved (%d fingerprints tracked)", len(store))

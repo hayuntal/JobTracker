@@ -4,6 +4,9 @@
 class Notifier:
     name = "base"
 
+    #: Which rendering of the digest this channel wants. See notify/format.py.
+    digest_style = "plain"
+
     def available(self) -> bool:
         return True
 

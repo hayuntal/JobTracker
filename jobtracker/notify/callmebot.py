@@ -21,6 +21,7 @@ SEND_GAP_SECONDS = 4.0
 
 class CallMeBotNotifier(Notifier):
     name = "whatsapp"
+    digest_style = "plain"      # WhatsApp renders *bold* the same way
 
     def __init__(self, phone: str, apikey: str):
         self.phone = (phone or "").lstrip("+").replace(" ", "").replace("-", "")
