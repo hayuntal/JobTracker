@@ -57,9 +57,13 @@ jobs:
         # already delivered get delivered again next hour.
         if: always()
         run: |
-          set -u
+          set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # setup-python provides `python`; fall back so this step is runnable
+          # outside Actions too (there is a race simulation in the README).
+          PY="$(command -v python || command -v python3)"
 
           # Keep this run's state outside the work tree — the loop below resets
           # the tree to the remote before re-applying it.
@@ -74,7 +78,16 @@ jobs:
             # --rebase` treats it as opaque text, hits a content conflict, and
             # strands the job with unmerged files that every retry then trips
             # over — which is exactly how this step used to fail.
-            python -m jobtracker merge-state "${RUNNER_TEMP}/ours.json"
+            #
+            # This must be fatal. If the merge is skipped, the tree still holds
+            # the remote's state, `git diff` sees nothing to commit, and the
+            # step would exit 0 having quietly dropped everything this run
+            # delivered — reporting success while causing duplicates next hour.
+            if ! "$PY" -m jobtracker merge-state "${RUNNER_TEMP}/ours.json"; then
+              echo "::error::Could not merge this run's state. Jobs already \
+              delivered are NOT recorded and will be sent again next run."
+              exit 1
+            fi
 
             git add state/
             if git diff --cached --quiet; then
