@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 probe.py found.json)",
+      "Bash(python3 probe2.py)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/pip -q install --upgrade pip)",
+      "Bash(.venv/bin/pip -q install requests PyYAML beautifulsoup4 lxml)",
+      "Bash(.venv/bin/python -c \"import requests,yaml,bs4;print\\('deps ready'\\)\")",
+      "Read(//Users/talhayun/.claude/**)"
+    ]
+  }
+}

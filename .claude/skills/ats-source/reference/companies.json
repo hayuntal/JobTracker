@@ -1,0 +1,150 @@
+{
+  "_note": "Verified 2026-07-30 against live ATS feeds. israel_jobs = Israeli postings seen at discovery; a later drop to 0 means the source broke. Re-validate before trusting.",
+  "verified": {
+    "Aidoc": {
+      "provider": "greenhouse",
+      "token": "aidocmedical",
+      "israel_jobs": 26
+    },
+    "AppsFlyer": {
+      "provider": "greenhouse",
+      "token": "appsflyer",
+      "israel_jobs": 24
+    },
+    "Armis": {
+      "provider": "smartrecruiters",
+      "token": "armis",
+      "israel_jobs": 2
+    },
+    "Axonius": {
+      "provider": "greenhouse",
+      "token": "axonius",
+      "israel_jobs": 8
+    },
+    "BigID": {
+      "provider": "greenhouse",
+      "token": "bigid",
+      "israel_jobs": 1
+    },
+    "Cato Networks": {
+      "provider": "greenhouse",
+      "token": "catonetworks",
+      "israel_jobs": 43
+    },
+    "Fireblocks": {
+      "provider": "greenhouse",
+      "token": "fireblocks",
+      "israel_jobs": 11
+    },
+    "Forter": {
+      "provider": "greenhouse",
+      "token": "forter",
+      "israel_jobs": 10
+    },
+    "Gong": {
+      "provider": "greenhouse",
+      "token": "gongio",
+      "israel_jobs": 17
+    },
+    "JFrog": {
+      "provider": "greenhouse",
+      "token": "jfrog",
+      "israel_jobs": 9
+    },
+    "Lightricks": {
+      "provider": "greenhouse",
+      "token": "lightricks",
+      "israel_jobs": 7
+    },
+    "Melio": {
+      "provider": "greenhouse",
+      "token": "melio",
+      "israel_jobs": 9
+    },
+    "Orca Security": {
+      "provider": "greenhouse",
+      "token": "orcasecurity",
+      "israel_jobs": 4
+    },
+    "Payoneer": {
+      "provider": "greenhouse",
+      "token": "payoneer",
+      "israel_jobs": 17
+    },
+    "Riskified": {
+      "provider": "greenhouse",
+      "token": "riskified",
+      "israel_jobs": 4
+    },
+    "Salt Security": {
+      "provider": "greenhouse",
+      "token": "saltsecurity",
+      "israel_jobs": 2
+    },
+    "Similarweb": {
+      "provider": "greenhouse",
+      "token": "similarweb",
+      "israel_jobs": 24
+    },
+    "Simply": {
+      "provider": "ashby",
+      "token": "simply",
+      "israel_jobs": 6
+    },
+    "Sisense": {
+      "provider": "greenhouse",
+      "token": "sisense",
+      "israel_jobs": 2
+    },
+    "Taboola": {
+      "provider": "greenhouse",
+      "token": "taboola",
+      "israel_jobs": 32
+    },
+    "Torq": {
+      "provider": "greenhouse",
+      "token": "torq",
+      "israel_jobs": 7
+    },
+    "Transmit Security": {
+      "provider": "greenhouse",
+      "token": "transmitsecurity",
+      "israel_jobs": 9
+    },
+    "Via": {
+      "provider": "greenhouse",
+      "token": "via",
+      "israel_jobs": 15
+    },
+    "Wiz": {
+      "provider": "greenhouse",
+      "token": "wizinc",
+      "israel_jobs": 23
+    },
+    "Yotpo": {
+      "provider": "greenhouse",
+      "token": "yotpo",
+      "israel_jobs": 3
+    }
+  },
+  "weak": {
+    "Cybereason": {
+      "provider": "greenhouse",
+      "token": "cybereason",
+      "israel_jobs": 0,
+      "reason": "resolved but no Israeli postings — re-sniff careers page before use"
+    },
+    "Fiverr": {
+      "provider": "smartrecruiters",
+      "token": "fiverr",
+      "israel_jobs": 0,
+      "reason": "resolved but no Israeli postings — re-sniff careers page before use"
+    },
+    "HiBob": {
+      "provider": "ashby",
+      "token": "bob",
+      "israel_jobs": 0,
+      "reason": "resolved but no Israeli postings — re-sniff careers page before use"
+    }
+  }
+}

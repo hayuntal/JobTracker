@@ -1,0 +1,61 @@
+name: Job check
+
+on:
+  schedule:
+    # Hourly, on the hour (UTC). GitHub queues scheduled jobs under load, so
+    # actual firing can drift a few minutes — harmless for this use case.
+    - cron: "0 * * * *"
+  workflow_dispatch:        # lets you trigger a run by hand from the Actions tab
+
+# Only one run at a time: two concurrent runs would both read the same state
+# file and could send you the same job twice.
+concurrency:
+  group: job-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write       # needed to commit the updated state file
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check for new jobs
+        env:
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          FACEBOOK_COOKIE: ${{ secrets.FACEBOOK_COOKIE }}
+        run: python -m jobtracker run
+
+      - name: Commit updated state
+        # Runs even if the check step failed, so a partial run still records
+        # whatever it managed to deliver.
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- state/; then
+            echo "No state change."
+            exit 0
+          fi
+          git add state/
+          git commit -m "chore: update seen-jobs state [skip ci]"
+          # Another run may have pushed while we were working; rebase and retry.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
+          exit 1

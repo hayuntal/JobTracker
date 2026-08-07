@@ -1,0 +1,150 @@
+# ---------------------------------------------------------------------------
+# Israeli tech companies and the ATS that powers their careers page.
+#
+# Every entry below was verified live: the endpoint responded 200 AND returned
+# at least one job with an Israeli location. `verified_il_jobs` is the count at
+# the time of setup — it's a snapshot for reference, not used by the code.
+#
+# To add a company, run:   /add-company <name>
+# ---------------------------------------------------------------------------
+
+companies:
+  # ---- Greenhouse -------------------------------------------------------
+  - name: Aidoc
+    provider: greenhouse
+    token: aidocmedical
+    verified_il_jobs: 26
+
+  - name: AppsFlyer
+    provider: greenhouse
+    token: appsflyer
+    verified_il_jobs: 24
+
+  - name: Axonius
+    provider: greenhouse
+    token: axonius
+    verified_il_jobs: 8
+
+  - name: BigID
+    provider: greenhouse
+    token: bigid
+    verified_il_jobs: 1
+
+  - name: Cato Networks
+    provider: greenhouse
+    token: catonetworks
+    verified_il_jobs: 43
+
+  - name: Fireblocks
+    provider: greenhouse
+    token: fireblocks
+    verified_il_jobs: 11
+
+  - name: Forter
+    provider: greenhouse
+    token: forter
+    verified_il_jobs: 10
+
+  - name: Gong
+    provider: greenhouse
+    token: gongio
+    verified_il_jobs: 17
+
+  - name: JFrog
+    provider: greenhouse
+    token: jfrog
+    verified_il_jobs: 9
+
+  - name: Lightricks
+    provider: greenhouse
+    token: lightricks
+    verified_il_jobs: 7
+
+  - name: Melio
+    provider: greenhouse
+    token: melio
+    verified_il_jobs: 9
+
+  - name: Orca Security
+    provider: greenhouse
+    token: orcasecurity
+    verified_il_jobs: 4
+
+  - name: Payoneer
+    provider: greenhouse
+    token: payoneer
+    verified_il_jobs: 17
+
+  - name: Riskified
+    provider: greenhouse
+    token: riskified
+    verified_il_jobs: 4
+
+  - name: Salt Security
+    provider: greenhouse
+    token: saltsecurity
+    verified_il_jobs: 2
+
+  - name: Similarweb
+    provider: greenhouse
+    token: similarweb
+    verified_il_jobs: 24
+
+  - name: Sisense
+    provider: greenhouse
+    token: sisense
+    verified_il_jobs: 2
+
+  - name: Taboola
+    provider: greenhouse
+    token: taboola
+    verified_il_jobs: 32
+
+  - name: Torq
+    provider: greenhouse
+    token: torq
+    verified_il_jobs: 7
+
+  - name: Transmit Security
+    provider: greenhouse
+    token: transmitsecurity
+    verified_il_jobs: 9
+
+  - name: Via
+    provider: greenhouse
+    token: via
+    verified_il_jobs: 15
+
+  - name: Wiz
+    provider: greenhouse
+    token: wizinc
+    verified_il_jobs: 23
+
+  - name: Yotpo
+    provider: greenhouse
+    token: yotpo
+    verified_il_jobs: 3
+
+  # ---- SmartRecruiters ---------------------------------------------------
+  - name: Armis
+    provider: smartrecruiters
+    token: armis
+    verified_il_jobs: 2
+
+  # ---- Ashby -------------------------------------------------------------
+  - name: Simply
+    provider: ashby
+    token: simply
+    verified_il_jobs: 6
+
+  # ---- Comeet ------------------------------------------------------------
+  # Comeet is very common in Israel (monday.com, Rapyd, eToro, Verbit,
+  # Coralogix, Playtika...). It needs a company UID + token pair that is only
+  # present in the JS-rendered careers page, so it can't be guessed like the
+  # others. Run `/add-company <name>` — it drives a browser to extract the
+  # pair — then entries appear here as:
+  #
+  # - name: Example Co
+  #   provider: comeet
+  #   uid: "12.ABC"
+  #   token: "34.DEF"

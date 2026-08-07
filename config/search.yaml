@@ -1,0 +1,191 @@
+# ---------------------------------------------------------------------------
+# What counts as a job worth waking you up for.
+#
+# Matching runs in three stages:
+#   1. TITLE   — must match a pattern in one of the role groups below
+#   2. LOCATION— must resolve to Israel (or remote open to Israel)
+#   3. EXCLUDE — must not hit an exclusion pattern
+# ---------------------------------------------------------------------------
+
+# Target roles. `patterns` are matched case-insensitively against the job title
+# as whole words. Mode is "moderate": your three titles plus the equivalent
+# titles Israeli companies actually use for the same job.
+roles:
+  data_engineer:
+    label: Data Engineer
+    patterns:
+      - data engineer
+      - big data engineer
+      - data platform engineer
+      - data infrastructure engineer
+      - data warehouse engineer
+      - analytics engineer
+      - etl developer
+      - etl engineer
+      - bi engineer
+      - bi developer
+      - business intelligence developer
+      - dwh developer
+      # Hebrew
+      - מהנדס דאטה
+      - מהנדסת דאטה
+      - מהנדס נתונים
+      - מפתח bi
+      - מפתחת bi
+
+  senior_data_analyst:
+    label: Senior Data Analyst
+    patterns:
+      - senior data analyst
+      - data analyst
+      - senior analyst
+      - bi analyst
+      - business intelligence analyst
+      - senior bi analyst
+      - product analyst
+      - senior product analyst
+      - business analyst
+      # Hebrew
+      - אנליסט דאטה
+      - אנליסטית דאטה
+      - אנליסט נתונים
+      - אנליסט bi
+      - אנליסט מוצר
+
+  junior_data_scientist:
+    label: Junior Data Scientist
+    patterns:
+      - junior data scientist
+      - data scientist
+      - associate data scientist
+      - entry level data scientist
+      - machine learning engineer
+      - ml engineer
+      - algorithm developer
+      # Hebrew
+      - דאטה סיינטיסט
+      - מדען נתונים
+      - מדענית נתונים
+      - חוקר אלגוריתמים
+
+# Titles that superficially contain a keyword but are never the job you want.
+exclude_titles:
+  - data center
+  - data centre
+  - data entry
+  - master data
+  - data protection officer
+  - data privacy
+  - data governance manager
+  - sales analyst
+  - financial analyst
+  - credit analyst
+  - soc analyst
+  - security analyst
+  - marketing analyst
+  - hr analyst
+  - payroll analyst
+
+# You chose NOT to filter by seniority, so this is off — every level reaches
+# you and the alert is tagged with the detected level so you can judge fast.
+# Flip `enabled: true` if Principal/Staff/VP noise starts getting annoying.
+seniority_filter:
+  enabled: false
+  exclude_levels:
+    - principal
+    - staff
+    - director
+    - head of
+    - vp
+    - vice president
+    - chief
+    - intern
+    - student
+
+# You chose NOT to exclude recruiting agencies, so this is off. Enable it to
+# only receive roles posted directly by the employer.
+agency_filter:
+  enabled: false
+  agencies:
+    - ethosia
+    - nisha
+    - manpower
+    - adecco
+    - experis
+    - jobinfo
+    - hunter
+    - taldor
+    - malam
+
+location:
+  # A job qualifies if its location text matches any of these.
+  israel_terms:
+    - israel
+    - ישראל
+    - tel aviv
+    - tel-aviv
+    - tel aviv-yafo
+    - tlv
+    - herzliya
+    - herzeliya
+    - ra'anana
+    - raanana
+    - netanya
+    - haifa
+    - jerusalem
+    - petah tikva
+    - petach tikva
+    - yokneam
+    - yoqneam
+    - beer sheva
+    - be'er sheva
+    - rehovot
+    - caesarea
+    - ramat gan
+    - givatayim
+    - kfar saba
+    - hod hasharon
+    - airport city
+    - modi'in
+    - modiin
+    - rosh ha'ayin
+    - rosh haayin
+    - ashdod
+    - lod
+    - or yehuda
+    - bnei brak
+    - holon
+    - rishon lezion
+
+  # You opted IN to remote roles open to Israel. A posting with no Israeli city
+  # still qualifies if it looks remote AND is scoped to a region covering
+  # Israel (or has no region restriction at all).
+  include_remote: true
+  remote_terms:
+    - remote
+    - hybrid
+    - work from home
+    - anywhere
+    - עבודה מהבית
+    - היברידי
+  # If a remote posting names one of these regions, treat it as Israel-eligible.
+  remote_ok_regions:
+    - israel
+    - emea
+    - europe
+    - global
+    - worldwide
+    - international
+  # ...but reject remote postings explicitly scoped to somewhere else.
+  remote_reject_regions:
+    - united states
+    - usa
+    - us only
+    - canada
+    - latam
+    - apac
+    - india
+    - uk only
+    - united kingdom only
+    - germany only
+    - poland only
