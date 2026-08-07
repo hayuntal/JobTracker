@@ -172,6 +172,40 @@ def test_a_failed_source_does_not_sink_the_run(monkeypatch, tmp_path):
     assert report.notified
 
 
+# -- search terms -----------------------------------------------------------
+
+def test_search_queries_come_from_config(monkeypatch):
+    monkeypatch.setattr(pipeline, "load_search",
+                        lambda: {"search_queries": ["Data Architect", "MLOps"]})
+    assert pipeline.search_queries() == ["Data Architect", "MLOps"]
+
+
+def test_search_queries_fall_back_when_unconfigured(monkeypatch):
+    monkeypatch.setattr(pipeline, "load_search", lambda: {})
+    assert pipeline.search_queries() == pipeline.DEFAULT_QUERIES
+
+
+def test_blank_search_terms_are_dropped(monkeypatch):
+    """An empty term would ask LinkedIn for everything."""
+    monkeypatch.setattr(pipeline, "load_search",
+                        lambda: {"search_queries": ["Data Engineer", "", "  "]})
+    assert pipeline.search_queries() == ["Data Engineer"]
+
+
+def test_linkedin_is_built_with_the_configured_terms(monkeypatch):
+    monkeypatch.setattr(pipeline, "load_search",
+                        lambda: {"search_queries": ["Data Architect"]})
+    monkeypatch.setattr(pipeline, "load_companies", lambda: [])
+    sources = pipeline.build_sources(settings(), ["linkedin"])
+    assert sources[0].queries == ["Data Architect"]
+
+
+def test_the_shipped_config_actually_parses():
+    """Guards a YAML typo in search_queries silently reverting to defaults."""
+    from jobtracker.config import load_search
+    assert load_search().get("search_queries")
+
+
 # -- notifier selection -----------------------------------------------------
 
 def test_telegram_is_preferred_over_whatsapp():

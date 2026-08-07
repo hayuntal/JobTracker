@@ -17,16 +17,31 @@ log = logging.getLogger(__name__)
 
 STATE_FILE = STATE_DIR / "seen_jobs.json"
 
-# Keyword-driven sources (LinkedIn, boards) need search strings rather than a
-# company list. Kept short on purpose: every extra term is another round of
-# throttled requests against sites that rate-limit.
+# Fallback search terms, used only if config/search.yaml has no
+# `search_queries` block. Kept short on purpose: every extra term is another
+# round of throttled requests against sites that rate-limit.
 DEFAULT_QUERIES = [
     "Data Engineer",
     "Data Analyst",
     "Data Scientist",
-    "Analytics Engineer",
-    "BI Developer",
 ]
+
+
+def search_queries() -> List[str]:
+    """Search terms for the keyword-driven sources (LinkedIn, Glassdoor).
+
+    The ATS sources need no queries at all — they return every open role a
+    company has and the matcher filters locally. LinkedIn has no such endpoint,
+    so it has to be *asked* for specific terms.
+
+    These live in config/search.yaml next to the role patterns, but stay a
+    separate list on purpose: a search term wants to be broad ("Data Analyst",
+    which LinkedIn expands to senior/junior/product variants), while a role
+    pattern can be narrow ("senior product analyst"). Feeding every pattern to
+    LinkedIn would mean dozens of throttled requests for no extra coverage.
+    """
+    configured = load_search().get("search_queries")
+    return [str(q) for q in configured if str(q).strip()] if configured else list(DEFAULT_QUERIES)
 
 
 @dataclass
@@ -55,16 +70,17 @@ def build_sources(settings: Settings, enabled: List[str]) -> List:
     don't waste requests on them.
     """
     companies = load_companies()
+    queries = search_queries()
     out = []
 
     if "careers" in enabled:
         out.append(ATSSource(companies))
     if "linkedin" in enabled:
-        out.append(LinkedInSource(DEFAULT_QUERIES[:3]))
+        out.append(LinkedInSource(queries))
     if "glassdoor" in enabled:
-        out.append(GlassdoorSource(DEFAULT_QUERIES[:2]))
+        out.append(GlassdoorSource(queries[:2]))
     if "facebook" in enabled:
-        out.append(FacebookGroupsSource(settings.facebook_cookie, DEFAULT_QUERIES[:2]))
+        out.append(FacebookGroupsSource(settings.facebook_cookie, queries[:2]))
     return out
 
 

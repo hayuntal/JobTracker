@@ -7,9 +7,31 @@
 #   3. EXCLUDE — must not hit an exclusion pattern
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Terms sent to LinkedIn (and Glassdoor, if enabled).
+#
+# Company careers pages need nothing here — they hand over every open role and
+# the `roles` patterns below do the filtering. LinkedIn is different: it has to
+# be asked for something, so this is that list.
+#
+# Keep it SHORT and BROAD. Each term costs ~12s of throttled requests, and
+# "Data Analyst" already brings back the senior/junior/product variants, which
+# the patterns below then filter properly. Adding "Senior Data Analyst" here
+# gains nothing and just slows every run down.
+search_queries:
+  - Data Engineer
+  - Data Analyst
+  - Data Scientist
+
+# ---------------------------------------------------------------------------
 # Target roles. `patterns` are matched case-insensitively against the job title
 # as whole words. Mode is "moderate": your three titles plus the equivalent
 # titles Israeli companies actually use for the same job.
+#
+# To stop hearing about a role entirely, delete its whole block (or comment it
+# out). To stop hearing about one variant, delete just that pattern line.
+# Test any change before trusting it:
+#     python -m jobtracker match "Some Job Title"
 roles:
   data_engineer:
     label: Data Engineer
