@@ -1,263 +1,7 @@
 {
-  "count": 36,
+  "count": 35,
   "seen": {
-    "00561290dd990c92": {
-      "company": "Extreme",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Center District, Israel",
-      "source": "linkedin",
-      "title": "Data Engineer",
-      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-extreme-4450217678"
-    },
-    "00ee2ff2ffa7d9a6": {
-      "company": "Taboola",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv, Israel",
-      "source": "greenhouse",
-      "title": "Product Analyst - Taboola News (Maternity Leave Cover)",
-      "url": "https://www.taboola.com/careers/job/8035266?gh_jid=8035266"
-    },
-    "12c9d9898efa611c": {
-      "company": "Lightricks",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Jerusalem",
-      "source": "greenhouse",
-      "title": "Data Scientist- Machine Learning & AI",
-      "url": "https://careers.lightricks.com/position?gh_jid=8557860002&gh_jid=8557860002"
-    },
-    "1c23ae77856b0fde": {
-      "company": "Taboola",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv, Israel",
-      "source": "greenhouse",
-      "title": "Data Analyst, Algorithms",
-      "url": "https://www.taboola.com/careers/job/8076468?gh_jid=8076468"
-    },
-    "2255c9251f3e08f4": {
-      "company": "Aidoc",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "greenhouse",
-      "title": "AI Data Analyst",
-      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871564101"
-    },
-    "231fd421fb80ef93": {
-      "company": "Similarweb",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv-Yafo, Israel",
-      "source": "greenhouse",
-      "title": "Product Data Scientist (Customer-facing)",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7971236"
-    },
-    "285c9f78141d361d": {
-      "company": "Similarweb",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv, Israel",
-      "source": "greenhouse",
-      "title": "Product Analyst",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7548388"
-    },
-    "2ad719ac2494573b": {
-      "company": "Aidoc",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "greenhouse",
-      "title": "Senior Product Analyst",
-      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101"
-    },
-    "2dc955b416bdabf7": {
-      "company": "Taboola",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv, Israel",
-      "source": "greenhouse",
-      "title": "Product Analyst (Maternity-Leave Replacement)",
-      "url": "https://www.taboola.com/careers/job/8035268?gh_jid=8035268"
-    },
-    "34542e8cb6fb6fd1": {
-      "company": "Booking.com",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Data Engineer II - GenAI",
-      "url": "https://il.linkedin.com/jobs/view/data-engineer-ii-genai-at-booking-com-4300566172"
-    },
-    "3930fb0411c6366c": {
-      "company": "Wiz",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv",
-      "source": "greenhouse",
-      "title": "Data Scientist Expert",
-      "url": "https://www.wiz.io/careers/job/4621534006/:title?gh_jid=4621534006"
-    },
-    "398fc488d4914b44": {
-      "company": "Taboola",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv, Israel",
-      "source": "greenhouse",
-      "title": "Senior Data Scientist",
-      "url": "https://www.taboola.com/careers/job/8087797?gh_jid=8087797"
-    },
-    "3eb68be55c7086ea": {
-      "company": "Via",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv",
-      "source": "greenhouse",
-      "title": "Staff ML Engineer",
-      "url": "https://job-boards.greenhouse.io/via/jobs/8620691002"
-    },
-    "458e6f2de2f60412": {
-      "company": "NVIDIA",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Yokneam Ilit, North District, Israel",
-      "source": "linkedin",
-      "title": "Senior Data Engineer, PE",
-      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-pe-at-nvidia-4441114891"
-    },
-    "5067c9eede6db6f5": {
-      "company": "Similarweb",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv-Yafo, Israel",
-      "source": "greenhouse",
-      "title": "Data Scientist ",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/6829705"
-    },
-    "531165bc98ee8959": {
-      "company": "Melio",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv",
-      "source": "greenhouse",
-      "title": "Data Scientist ",
-      "url": "https://job-boards.greenhouse.io/melio/jobs/7748138003"
-    },
-    "5624710b57b46a63": {
-      "company": "Ashley Digital",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Data Engineer",
-      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-ashley-digital-4440725464"
-    },
-    "5d5475c9ef90f420": {
-      "company": "Alpha | Similarweb Partner",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Data Engineer",
-      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-alpha-similarweb-partner-4447344790"
-    },
-    "5e7aa21b60c2c3e6": {
-      "company": "Aidoc",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "greenhouse",
-      "title": "Senior Data Engineer ",
-      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
-    },
-    "65c3fd04d5fb3d87": {
-      "company": "Gotfriends",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Data Engineer",
-      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-gotfriends-4447366168"
-    },
-    "667f1ad7b074f8c6": {
-      "company": "Cato Networks",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv District, Israel",
-      "source": "greenhouse",
-      "title": "Data Scientist",
-      "url": "https://www.catonetworks.com/careers/careers-post/4848229101?gh_jid=4848229101"
-    },
-    "677aeedef8bae892": {
-      "company": "AppsFlyer",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Herzliya",
-      "source": "greenhouse",
-      "title": "Data Engineer - Billing Platform",
-      "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
-    },
-    "72b5751aa3cd6821": {
-      "company": "Experis Israel",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Data Engineer - 239783",
-      "url": "https://il.linkedin.com/jobs/view/data-engineer-239783-at-experis-israel-4448096207"
-    },
-    "87cb7f965aa29913": {
-      "company": "Torq",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv",
-      "source": "greenhouse",
-      "title": "Data Engineer (Product & Customer Insights)",
-      "url": "https://job-boards.greenhouse.io/torq/jobs/6119508004"
-    },
-    "92cdcbb36ac26507": {
-      "company": "Aidoc",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "greenhouse",
-      "title": "Product Analyst Team Lead",
-      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
-    },
-    "a5b04d3d3adb11d5": {
-      "company": "Similarweb",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv, Israel",
-      "source": "greenhouse",
-      "title": "Core Data - Big Data Engineer",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
-    },
-    "b51796a0b307aa3f": {
-      "company": "Gong",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv",
-      "source": "greenhouse",
-      "title": "Senior Product Analyst",
-      "url": "https://job-boards.greenhouse.io/gongio/jobs/4697159006"
-    },
-    "b9260bb3c4bfea12": {
-      "company": "Similarweb",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Core Data - Big Data Engineer",
-      "url": "https://il.linkedin.com/jobs/view/core-data-big-data-engineer-at-similarweb-4418794144"
-    },
-    "be6f78125fe3cc3c": {
-      "company": "Similarweb",
-      "first_seen": "2026-08-07T21:01:05+00:00",
-      "location": "Tel Aviv-Yafo",
-      "source": "greenhouse",
-      "title": " Data Engineer",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7556162"
-    },
-    "c9f973d90346d4c8": {
-      "company": "Empathy",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "linkedin",
-      "title": "Data Analytics Engineer",
-      "url": "https://il.linkedin.com/jobs/view/data-analytics-engineer-at-empathy-4432293293"
-    },
-    "da265be9bcc16bb5": {
-      "company": "Yotpo",
-      "first_seen": "2026-08-07T21:17:06+00:00",
-      "location": "Tel Aviv",
-      "source": "greenhouse",
-      "title": "Business Analyst (GTM)",
-      "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
-    },
-    "e37c19559b005e38": {
-      "company": "Melio",
-      "first_seen": "2026-08-07T20:05:49+00:00",
-      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-      "source": "greenhouse",
-      "title": "Senior Data Scientist ",
-      "url": "https://job-boards.greenhouse.io/melio/jobs/7765818003"
-    },
-    "e729603ab11f2f7e": {
+    "02f7ed4e3a17cea6": {
       "company": "Via",
       "first_seen": "2026-08-07T21:01:05+00:00",
       "location": "Tel Aviv",
@@ -265,7 +9,63 @@
       "title": "Software & Data Engineer",
       "url": "https://job-boards.greenhouse.io/via/jobs/8557879002"
     },
-    "ead9ebcda386671e": {
+    "034bf87ceb5bfe92": {
+      "company": "Experis Israel",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer - 239783",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-239783-at-experis-israel-4448096207"
+    },
+    "18cf2ecdb3dbc80b": {
+      "company": "Cato Networks",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Data Scientist",
+      "url": "https://www.catonetworks.com/careers/careers-post/4848229101?gh_jid=4848229101"
+    },
+    "1b70870776b5adec": {
+      "company": "Taboola",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Senior Data Scientist",
+      "url": "https://www.taboola.com/careers/job/8087797?gh_jid=8087797"
+    },
+    "1d7f06e44a473544": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv-Yafo",
+      "source": "greenhouse",
+      "title": " Senior Data Engineer ( Data Collection)",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7911963"
+    },
+    "24274f8818724ab2": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv-Yafo, Israel",
+      "source": "greenhouse",
+      "title": "Data Scientist ",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/6829705"
+    },
+    "3a36f54f1d9a8407": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv-Yafo, Israel",
+      "source": "greenhouse",
+      "title": "Product Data Scientist (Customer-facing)",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7971236"
+    },
+    "4443ea5efda1b538": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Product Analyst",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7548388"
+    },
+    "44891a13b5b25046": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T20:05:49+00:00",
       "location": "Tel Aviv-Yafo",
@@ -273,7 +73,31 @@
       "title": "Big Data Analyst",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6897277"
     },
-    "ee160627f9068e23": {
+    "4afaec2c4aba8440": {
+      "company": "Taboola",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Data Analyst, Algorithms",
+      "url": "https://www.taboola.com/careers/job/8076468?gh_jid=8076468"
+    },
+    "5940daafea38c882": {
+      "company": "Taboola",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Product Analyst (Maternity-Leave Replacement)",
+      "url": "https://www.taboola.com/careers/job/8035268?gh_jid=8035268"
+    },
+    "5aab6a9bc930fc00": {
+      "company": "Extreme",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-extreme-4450217678"
+    },
+    "5ef64cdcbe9b0ca4": {
       "company": "DRS RADA Technologies",
       "first_seen": "2026-08-07T21:17:06+00:00",
       "location": "Netanya, Center District, Israel",
@@ -281,14 +105,182 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-drs-rada-technologies-4450254012"
     },
-    "f1d5cdf864d9a277": {
+    "6d3f1be561be7760": {
+      "company": "Wiz",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Scientist Expert",
+      "url": "https://www.wiz.io/careers/job/4621534006/:title?gh_jid=4621534006"
+    },
+    "6fad54484802e438": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Senior Data Engineer ",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
+    },
+    "75e6469e6f0452d7": {
+      "company": "Booking.com",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer II - GenAI",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-ii-genai-at-booking-com-4300566172"
+    },
+    "7790387f73217a7e": {
+      "company": "Lightricks",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Jerusalem",
+      "source": "greenhouse",
+      "title": "Data Scientist- Machine Learning & AI",
+      "url": "https://careers.lightricks.com/position?gh_jid=8557860002&gh_jid=8557860002"
+    },
+    "7ca81a2e46faae59": {
+      "company": "Gotfriends",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-gotfriends-4447366168"
+    },
+    "80d79fe8e566e4c4": {
+      "company": "Via",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Staff ML Engineer",
+      "url": "https://job-boards.greenhouse.io/via/jobs/8620691002"
+    },
+    "851852d15c8d767a": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
       "location": "Tel Aviv-Yafo",
       "source": "greenhouse",
-      "title": " Senior Data Engineer ( Data Collection)",
-      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7911963"
+      "title": " Data Engineer",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7556162"
+    },
+    "86d1685f3fd48c92": {
+      "company": "AppsFlyer",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Herzliya",
+      "source": "greenhouse",
+      "title": "Data Engineer - Billing Platform",
+      "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
+    },
+    "ac57c5d8c08d2e28": {
+      "company": "Melio",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Senior Data Scientist ",
+      "url": "https://job-boards.greenhouse.io/melio/jobs/7765818003"
+    },
+    "ae83181e72f9f079": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101"
+    },
+    "b035a977211c1b75": {
+      "company": "Torq",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Engineer (Product & Customer Insights)",
+      "url": "https://job-boards.greenhouse.io/torq/jobs/6119508004"
+    },
+    "b1cda5d2f8a3a765": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Core Data - Big Data Engineer",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
+    },
+    "bc545edeaac023ca": {
+      "company": "Empathy",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analytics Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-analytics-engineer-at-empathy-4432293293"
+    },
+    "be3aba1e0b40b862": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-alpha-similarweb-partner-4447344790"
+    },
+    "bf3586ecb3ac8396": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Yokneam Ilit, North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer, PE",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-pe-at-nvidia-4441114891"
+    },
+    "c050360f78559c6d": {
+      "company": "Gong",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4697159006"
+    },
+    "c42fac7e8aed6442": {
+      "company": "Taboola",
+      "first_seen": "2026-08-07T21:01:05+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Product Analyst - Taboola News (Maternity Leave Cover)",
+      "url": "https://www.taboola.com/careers/job/8035266?gh_jid=8035266"
+    },
+    "d6614d6dcb34fe8b": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "AI Data Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871564101"
+    },
+    "dd3f40777585c63f": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Product Analyst Team Lead",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
+    },
+    "fecc7f63fe5cf6cb": {
+      "company": "Ashley Digital",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-ashley-digital-4440725464"
+    },
+    "ff4b5387a4fd9fcf": {
+      "company": "Melio",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Scientist ",
+      "url": "https://job-boards.greenhouse.io/melio/jobs/7748138003"
+    },
+    "ffaf295a326dd8db": {
+      "company": "Yotpo",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Business Analyst (GTM)",
+      "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-07T21:17:07+00:00"
+  "updated_at": "2026-08-07T21:28:31+00:00"
 }

@@ -36,13 +36,24 @@ class Job:
 
     @property
     def fingerprint(self) -> str:
-        """Stable identity for de-duplication.
+        """Stable identity for de-duplication: company + title.
 
-        Deliberately based on company+title+location rather than URL: the same
-        role often appears on a company's ATS *and* on LinkedIn with different
-        URLs, and we only want to be told about it once.
+        Not the URL: the same role appears on the company's ATS *and* on
+        LinkedIn under different links, and it should only be reported once.
+
+        Not the location either — that was the original design and it backfired.
+        Sources spell the same office differently ("Tel Aviv, Israel" from
+        LinkedIn, "Tel Aviv-Yafo, Tel Aviv District, Israel" from Greenhouse)
+        and a single source rewords itself over time. Every respelling minted a
+        fresh fingerprint, so the same job kept arriving as "new" — and it
+        defeated the cross-source de-duplication above, because the two copies
+        of one job never agreed on the location string.
+
+        The cost: one company posting the same title in two Israeli cities is
+        reported once rather than twice. That is far rarer than a respelling,
+        and far less annoying than a repeat.
         """
-        key = "|".join([_norm(self.company), _norm(self.title), _norm(self.location)])
+        key = "|".join([_norm(self.company), _norm(self.title)])
         return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
 
     def __str__(self) -> str:

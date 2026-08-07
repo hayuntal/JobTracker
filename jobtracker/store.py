@@ -24,6 +24,9 @@ class SeenStore:
     def __init__(self, path: Path):
         self.path = Path(path)
         self._data: Dict[str, Dict] = {}
+        #: records re-keyed by the last load; non-zero means the file on disk is
+        #: still in an older format and is worth writing back.
+        self.migrated = 0
         self.load()
 
     def load(self) -> None:
@@ -38,6 +41,49 @@ class SeenStore:
             # one duplicate digest, which is far better than no alerts at all.
             log.warning("Could not read state file %s (%s); starting fresh", self.path, exc)
             self._data = {}
+            return
+        self.migrated = self._rekey()
+
+    @staticmethod
+    def _key_for(record: Dict) -> str:
+        """The fingerprint a stored record should be filed under today."""
+        return Job(
+            title=record.get("title", ""), company=record.get("company", ""),
+            location=record.get("location", ""), url="", source="",
+        ).fingerprint
+
+    def _rekey(self) -> int:
+        """Re-derive every record's key from the fields stored alongside it.
+
+        The fingerprint definition is allowed to change — it did, when location
+        was dropped from it. Without this, every record written under the old
+        definition would look unseen and the next run would re-alert the lot.
+        Re-keying migrates the file in place instead, and is a no-op once the
+        keys already agree.
+
+        Records that collapse into one (the same job recorded under two old
+        location spellings) keep the earliest sighting.
+        """
+        migrated: Dict[str, Dict] = {}
+        changed = 0
+        for key, record in self._data.items():
+            fingerprint = self._key_for(record)
+            if fingerprint != key:
+                changed += 1
+            existing = migrated.get(fingerprint)
+            if existing is None:
+                migrated[fingerprint] = record
+                continue
+            theirs = record.get("first_seen") or ""
+            ours = existing.get("first_seen") or ""
+            if theirs and (not ours or theirs < ours):
+                existing["first_seen"] = theirs
+        if changed:
+            log.info("Migrated %d state record(s) to the current fingerprint "
+                     "(%d → %d after collapsing duplicates)",
+                     changed, len(self._data), len(migrated))
+        self._data = migrated
+        return changed
 
     def has(self, job: Job) -> bool:
         return job.fingerprint in self._data
@@ -73,9 +119,15 @@ class SeenStore:
         Being order-independent is what lets CI retry safely — it can re-apply
         this on top of whatever landed on the remote meanwhile, as many times
         as needed, and converge on the same answer.
+
+        The incoming keys are re-derived rather than trusted. The other file may
+        predate a fingerprint change, and importing its keys verbatim would file
+        every record a second time under a stale key — doubling the state and
+        making none of it match a real job.
         """
         added = 0
-        for fingerprint, record in (other or {}).items():
+        for record in (other or {}).values():
+            fingerprint = self._key_for(record)
             existing = self._data.get(fingerprint)
             if existing is None:
                 self._data[fingerprint] = record

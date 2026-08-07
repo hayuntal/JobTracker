@@ -34,9 +34,83 @@ def test_same_role_from_two_sources_alerts_once(tmp_path):
     assert len(store.new_jobs([via_ats, via_linkedin])) == 1
 
 
-def test_different_location_is_a_different_job(tmp_path):
+def test_a_respelt_location_is_still_the_same_job(tmp_path):
+    """The bug that caused repeats: sources word the same office differently."""
     store = SeenStore(tmp_path / "seen.json")
-    assert len(store.new_jobs([job(location="Tel Aviv"), job(location="Haifa")])) == 2
+    store.mark_seen([job(location="Tel Aviv, Israel")])
+
+    respelt = job(location="Tel Aviv-Yafo, Tel Aviv District, Israel")
+    assert store.new_jobs([respelt]) == []
+
+
+def test_the_same_job_from_two_sources_collapses_despite_location_wording(tmp_path):
+    store = SeenStore(tmp_path / "seen.json")
+    from_ats = Job(title="Product Analyst", company="Similarweb",
+                   location="Tel Aviv-Yafo, Tel Aviv District, Israel",
+                   url="https://boards.greenhouse.io/x", source="greenhouse")
+    from_linkedin = Job(title="Product Analyst", company="Similarweb",
+                        location="Tel Aviv, Israel",
+                        url="https://linkedin.com/jobs/y", source="linkedin")
+    assert len(store.new_jobs([from_ats, from_linkedin])) == 1
+
+
+# -- state migration ---------------------------------------------------------
+
+def test_state_written_under_the_old_fingerprint_is_migrated(tmp_path):
+    """Old records keyed by company+title+location must not all re-alert."""
+    import hashlib
+    from jobtracker.models import _norm
+
+    old_key = hashlib.sha256("|".join([
+        _norm("Wiz"), _norm("Data Engineer"), _norm("Tel Aviv"),
+    ]).encode("utf-8")).hexdigest()[:16]
+
+    path = tmp_path / "seen.json"
+    path.write_text(json.dumps({"seen": {old_key: {
+        "title": "Data Engineer", "company": "Wiz", "location": "Tel Aviv",
+        "first_seen": "2026-08-01T09:00:00+00:00",
+    }}}), encoding="utf-8")
+
+    store = SeenStore(path)
+    assert old_key not in store._data              # re-keyed
+    assert len(store) == 1                         # not lost
+    assert store.new_jobs([job()]) == []           # and still recognised
+
+
+def test_migration_collapses_duplicates_and_keeps_the_earliest(tmp_path):
+    """Two old spellings of one job become a single record."""
+    import hashlib
+    from jobtracker.models import _norm
+
+    def old_key(loc):
+        return hashlib.sha256("|".join([
+            _norm("Wiz"), _norm("Data Engineer"), _norm(loc)]).encode("utf-8")
+        ).hexdigest()[:16]
+
+    path = tmp_path / "seen.json"
+    path.write_text(json.dumps({"seen": {
+        old_key("Tel Aviv"): {"title": "Data Engineer", "company": "Wiz",
+                              "location": "Tel Aviv",
+                              "first_seen": "2026-08-05T09:00:00+00:00"},
+        old_key("Tel Aviv-Yafo, Israel"): {"title": "Data Engineer", "company": "Wiz",
+                                           "location": "Tel Aviv-Yafo, Israel",
+                                           "first_seen": "2026-08-01T09:00:00+00:00"},
+    }}), encoding="utf-8")
+
+    store = SeenStore(path)
+    assert len(store) == 1
+    assert list(store._data.values())[0]["first_seen"] == "2026-08-01T09:00:00+00:00"
+
+
+def test_migration_is_a_no_op_on_current_state(tmp_path):
+    path = tmp_path / "seen.json"
+    store = SeenStore(path)
+    store.mark_seen([job()])
+    store.save()
+
+    reloaded = SeenStore(path)
+    assert reloaded._rekey() == 0
+    assert len(reloaded) == 1
 
 
 def test_state_survives_a_reload(tmp_path):
@@ -112,11 +186,14 @@ def test_merge_order_does_not_matter(tmp_path):
 
 def test_merge_keeps_the_earliest_sighting(tmp_path):
     """Retention must measure from when the job was really first seen."""
-    store = SeenStore(tmp_path / "s.json")
-    store._data = {"fp": {"title": "X", "first_seen": "2026-08-07T12:00:00+00:00"}}
-    store.merge({"fp": {"title": "X", "first_seen": "2026-08-01T09:00:00+00:00"}})
+    record = {"title": "Data Engineer", "company": "Wiz", "location": "Tel Aviv"}
+    key = SeenStore._key_for(record)
 
-    assert store._data["fp"]["first_seen"] == "2026-08-01T09:00:00+00:00"
+    store = SeenStore(tmp_path / "s.json")
+    store._data = {key: dict(record, first_seen="2026-08-07T12:00:00+00:00")}
+    store.merge({key: dict(record, first_seen="2026-08-01T09:00:00+00:00")})
+
+    assert store._data[key]["first_seen"] == "2026-08-01T09:00:00+00:00"
 
 
 def test_merge_file_reads_a_state_file(tmp_path):
@@ -127,6 +204,38 @@ def test_merge_file_reads_a_state_file(tmp_path):
     ours = SeenStore(tmp_path / "ours.json")
     assert ours.merge_file(tmp_path / "theirs.json") == 1
     assert ours.new_jobs([job()]) == []
+
+
+def test_merging_an_old_format_file_does_not_double_the_state(tmp_path):
+    """Trusting the other file's keys once doubled 36 records into 71."""
+    import hashlib
+    from jobtracker.models import _norm
+
+    old_key = hashlib.sha256("|".join([
+        _norm("Wiz"), _norm("Data Engineer"), _norm("Tel Aviv"),
+    ]).encode("utf-8")).hexdigest()[:16]
+
+    old_file = tmp_path / "old.json"
+    old_file.write_text(json.dumps({"seen": {old_key: {
+        "title": "Data Engineer", "company": "Wiz", "location": "Tel Aviv",
+        "first_seen": "2026-08-01T09:00:00+00:00",
+    }}}), encoding="utf-8")
+
+    store = SeenStore(tmp_path / "seen.json")
+    store.mark_seen([job()])                       # same job, current key
+    assert store.merge_file(old_file) == 0         # recognised, not re-added
+    assert len(store) == 1
+
+
+def test_merging_a_file_into_itself_is_a_no_op(tmp_path):
+    path = tmp_path / "seen.json"
+    store = SeenStore(path)
+    store.mark_seen([job(title="A"), job(title="B")])
+    store.save()
+
+    reloaded = SeenStore(path)
+    assert reloaded.merge_file(path) == 0
+    assert len(reloaded) == 2
 
 
 def test_merge_file_survives_a_missing_or_corrupt_file(tmp_path):

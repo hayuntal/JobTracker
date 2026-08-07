@@ -286,12 +286,12 @@ def cmd_merge_state(args) -> int:
     before = len(store)
     added = store.merge_file(args.path)
     pruned = store.prune()
-    if not (added or pruned):
+    if not (added or pruned or store.migrated):
         print("Nothing to merge; state unchanged (%d tracked)." % before)
         return 0
     store.save()
-    print("Merged %s: +%d record(s), -%d expired (%d → %d)."
-          % (args.path, added, pruned, before, len(store)))
+    print("Merged %s: +%d record(s), -%d expired, %d migrated (%d → %d)."
+          % (args.path, added, pruned, store.migrated, before, len(store)))
     return 0
 
 
