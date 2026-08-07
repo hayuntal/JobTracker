@@ -36,11 +36,6 @@ network first. A 404 on one board means the company left that ATS.
   inspect the returned HTML, and update the CSS selectors in
   `jobtracker/sources/linkedin.py`.
 
-**`drushim` / `alljobs` / `jobmaster`** — HTML/JSON scraping, most fragile.
-Fetch the URL manually, look at what actually comes back, and fix the selectors
-or payload shape. If a site has moved fully behind JS rendering or a bot wall,
-say so and recommend disabling it rather than writing a fragile workaround.
-
 **`glassdoor` / `facebook`** — known-weak, off by default.
 Glassdoor is behind Cloudflare; a block is the expected outcome, not a bug to
 fix. Facebook needs a live `FACEBOOK_COOKIE` and expires often. Do not invest
@@ -48,16 +43,22 @@ effort making these robust — tell the user the honest cost/benefit.
 
 ## 3. Check delivery separately
 
-A working pipeline with silent WhatsApp is a *notifier* problem:
+A working pipeline with a silent phone is a *notifier* problem:
 
 ```bash
 .venv/bin/python -m jobtracker test-notify
 ```
 
-- "not configured" → `CALLMEBOT_PHONE` / `CALLMEBOT_APIKEY` missing from `.env`
-  (or from GitHub repo secrets, for Actions runs).
-- CallMeBot rejects → the API key expires if unused for a long stretch;
-  re-request it by messaging the CallMeBot number again.
+- "No delivery channel configured" → `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`
+  missing from `.env` (or from GitHub repo secrets, for Actions runs). Re-run
+  `setup-telegram`.
+- `chat not found` → the chat id is wrong, or the user blocked the bot.
+- `can't parse entities` → the digest contains HTML that Telegram rejects. Some
+  source field escaped `notify/format.py`; that function must escape every
+  source-supplied string. This fails the *whole* message, so it looks exactly
+  like "no jobs today".
+- Never paste a bot token into a log or a commit. `http.redact` exists because
+  the token sits in the request path — keep new code paths going through it.
 
 ## 4. Check it isn't just "nothing new"
 

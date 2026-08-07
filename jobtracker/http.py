@@ -58,9 +58,6 @@ _HOST_DELAYS = {
     "www.linkedin.com": 6.0,
     "linkedin.com": 6.0,
     "www.glassdoor.com": 8.0,
-    "www.alljobs.co.il": 4.0,
-    "www.drushim.co.il": 4.0,
-    "www.jobmaster.co.il": 4.0,
     "www.facebook.com": 8.0,
 }
 _DEFAULT_DELAY = 0.4
