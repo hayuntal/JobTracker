@@ -1,6 +1,14 @@
 {
-  "count": 24,
+  "count": 36,
   "seen": {
+    "00561290dd990c92": {
+      "company": "Extreme",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-extreme-4450217678"
+    },
     "00ee2ff2ffa7d9a6": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -65,6 +73,22 @@
       "title": "Product Analyst (Maternity-Leave Replacement)",
       "url": "https://www.taboola.com/careers/job/8035268?gh_jid=8035268"
     },
+    "34542e8cb6fb6fd1": {
+      "company": "Booking.com",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer II - GenAI",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-ii-genai-at-booking-com-4300566172"
+    },
+    "3930fb0411c6366c": {
+      "company": "Wiz",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Scientist Expert",
+      "url": "https://www.wiz.io/careers/job/4621534006/:title?gh_jid=4621534006"
+    },
     "398fc488d4914b44": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -80,6 +104,14 @@
       "source": "greenhouse",
       "title": "Staff ML Engineer",
       "url": "https://job-boards.greenhouse.io/via/jobs/8620691002"
+    },
+    "458e6f2de2f60412": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Yokneam Ilit, North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer, PE",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-pe-at-nvidia-4441114891"
     },
     "5067c9eede6db6f5": {
       "company": "Similarweb",
@@ -97,6 +129,22 @@
       "title": "Data Scientist ",
       "url": "https://job-boards.greenhouse.io/melio/jobs/7748138003"
     },
+    "5624710b57b46a63": {
+      "company": "Ashley Digital",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-ashley-digital-4440725464"
+    },
+    "5d5475c9ef90f420": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-alpha-similarweb-partner-4447344790"
+    },
     "5e7aa21b60c2c3e6": {
       "company": "Aidoc",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -104,6 +152,14 @@
       "source": "greenhouse",
       "title": "Senior Data Engineer ",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
+    },
+    "65c3fd04d5fb3d87": {
+      "company": "Gotfriends",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-gotfriends-4447366168"
     },
     "667f1ad7b074f8c6": {
       "company": "Cato Networks",
@@ -120,6 +176,14 @@
       "source": "greenhouse",
       "title": "Data Engineer - Billing Platform",
       "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
+    },
+    "72b5751aa3cd6821": {
+      "company": "Experis Israel",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer - 239783",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-239783-at-experis-israel-4448096207"
     },
     "87cb7f965aa29913": {
       "company": "Torq",
@@ -153,6 +217,14 @@
       "title": "Senior Product Analyst",
       "url": "https://job-boards.greenhouse.io/gongio/jobs/4697159006"
     },
+    "b9260bb3c4bfea12": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Core Data - Big Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/core-data-big-data-engineer-at-similarweb-4418794144"
+    },
     "be6f78125fe3cc3c": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -160,6 +232,22 @@
       "source": "greenhouse",
       "title": " Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7556162"
+    },
+    "c9f973d90346d4c8": {
+      "company": "Empathy",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analytics Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-analytics-engineer-at-empathy-4432293293"
+    },
+    "da265be9bcc16bb5": {
+      "company": "Yotpo",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Business Analyst (GTM)",
+      "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     },
     "e37c19559b005e38": {
       "company": "Melio",
@@ -185,6 +273,14 @@
       "title": "Big Data Analyst",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6897277"
     },
+    "ee160627f9068e23": {
+      "company": "DRS RADA Technologies",
+      "first_seen": "2026-08-07T21:17:06+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-drs-rada-technologies-4450254012"
+    },
     "f1d5cdf864d9a277": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -194,5 +290,5 @@
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7911963"
     }
   },
-  "updated_at": "2026-08-07T21:01:05+00:00"
+  "updated_at": "2026-08-07T21:17:07+00:00"
 }
