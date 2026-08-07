@@ -1,5 +1,5 @@
 {
-  "count": 47,
+  "count": 59,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -17,6 +17,22 @@
       "title": "Data Engineer - 239783",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-239783-at-experis-israel-4448096207"
     },
+    "0f5c72cc0ffb492e": {
+      "company": "Palo Alto Networks",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Office - Israel - Tel Aviv",
+      "source": "workday",
+      "title": "Principal Product Analyst (Cortex)",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Product-Analyst--Cortex-XDR-_JR-019918"
+    },
+    "1303aff3bcae47d9": {
+      "company": "Palo Alto Networks",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Office - Israel - Tel Aviv",
+      "source": "workday",
+      "title": "Principal Data Engineer (Cortex)",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Data-Engineer--Cortex-_JR-016610"
+    },
     "17db86c5915d6179": {
       "company": "Nebius",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -32,6 +48,14 @@
       "source": "greenhouse",
       "title": "Data Scientist",
       "url": "https://www.catonetworks.com/careers/careers-post/4848229101?gh_jid=4848229101"
+    },
+    "196a5c930c65a081": {
+      "company": "Fiverr",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-analyst-at-fiverr-4370681136"
     },
     "1b70870776b5adec": {
       "company": "Taboola",
@@ -57,6 +81,14 @@
       "title": "Senior Analytics Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-analytics-engineer-at-connecteam-4431695933"
     },
+    "237dbbd576012b2b": {
+      "company": "Fetcherr",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist - Deep Learning Forecasting",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-deep-learning-forecasting-at-fetcherr-4435658432"
+    },
     "24274f8818724ab2": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -65,6 +97,14 @@
       "title": "Data Scientist ",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6829705"
     },
+    "30bb02d120f5ae6a": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Data Scientist (Customer-facing)",
+      "url": "https://il.linkedin.com/jobs/view/product-data-scientist-customer-facing-at-alpha-similarweb-partner-4447341898"
+    },
     "3579522efa55d1a0": {
       "company": "Alpha | Similarweb Partner",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -72,6 +112,14 @@
       "source": "linkedin",
       "title": "Big Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/big-data-analyst-at-alpha-similarweb-partner-4447342939"
+    },
+    "3821fead070bedb1": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-alpha-similarweb-partner-4447341912"
     },
     "3a36f54f1d9a8407": {
       "company": "Similarweb",
@@ -169,6 +217,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-drs-rada-technologies-4450254012"
     },
+    "69904def48a36abe": {
+      "company": "IAI - Israel Aerospace Industries",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Ashdod, South District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-iai-israel-aerospace-industries-4445833855"
+    },
     "6d3f1be561be7760": {
       "company": "Wiz",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -241,6 +297,14 @@
       "title": "Senior Data Platform Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-platform-engineer-at-orca-ai-4445886593"
     },
+    "aadcacb8af2afb45": {
+      "company": "Log-On Software",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-log-on-software-4448005238"
+    },
     "ac57c5d8c08d2e28": {
       "company": "Melio",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -272,6 +336,14 @@
       "source": "greenhouse",
       "title": "Core Data - Big Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
+    },
+    "b80de8e873b19210": {
+      "company": "Palo Alto Networks",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Office - Israel - CyberArk Petach Tikva",
+      "source": "workday",
+      "title": "Data Engineer (Data & AI solutions)",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Data-Engineer--Data---AI-solutions-_JR-019830"
     },
     "bc545edeaac023ca": {
       "company": "Empathy",
@@ -305,6 +377,14 @@
       "title": "Senior Product Analyst",
       "url": "https://job-boards.greenhouse.io/gongio/jobs/4697159006"
     },
+    "c0be01fb15b16c18": {
+      "company": "Palo Alto Networks",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Office - Israel - Tel Aviv",
+      "source": "workday",
+      "title": "Senior Principal Data Scientist - LLM Agents (Cortex)",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Senior-Data-Scientist---LLM-Agents---Infra--Cortex-_JR-017437"
+    },
     "c42fac7e8aed6442": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -312,6 +392,14 @@
       "source": "greenhouse",
       "title": "Product Analyst - Taboola News (Maternity Leave Cover)",
       "url": "https://www.taboola.com/careers/job/8035266?gh_jid=8035266"
+    },
+    "d51f4c8daaf6a419": {
+      "company": "Helfy",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-helfy-4413457838"
     },
     "d5825d731e14771e": {
       "company": "Checkmarx",
@@ -353,6 +441,14 @@
       "title": "Data Engineer Team Leader",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-team-leader-at-one-zero-bank-4443244263"
     },
+    "fbae11205cbd1524": {
+      "company": "Nift",
+      "first_seen": "2026-08-07T22:28:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-nift-4448670939"
+    },
     "fecc7f63fe5cf6cb": {
       "company": "Ashley Digital",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -378,5 +474,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-07T21:32:36+00:00"
+  "updated_at": "2026-08-07T22:28:20+00:00"
 }
