@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 63,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -40,6 +40,14 @@
       "source": "linkedin",
       "title": "Business Intelligence Developer",
       "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-at-nebius-4448744926"
+    },
+    "18834cd9f4bc97d8": {
+      "company": "Honeycomb Insurance",
+      "first_seen": "2026-08-07T23:27:44+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-honeycomb-insurance-4440768109"
     },
     "18cf2ecdb3dbc80b": {
       "company": "Cato Networks",
@@ -185,6 +193,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-nift-4448328003"
     },
+    "54e07fa992e602e8": {
+      "company": "Arpeely",
+      "first_seen": "2026-08-07T23:27:44+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist Team Lead",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-team-lead-at-arpeely-4449387096"
+    },
     "5940daafea38c882": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -240,6 +256,14 @@
       "source": "greenhouse",
       "title": "Senior Data Engineer ",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
+    },
+    "752947cc075cf633": {
+      "company": "Innodata Inc.",
+      "first_seen": "2026-08-07T23:27:44+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Applied Data Scientist, Finance AI Evaluation & Datasets",
+      "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-finance-ai-evaluation-datasets-at-innodata-inc-4445855161"
     },
     "75e6469e6f0452d7": {
       "company": "Booking.com",
@@ -369,6 +393,14 @@
       "title": "Senior Data Engineer, PE",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-pe-at-nvidia-4441114891"
     },
+    "c006913c239211cf": {
+      "company": "Cybord",
+      "first_seen": "2026-08-07T23:27:44+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Mid-Senior Data Scientist – Image Analysis, Computer Vision, and Text Reading",
+      "url": "https://il.linkedin.com/jobs/view/mid-senior-data-scientist-%E2%80%93-image-analysis-computer-vision-and-text-reading-at-cybord-4449095374"
+    },
     "c050360f78559c6d": {
       "company": "Gong",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -474,5 +506,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-07T22:28:20+00:00"
+  "updated_at": "2026-08-07T23:27:45+00:00"
 }
