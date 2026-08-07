@@ -1,5 +1,5 @@
 {
-  "count": 35,
+  "count": 47,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -16,6 +16,14 @@
       "source": "linkedin",
       "title": "Data Engineer - 239783",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-239783-at-experis-israel-4448096207"
+    },
+    "17db86c5915d6179": {
+      "company": "Nebius",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-at-nebius-4448744926"
     },
     "18cf2ecdb3dbc80b": {
       "company": "Cato Networks",
@@ -41,6 +49,14 @@
       "title": " Senior Data Engineer ( Data Collection)",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7911963"
     },
+    "1fd55075837df07e": {
+      "company": "Connecteam",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Analytics Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-analytics-engineer-at-connecteam-4431695933"
+    },
     "24274f8818724ab2": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -49,6 +65,14 @@
       "title": "Data Scientist ",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6829705"
     },
+    "3579522efa55d1a0": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Big Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/big-data-analyst-at-alpha-similarweb-partner-4447342939"
+    },
     "3a36f54f1d9a8407": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -56,6 +80,14 @@
       "source": "greenhouse",
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7971236"
+    },
+    "4165a32ee69cac8f": {
+      "company": "Appcharge",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-appcharge-4448268932"
     },
     "4443ea5efda1b538": {
       "company": "Similarweb",
@@ -81,6 +113,30 @@
       "title": "Data Analyst, Algorithms",
       "url": "https://www.taboola.com/careers/job/8076468?gh_jid=8076468"
     },
+    "4cfdb80f7868e5cb": {
+      "company": "Gotfriends",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-gotfriends-4445840393"
+    },
+    "4d7db9a6433aaa68": {
+      "company": "Modellama",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Raanana, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-modellama-4428612794"
+    },
+    "54e01b0f27981da0": {
+      "company": "Nift",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-nift-4448328003"
+    },
     "5940daafea38c882": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -96,6 +152,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-extreme-4450217678"
+    },
+    "5bac45f009ba180f": {
+      "company": "Rapyd",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-rapyd-4439428377"
     },
     "5ef64cdcbe9b0ca4": {
       "company": "DRS RADA Technologies",
@@ -169,6 +233,14 @@
       "title": "Data Engineer - Billing Platform",
       "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
     },
+    "9d3db305e410a1d3": {
+      "company": "Orca AI",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Platform Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-platform-engineer-at-orca-ai-4445886593"
+    },
     "ac57c5d8c08d2e28": {
       "company": "Melio",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -241,6 +313,14 @@
       "title": "Product Analyst - Taboola News (Maternity Leave Cover)",
       "url": "https://www.taboola.com/careers/job/8035266?gh_jid=8035266"
     },
+    "d5825d731e14771e": {
+      "company": "Checkmarx",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior BI Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-bi-data-engineer-at-checkmarx-4430326429"
+    },
     "d6614d6dcb34fe8b": {
       "company": "Aidoc",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -256,6 +336,22 @@
       "source": "greenhouse",
       "title": "Product Analyst Team Lead",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
+    },
+    "e0dbd8feca33cfa7": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Experienced Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/experienced-data-analyst-at-mobileye-4409973742"
+    },
+    "e1aab1ae7abd36ca": {
+      "company": "ONE ZERO BANK",
+      "first_seen": "2026-08-07T21:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer Team Leader",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-team-leader-at-one-zero-bank-4443244263"
     },
     "fecc7f63fe5cf6cb": {
       "company": "Ashley Digital",
@@ -282,5 +378,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-07T21:28:31+00:00"
+  "updated_at": "2026-08-07T21:32:36+00:00"
 }
