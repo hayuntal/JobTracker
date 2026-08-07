@@ -53,22 +53,42 @@ jobs:
 
       - name: Commit updated state
         # Runs even if the check step failed, so a partial run still records
-        # whatever it managed to deliver.
+        # whatever it managed to deliver. Losing this step means the jobs it
+        # already delivered get delivered again next hour.
         if: always()
         run: |
+          set -u
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- state/; then
-            echo "No state change."
-            exit 0
-          fi
-          git add state/
-          git commit -m "chore: update seen-jobs state [skip ci]"
-          # Another run may have pushed while we were working; rebase and retry.
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
-            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
-            echo "Push attempt $i failed, retrying..."
-            sleep 5
+
+          # Keep this run's state outside the work tree — the loop below resets
+          # the tree to the remote before re-applying it.
+          cp state/seen_jobs.json "${RUNNER_TEMP}/ours.json"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin "${GITHUB_REF_NAME}"
+            git reset -q --hard "origin/${GITHUB_REF_NAME}"
+
+            # Union, never rebase. seen_jobs.json is a map of fingerprints, so
+            # merging is order-independent and cannot conflict. `git pull
+            # --rebase` treats it as opaque text, hits a content conflict, and
+            # strands the job with unmerged files that every retry then trips
+            # over — which is exactly how this step used to fail.
+            python -m jobtracker merge-state "${RUNNER_TEMP}/ours.json"
+
+            git add state/
+            if git diff --cached --quiet; then
+              echo "No state change."
+              exit 0
+            fi
+            git commit -q -m "chore: update seen-jobs state [skip ci]"
+            if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "State pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Lost the push race on attempt ${attempt}; re-merging."
+            sleep $((attempt * 3))
           done
+          echo "::error::Could not push state after 5 attempts. Jobs already \
+          delivered are not recorded and will be sent again next run."
           exit 1

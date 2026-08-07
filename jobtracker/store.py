@@ -65,6 +65,44 @@ class SeenStore:
                 "first_seen": now,
             }
 
+    def merge(self, other: Dict[str, Dict]) -> int:
+        """Fold another store's records into this one. Returns records added.
+
+        A union, not last-writer-wins: if two runs each alerted on different
+        jobs, discarding either side's records means those jobs get sent again.
+        Being order-independent is what lets CI retry safely — it can re-apply
+        this on top of whatever landed on the remote meanwhile, as many times
+        as needed, and converge on the same answer.
+        """
+        added = 0
+        for fingerprint, record in (other or {}).items():
+            existing = self._data.get(fingerprint)
+            if existing is None:
+                self._data[fingerprint] = record
+                added += 1
+                continue
+            # Same job recorded twice: keep the earlier sighting so retention
+            # pruning measures from when it was really first seen.
+            theirs = record.get("first_seen") or ""
+            ours = existing.get("first_seen") or ""
+            if theirs and (not ours or theirs < ours):
+                existing["first_seen"] = theirs
+        return added
+
+    def merge_file(self, path: Path) -> int:
+        """Merge the `seen` map of another state file on disk."""
+        path = Path(path)
+        if not path.exists():
+            log.warning("Nothing to merge: %s does not exist", path)
+            return 0
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            log.warning("Could not read %s (%s); nothing merged", path, exc)
+            return 0
+        data = raw.get("seen", raw) if isinstance(raw, dict) else {}
+        return self.merge(data if isinstance(data, dict) else {})
+
     def prune(self) -> int:
         cutoff = datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)
         removed = []

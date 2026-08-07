@@ -275,6 +275,26 @@ def cmd_list(args) -> int:
     return 0
 
 
+def cmd_merge_state(args) -> int:
+    """Fold another state file into this one.
+
+    Used by CI to survive a lost push race: reset to whatever is on the remote,
+    re-apply this run's records, push again. Writes nothing when there is
+    nothing to add, so a quiet run doesn't produce an empty commit every hour.
+    """
+    store = SeenStore(STATE_FILE)
+    before = len(store)
+    added = store.merge_file(args.path)
+    pruned = store.prune()
+    if not (added or pruned):
+        print("Nothing to merge; state unchanged (%d tracked)." % before)
+        return 0
+    store.save()
+    print("Merged %s: +%d record(s), -%d expired (%d → %d)."
+          % (args.path, added, pruned, before, len(store)))
+    return 0
+
+
 def cmd_match(args) -> int:
     """Explain why a given title/location would or wouldn't alert you."""
     from .models import Job
@@ -334,6 +354,11 @@ def main(argv=None) -> int:
     p_list = sub.add_parser("list", help="show jobs already alerted")
     p_list.add_argument("--limit", type=int, default=40)
     p_list.set_defaults(func=cmd_list)
+
+    p_merge = sub.add_parser(
+        "merge-state", help="fold another state file into this one (used by CI)")
+    p_merge.add_argument("path", help="path to the other seen_jobs.json")
+    p_merge.set_defaults(func=cmd_merge_state)
 
     p_match = sub.add_parser("match", help="test a title/location against the rules")
     p_match.add_argument("title")

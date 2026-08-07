@@ -70,6 +70,74 @@ def test_prune_drops_only_expired_records(tmp_path):
     assert len(store) == 1
 
 
+# -- merging (what makes the CI push race survivable) ------------------------
+
+def test_merge_is_a_union_not_last_writer_wins(tmp_path):
+    """Two runs alerting on different jobs must both be remembered."""
+    theirs = SeenStore(tmp_path / "theirs.json")
+    theirs.mark_seen([job(title="Data Engineer")])
+
+    ours = SeenStore(tmp_path / "ours.json")
+    ours.mark_seen([job(title="Data Analyst")])
+    added = ours.merge(theirs._data)
+
+    assert added == 1
+    assert len(ours) == 2
+    assert ours.new_jobs([job(title="Data Engineer"), job(title="Data Analyst")]) == []
+
+
+def test_merge_is_idempotent(tmp_path):
+    """CI may re-apply this several times while losing push races."""
+    theirs = SeenStore(tmp_path / "theirs.json")
+    theirs.mark_seen([job()])
+
+    ours = SeenStore(tmp_path / "ours.json")
+    assert ours.merge(theirs._data) == 1
+    assert ours.merge(theirs._data) == 0
+    assert ours.merge(theirs._data) == 0
+    assert len(ours) == 1
+
+
+def test_merge_order_does_not_matter(tmp_path):
+    a = SeenStore(tmp_path / "a.json"); a.mark_seen([job(title="A")])
+    b = SeenStore(tmp_path / "b.json"); b.mark_seen([job(title="B")])
+
+    one = SeenStore(tmp_path / "one.json")
+    one.merge(a._data); one.merge(b._data)
+    two = SeenStore(tmp_path / "two.json")
+    two.merge(b._data); two.merge(a._data)
+
+    assert set(one._data) == set(two._data)
+
+
+def test_merge_keeps_the_earliest_sighting(tmp_path):
+    """Retention must measure from when the job was really first seen."""
+    store = SeenStore(tmp_path / "s.json")
+    store._data = {"fp": {"title": "X", "first_seen": "2026-08-07T12:00:00+00:00"}}
+    store.merge({"fp": {"title": "X", "first_seen": "2026-08-01T09:00:00+00:00"}})
+
+    assert store._data["fp"]["first_seen"] == "2026-08-01T09:00:00+00:00"
+
+
+def test_merge_file_reads_a_state_file(tmp_path):
+    theirs = SeenStore(tmp_path / "theirs.json")
+    theirs.mark_seen([job()])
+    theirs.save()
+
+    ours = SeenStore(tmp_path / "ours.json")
+    assert ours.merge_file(tmp_path / "theirs.json") == 1
+    assert ours.new_jobs([job()]) == []
+
+
+def test_merge_file_survives_a_missing_or_corrupt_file(tmp_path):
+    ours = SeenStore(tmp_path / "ours.json")
+    assert ours.merge_file(tmp_path / "nope.json") == 0
+
+    bad = tmp_path / "bad.json"
+    bad.write_text("{broken", encoding="utf-8")
+    assert ours.merge_file(bad) == 0
+
+
 def test_save_is_atomic_and_leaves_no_temp_files(tmp_path):
     store = SeenStore(tmp_path / "seen.json")
     store.mark_seen([job()])
