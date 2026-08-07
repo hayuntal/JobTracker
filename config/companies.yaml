@@ -137,6 +137,14 @@ companies:
     token: simply
     verified_il_jobs: 6
 
+  # ---- Workday -------------------------------------------------------------
+  - name: Palo Alto Networks
+    provider: workday
+    token: paloaltonetworks
+    site: panwexternalcareers
+    wd: "5"
+    verified_il_jobs: 160
+
   # ---- Comeet ------------------------------------------------------------
   # Comeet is very common in Israel (monday.com, Rapyd, eToro, Verbit,
   # Coralogix, Playtika...). It needs a company UID + token pair that is only

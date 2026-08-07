@@ -156,10 +156,16 @@ def _comeet(c: Company) -> List[Job]:
 
 
 def _workday(c: Company) -> List[Job]:
-    """Workday CXS endpoint. Tenant in `token`, career site name in `site`."""
+    """Workday CXS endpoint. Tenant in `token`, career site name in `site`.
+
+    The `wdN` host number is per-tenant (not always `wd3`) and isn't guessable
+    from the tenant name, so it's read from `wd` in companies.yaml (default 3).
+    """
     if not (c.token and c.site):
         raise ValueError("workday requires 'token' (tenant) and 'site' in companies.yaml")
-    base = "https://%s.wd3.myworkdayjobs.com/wday/cxs/%s/%s/jobs" % (c.token, c.token, c.site)
+    wd = str((c.extra or {}).get("wd", "3"))
+    host = "%s.wd%s.myworkdayjobs.com" % (c.token, wd)
+    base = "https://%s/wday/cxs/%s/%s/jobs" % (host, c.token, c.site)
     session = http.get_session()
     jobs, offset = [], 0
     while offset < 500:
@@ -178,7 +184,7 @@ def _workday(c: Company) -> List[Job]:
                 title=j.get("title", ""),
                 company=c.name,
                 location=j.get("locationsText", ""),
-                url="https://%s.wd3.myworkdayjobs.com/%s%s" % (c.token, c.site, path),
+                url="https://%s/%s%s" % (host, c.site, path),
                 source="workday",
                 description="",
                 posted_at=j.get("postedOn"),
