@@ -55,17 +55,22 @@ class TelegramNotifier(Notifier):
 
     # -- raw API ------------------------------------------------------------
 
-    def call(self, method: str, payload: Dict[str, Any] = None) -> Any:
+    def call(self, method: str, payload: Dict[str, Any] = None,
+             timeout: int = None) -> Any:
         """Invoke a Bot API method and return its `result`.
 
         Telegram signals failure in the body (`ok: false`) as often as by status
         code, so both are checked. Any error text is redacted before it escapes:
         `requests` embeds the full URL — including the token — in its exception
         messages, and this text ends up in CI logs.
+
+        `timeout` overrides the HTTP read timeout, which long-polling needs: the
+        request itself must outlive the poll window the API is holding open.
         """
         url = API % (self.token, method)
+        kwargs = {"timeout": timeout} if timeout else {}
         try:
-            resp = http.post_json(url, payload or {})
+            resp = http.post_json(url, payload or {}, **kwargs)
         except Exception as exc:  # noqa: BLE001 - re-raised scrubbed
             raise RuntimeError("Telegram %s failed: %s"
                                % (method, http.redact(str(exc)))) from None

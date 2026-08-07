@@ -198,7 +198,7 @@ Two rules that matter, both covered by tests:
 .venv/bin/pytest -q
 ```
 
-80 tests, fully offline — no source is polled, so a site being down can't turn
+88 tests, fully offline — no source is polled, so a site being down can't turn
 them red. They run on every push via `.github/workflows/tests.yml`.
 
 ## When alerts go quiet

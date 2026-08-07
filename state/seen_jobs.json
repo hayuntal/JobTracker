@@ -1,5 +1,102 @@
 {
-  "updated_at": null,
-  "count": 0,
-  "seen": {}
+  "count": 12,
+  "seen": {
+    "12c9d9898efa611c": {
+      "company": "Lightricks",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Jerusalem",
+      "source": "greenhouse",
+      "title": "Data Scientist- Machine Learning & AI",
+      "url": "https://careers.lightricks.com/position?gh_jid=8557860002&gh_jid=8557860002"
+    },
+    "2255c9251f3e08f4": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "AI Data Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871564101"
+    },
+    "2ad719ac2494573b": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101"
+    },
+    "531165bc98ee8959": {
+      "company": "Melio",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Scientist ",
+      "url": "https://job-boards.greenhouse.io/melio/jobs/7748138003"
+    },
+    "5e7aa21b60c2c3e6": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Senior Data Engineer ",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
+    },
+    "667f1ad7b074f8c6": {
+      "company": "Cato Networks",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Data Scientist",
+      "url": "https://www.catonetworks.com/careers/careers-post/4848229101?gh_jid=4848229101"
+    },
+    "677aeedef8bae892": {
+      "company": "AppsFlyer",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Herzliya",
+      "source": "greenhouse",
+      "title": "Data Engineer - Billing Platform",
+      "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
+    },
+    "92cdcbb36ac26507": {
+      "company": "Aidoc",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Product Analyst Team Lead",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
+    },
+    "a5b04d3d3adb11d5": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Core Data - Big Data Engineer",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
+    },
+    "b51796a0b307aa3f": {
+      "company": "Gong",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4697159006"
+    },
+    "e37c19559b005e38": {
+      "company": "Melio",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Senior Data Scientist ",
+      "url": "https://job-boards.greenhouse.io/melio/jobs/7765818003"
+    },
+    "ead9ebcda386671e": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-07T20:05:49+00:00",
+      "location": "Tel Aviv-Yafo",
+      "source": "greenhouse",
+      "title": "Big Data Analyst",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/6897277"
+    }
+  },
+  "updated_at": "2026-08-07T20:05:49+00:00"
 }

@@ -11,6 +11,7 @@
 import argparse
 import logging
 import sys
+import time
 from typing import List
 
 from .config import Settings, load_dotenv, load_search, write_env
@@ -123,6 +124,29 @@ Then put it in .env:
 """.strip()
 
 
+def _await_first_message(bot, link: str, wait_seconds: int) -> list:
+    """Long-poll until the bot is messaged, so setup completes in one go.
+
+    Telegram holds the request open until an update arrives, so this costs one
+    request per poll window rather than busy-looping.
+    """
+    print("\nOpen this link and send the bot anything (/start is fine):")
+    print("    %s" % link)
+    print("\nWaiting up to %ds..." % wait_seconds, flush=True)
+
+    deadline = time.time() + wait_seconds
+    while True:
+        remaining = deadline - time.time()
+        if remaining <= 0:
+            return []
+        poll = max(1, min(25, int(remaining)))
+        # The HTTP read timeout must outlive the poll window the API holds open.
+        updates = bot.call("getUpdates", {"timeout": poll, "limit": 20},
+                           timeout=poll + 15)
+        if updates:
+            return updates
+
+
 def cmd_setup_telegram(args) -> int:
     """Verify the bot token and discover the chat id, then save it to .env.
 
@@ -143,10 +167,16 @@ def cmd_setup_telegram(args) -> int:
         print("\nDouble-check the value of TELEGRAM_BOT_TOKEN in .env.")
         return 1
     username = me.get("username", "?")
+    link = "https://t.me/%s" % username
     print("Bot OK: @%s" % username)
 
     try:
         updates = bot.call("getUpdates", {"timeout": 0, "limit": 20})
+        if not updates and args.wait > 0:
+            updates = _await_first_message(bot, link, args.wait)
+    except KeyboardInterrupt:
+        print("\nStopped.")
+        return 1
     except Exception as exc:  # noqa: BLE001
         print("Could not read updates: %s" % exc)
         return 1
@@ -159,8 +189,10 @@ def cmd_setup_telegram(args) -> int:
             chats[str(chat["id"])] = chat
 
     if not chats:
-        print("\nNo messages yet. Open Telegram, send any message to @%s"
-              " (for example /start), then run this again." % username)
+        print("\nNo messages received. Open this link and send the bot anything:")
+        print("    %s" % link)
+        print("\nTelegram's in-app search often lands on the wrong bot, so use "
+              "the link rather than searching for the name.")
         return 1
 
     if len(chats) > 1:
@@ -285,6 +317,9 @@ def main(argv=None) -> int:
 
     p_setup = sub.add_parser("setup-telegram",
                              help="find your chat id and save it to .env")
+    p_setup.add_argument("--wait", type=int, default=180, metavar="SECONDS",
+                         help="wait this long for you to message the bot "
+                              "(default 180; 0 to check once and exit)")
     p_setup.set_defaults(func=cmd_setup_telegram)
 
     p_seed = sub.add_parser(
