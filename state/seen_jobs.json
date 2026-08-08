@@ -1,5 +1,5 @@
 {
-  "count": 68,
+  "count": 69,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -297,6 +297,14 @@
       "title": "Staff ML Engineer",
       "url": "https://job-boards.greenhouse.io/via/jobs/8620691002"
     },
+    "819f82344e429c82": {
+      "company": "Aqurate Data",
+      "first_seen": "2026-08-08T06:38:41+00:00",
+      "location": "Shoham, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-aqurate-data-4451052140"
+    },
     "8458eafde357bc39": {
       "company": "Elad Software Systems",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -546,5 +554,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-08T03:19:11+00:00"
+  "updated_at": "2026-08-08T06:38:41+00:00"
 }
