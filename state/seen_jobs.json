@@ -1,5 +1,5 @@
 {
-  "count": 63,
+  "count": 68,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -297,6 +297,14 @@
       "title": "Staff ML Engineer",
       "url": "https://job-boards.greenhouse.io/via/jobs/8620691002"
     },
+    "8458eafde357bc39": {
+      "company": "Elad Software Systems",
+      "first_seen": "2026-08-08T03:19:11+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer (1007278)",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-1007278-at-elad-software-systems-4448100110"
+    },
     "851852d15c8d767a": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -320,6 +328,22 @@
       "source": "linkedin",
       "title": "Senior Data Platform Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-platform-engineer-at-orca-ai-4445886593"
+    },
+    "a1cfe7710c4be4ef": {
+      "company": "InfinityLabs R&D",
+      "first_seen": "2026-08-08T03:19:11+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Researcher & Data Scientist - Entry Level (Quantitative STEM)",
+      "url": "https://il.linkedin.com/jobs/view/ai-researcher-data-scientist-entry-level-quantitative-stem-at-infinitylabs-r-d-4450258301"
+    },
+    "a326b03298cfa3d3": {
+      "company": "PLAYSTUDIOS",
+      "first_seen": "2026-08-08T03:19:11+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Analyst - my KONAMI",
+      "url": "https://il.linkedin.com/jobs/view/business-analyst-my-konami-at-playstudios-4437223401"
     },
     "aadcacb8af2afb45": {
       "company": "Log-On Software",
@@ -473,6 +497,22 @@
       "title": "Data Engineer Team Leader",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-team-leader-at-one-zero-bank-4443244263"
     },
+    "e8c05e57595b689e": {
+      "company": "Hello Heart",
+      "first_seen": "2026-08-08T03:19:11+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
+    },
+    "f6eaca552d8a28be": {
+      "company": "Shabak - Israeli Security Agency - Career",
+      "first_seen": "2026-08-08T03:19:11+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer- 2628",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-2628-at-shabak-israeli-security-agency-career-4445850181"
+    },
     "fbae11205cbd1524": {
       "company": "Nift",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -506,5 +546,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-07T23:27:45+00:00"
+  "updated_at": "2026-08-08T03:19:11+00:00"
 }
