@@ -1,5 +1,5 @@
 {
-  "count": 72,
+  "count": 73,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -537,6 +537,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
     },
+    "f6d2557954158801": {
+      "company": "Percepto",
+      "first_seen": "2026-08-08T15:22:38+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-percepto-4450290287"
+    },
     "f6eaca552d8a28be": {
       "company": "Shabak - Israeli Security Agency - Career",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -578,5 +586,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-08T13:40:01+00:00"
+  "updated_at": "2026-08-08T15:22:39+00:00"
 }
