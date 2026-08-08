@@ -1,5 +1,5 @@
 {
-  "count": 69,
+  "count": 71,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -289,6 +289,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-gotfriends-4447366168"
     },
+    "7e211fccfe6d4909": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-08T11:22:06+00:00",
+      "location": "Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Senior ML Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-ml-data-engineer-at-mobileye-4402132278"
+    },
     "80d79fe8e566e4c4": {
       "company": "Via",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -400,6 +408,14 @@
       "source": "workday",
       "title": "Data Engineer (Data & AI solutions)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Data-Engineer--Data---AI-solutions-_JR-019830"
+    },
+    "bc4befd373903973": {
+      "company": "CrowdStrike",
+      "first_seen": "2026-08-08T11:22:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Sr. Data Engineer - Cloud Security (Hybrid, ISR)",
+      "url": "https://il.linkedin.com/jobs/view/sr-data-engineer-cloud-security-hybrid-isr-at-crowdstrike-4420733803"
     },
     "bc545edeaac023ca": {
       "company": "Empathy",
@@ -554,5 +570,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-08T06:38:41+00:00"
+  "updated_at": "2026-08-08T11:22:07+00:00"
 }
