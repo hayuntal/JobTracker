@@ -1,5 +1,5 @@
 {
-  "count": 75,
+  "count": 79,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -32,6 +32,14 @@
       "source": "workday",
       "title": "Principal Data Engineer (Cortex)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Data-Engineer--Cortex-_JR-016610"
+    },
+    "15b2a8b5fb00ee7b": {
+      "company": "Gotfriends",
+      "first_seen": "2026-08-09T09:32:36+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-gotfriends-4449289938"
     },
     "17db86c5915d6179": {
       "company": "Nebius",
@@ -225,6 +233,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-rapyd-4439428377"
     },
+    "5db10d6942941a34": {
+      "company": "Yael Group",
+      "first_seen": "2026-08-09T09:32:36+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst (25455)",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-25455-at-yael-group-4449299472"
+    },
     "5ef64cdcbe9b0ca4": {
       "company": "DRS RADA Technologies",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -256,6 +272,14 @@
       "source": "greenhouse",
       "title": "Senior Data Engineer ",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
+    },
+    "742012adae826501": {
+      "company": "Bridgify",
+      "first_seen": "2026-08-09T09:32:36+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-bridgify-4449507122"
     },
     "752947cc075cf633": {
       "company": "Innodata Inc.",
@@ -336,6 +360,14 @@
       "source": "greenhouse",
       "title": "Data Engineer - Billing Platform",
       "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
+    },
+    "87db89cd78f8f045": {
+      "company": "Global-e",
+      "first_seen": "2026-08-09T09:32:36+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst (Chargeback)",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-chargeback-at-global-e-4448821934"
     },
     "9d3db305e410a1d3": {
       "company": "Orca AI",
@@ -602,5 +634,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-09T07:47:59+00:00"
+  "updated_at": "2026-08-09T09:32:37+00:00"
 }
