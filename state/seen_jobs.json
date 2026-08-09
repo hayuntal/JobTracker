@@ -1,5 +1,5 @@
 {
-  "count": 74,
+  "count": 75,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -449,6 +449,14 @@
       "title": "Senior Data Engineer, PE",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-pe-at-nvidia-4441114891"
     },
+    "bfe24c2727cba9e7": {
+      "company": "Extreme",
+      "first_seen": "2026-08-09T07:47:59+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-at-extreme-4451327762"
+    },
     "c006913c239211cf": {
       "company": "Cybord",
       "first_seen": "2026-08-07T23:27:44+00:00",
@@ -594,5 +602,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-09T05:46:21+00:00"
+  "updated_at": "2026-08-09T07:47:59+00:00"
 }
