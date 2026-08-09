@@ -1,5 +1,5 @@
 {
-  "count": 73,
+  "count": 74,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -537,6 +537,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
     },
+    "f225461acbec74b1": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-09T05:46:20+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-analyst-at-alpha-similarweb-partner-4447341907"
+    },
     "f6d2557954158801": {
       "company": "Percepto",
       "first_seen": "2026-08-08T15:22:38+00:00",
@@ -586,5 +594,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-08T15:22:39+00:00"
+  "updated_at": "2026-08-09T05:46:21+00:00"
 }
