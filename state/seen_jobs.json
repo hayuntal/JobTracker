@@ -1,5 +1,5 @@
 {
-  "count": 79,
+  "count": 81,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -441,6 +441,14 @@
       "title": "Core Data - Big Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
     },
+    "b5a0188c9b77ec57": {
+      "company": "ARAN Software",
+      "first_seen": "2026-08-09T11:23:07+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-aran-software-4451339516"
+    },
     "b80de8e873b19210": {
       "company": "Palo Alto Networks",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -448,6 +456,14 @@
       "source": "workday",
       "title": "Data Engineer (Data & AI solutions)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Data-Engineer--Data---AI-solutions-_JR-019830"
+    },
+    "b88d4bc185de6e25": {
+      "company": "Placer.ai",
+      "first_seen": "2026-08-09T11:23:07+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Big Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-big-data-engineer-at-placer-ai-4409025706"
     },
     "bc4befd373903973": {
       "company": "CrowdStrike",
@@ -634,5 +650,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-09T09:32:37+00:00"
+  "updated_at": "2026-08-09T11:23:07+00:00"
 }
