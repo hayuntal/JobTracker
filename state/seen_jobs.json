@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -473,6 +473,14 @@
       "title": "Core Data - Big Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
     },
+    "b380d8624b0cb217": {
+      "company": "SQLink Group",
+      "first_seen": "2026-08-10T12:52:49+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-sqlink-group-4449559595"
+    },
     "b5a0188c9b77ec57": {
       "company": "ARAN Software",
       "first_seen": "2026-08-09T11:23:07+00:00",
@@ -714,5 +722,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-10T11:01:42+00:00"
+  "updated_at": "2026-08-10T12:52:50+00:00"
 }
