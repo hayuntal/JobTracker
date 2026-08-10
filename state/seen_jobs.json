@@ -1,5 +1,5 @@
 {
-  "count": 90,
+  "count": 92,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -128,6 +128,14 @@
       "source": "linkedin",
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://il.linkedin.com/jobs/view/product-data-scientist-customer-facing-at-alpha-similarweb-partner-4447341898"
+    },
+    "34a83578f3087dad": {
+      "company": "Chargeflow",
+      "first_seen": "2026-08-10T16:45:46+00:00",
+      "location": "Modiin-Maccabim-Reut, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior BI Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-bi-analyst-at-chargeflow-4449484744"
     },
     "3579522efa55d1a0": {
       "company": "Alpha | Similarweb Partner",
@@ -312,6 +320,14 @@
       "source": "greenhouse",
       "title": "Data Scientist- Machine Learning & AI",
       "url": "https://careers.lightricks.com/position?gh_jid=8557860002&gh_jid=8557860002"
+    },
+    "78b82be319d6611b": {
+      "company": "Central Bottling Company Israel ltd",
+      "first_seen": "2026-08-10T16:45:46+00:00",
+      "location": "Givat Haim (Me'uchad), Center District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer 17621",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-17621-at-central-bottling-company-israel-ltd-4451515278"
     },
     "7ca81a2e46faae59": {
       "company": "Gotfriends",
@@ -722,5 +738,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-10T12:52:50+00:00"
+  "updated_at": "2026-08-10T16:45:46+00:00"
 }
