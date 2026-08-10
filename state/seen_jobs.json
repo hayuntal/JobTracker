@@ -1,5 +1,5 @@
 {
-  "count": 84,
+  "count": 85,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -585,6 +585,14 @@
       "title": "AI Data Analyst",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871564101"
     },
+    "da80b49cadf74e38": {
+      "company": "INSIGHTEC",
+      "first_seen": "2026-08-10T09:11:06+00:00",
+      "location": "Haifa, Haifa District, Israel",
+      "source": "linkedin",
+      "title": "BI Analyst",
+      "url": "https://il.linkedin.com/jobs/view/bi-analyst-at-insightec-4449525986"
+    },
     "dd3f40777585c63f": {
       "company": "Aidoc",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -674,5 +682,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-10T07:17:05+00:00"
+  "updated_at": "2026-08-10T09:11:07+00:00"
 }
