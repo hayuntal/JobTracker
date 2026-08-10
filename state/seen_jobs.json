@@ -1,5 +1,5 @@
 {
-  "count": 85,
+  "count": 89,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -369,6 +369,14 @@
       "title": "Data Engineer - Billing Platform",
       "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
     },
+    "879f8f4712e19179": {
+      "company": "Checkout.com",
+      "first_seen": "2026-08-10T11:01:41+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Fraud Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/fraud-data-analyst-at-checkout-com-4411198404"
+    },
     "87db89cd78f8f045": {
       "company": "Global-e",
       "first_seen": "2026-08-09T09:32:36+00:00",
@@ -561,6 +569,14 @@
       "title": "Product Analyst - Taboola News (Maternity Leave Cover)",
       "url": "https://www.taboola.com/careers/job/8035266?gh_jid=8035266"
     },
+    "c8e4245a879daf45": {
+      "company": "Medulla",
+      "first_seen": "2026-08-10T11:01:41+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Staff Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/staff-data-engineer-at-medulla-4448949633"
+    },
     "d51f4c8daaf6a419": {
       "company": "Helfy",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -601,6 +617,14 @@
       "title": "Product Analyst Team Lead",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
     },
+    "e0afe9d7458486a3": {
+      "company": "Booking.com",
+      "first_seen": "2026-08-10T11:01:41+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer I - GenAI Foundation Models",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-i-genai-foundation-models-at-booking-com-4333800377"
+    },
     "e0dbd8feca33cfa7": {
       "company": "Mobileye",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -616,6 +640,14 @@
       "source": "linkedin",
       "title": "Data Engineer Team Leader",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-team-leader-at-one-zero-bank-4443244263"
+    },
+    "e639187b85b4179a": {
+      "company": "Cybersecurity Company",
+      "first_seen": "2026-08-10T11:01:41+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-4450948343"
     },
     "e8c05e57595b689e": {
       "company": "Hello Heart",
@@ -682,5 +714,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-10T09:11:07+00:00"
+  "updated_at": "2026-08-10T11:01:42+00:00"
 }
