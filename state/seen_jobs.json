@@ -1,5 +1,5 @@
 {
-  "count": 94,
+  "count": 95,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -601,6 +601,14 @@
       "title": "Senior Principal Data Scientist - LLM Agents (Cortex)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Senior-Data-Scientist---LLM-Agents---Infra--Cortex-_JR-017437"
     },
+    "c3e96af79b2efda3": {
+      "company": "Focus Group - HR Services",
+      "first_seen": "2026-08-11T08:10:34+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "DATA ANALYST למחלקת ניהול סיכונים",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-%D7%9C%D7%9E%D7%97%D7%9C%D7%A7%D7%AA-%D7%A0%D7%99%D7%94%D7%95%D7%9C-%D7%A1%D7%99%D7%9B%D7%95%D7%A0%D7%99%D7%9D-at-focus-group-hr-services-4450377691"
+    },
     "c42fac7e8aed6442": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -754,5 +762,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-11T06:59:01+00:00"
+  "updated_at": "2026-08-11T08:10:35+00:00"
 }
