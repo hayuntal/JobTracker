@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 103,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -32,6 +32,14 @@
       "source": "workday",
       "title": "Principal Product Analyst (Cortex)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Product-Analyst--Cortex-XDR-_JR-019918"
+    },
+    "103f776c00bbb282": {
+      "company": "Tel Aviv Yafo Municipality",
+      "first_seen": "2026-08-11T15:54:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist with 3 years experience",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-with-3-years-experience-at-tel-aviv-yafo-municipality-4449858435"
     },
     "1303aff3bcae47d9": {
       "company": "Palo Alto Networks",
@@ -818,5 +826,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-11T14:15:58+00:00"
+  "updated_at": "2026-08-11T15:54:29+00:00"
 }
