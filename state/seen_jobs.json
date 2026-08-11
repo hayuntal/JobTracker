@@ -1,5 +1,5 @@
 {
-  "count": 97,
+  "count": 99,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -296,6 +296,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-iai-israel-aerospace-industries-4445833855"
+    },
+    "6c38f405b58643d8": {
+      "company": "Minute Media",
+      "first_seen": "2026-08-11T11:39:26+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-minute-media-4443342578"
     },
     "6d3f1be561be7760": {
       "company": "Wiz",
@@ -697,6 +705,14 @@
       "title": "Experienced Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/experienced-data-analyst-at-mobileye-4409973742"
     },
+    "e19a68ba5877f213": {
+      "company": "TAIRC",
+      "first_seen": "2026-08-11T11:39:26+00:00",
+      "location": "Or HaNer, South District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-tairc-4448002132"
+    },
     "e1aab1ae7abd36ca": {
       "company": "ONE ZERO BANK",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -778,5 +794,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-11T09:54:22+00:00"
+  "updated_at": "2026-08-11T11:39:27+00:00"
 }
