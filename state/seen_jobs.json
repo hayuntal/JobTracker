@@ -1,5 +1,5 @@
 {
-  "count": 115,
+  "count": 116,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -248,6 +248,14 @@
       "source": "greenhouse",
       "title": "Big Data Analyst",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6897277"
+    },
+    "467c732f20831e01": {
+      "company": "Mobitech",
+      "first_seen": "2026-08-12T05:40:14+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-mobitech-4446614561"
     },
     "4afaec2c4aba8440": {
       "company": "Taboola",
@@ -922,5 +930,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-12T03:59:49+00:00"
+  "updated_at": "2026-08-12T05:40:14+00:00"
 }
