@@ -1,5 +1,5 @@
 {
-  "count": 118,
+  "count": 120,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -313,6 +313,14 @@
       "title": "Data Scientist Team Lead",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-team-lead-at-arpeely-4449387096"
     },
+    "56b68b3313774fb0": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-12T09:05:45+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-analyst-at-mobileye-4449115398"
+    },
     "5940daafea38c882": {
       "company": "Taboola",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -344,6 +352,14 @@
       "source": "linkedin",
       "title": "Data Analyst (25455)",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-25455-at-yael-group-4449299472"
+    },
+    "5ef5e5123e179d21": {
+      "company": "GENECIT",
+      "first_seen": "2026-08-12T09:05:45+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "NLP Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/nlp-data-scientist-at-genecit-4450127098"
     },
     "5ef64cdcbe9b0ca4": {
       "company": "DRS RADA Technologies",
@@ -946,5 +962,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-12T07:13:45+00:00"
+  "updated_at": "2026-08-12T09:05:46+00:00"
 }
