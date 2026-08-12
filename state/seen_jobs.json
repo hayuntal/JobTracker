@@ -1,5 +1,5 @@
 {
-  "count": 123,
+  "count": 128,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -385,6 +385,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-drs-rada-technologies-4450254012"
     },
+    "61f2fe334398d4f1": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-12T12:52:21+00:00",
+      "location": "Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Senior Computer Vision Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-computer-vision-data-engineer-at-mobileye-4394410604"
+    },
     "668c79b6f7f76e1b": {
       "company": "Log-On Software",
       "first_seen": "2026-08-11T09:54:22+00:00",
@@ -553,6 +561,14 @@
       "title": "Data Analyst (Chargeback)",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-chargeback-at-global-e-4448821934"
     },
+    "885481b52d3a8f0d": {
+      "company": "Innodata Inc.",
+      "first_seen": "2026-08-12T12:52:21+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Applied Data Scientist, Health AI Evaluation & Datasets",
+      "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-health-ai-evaluation-datasets-at-innodata-inc-4448085968"
+    },
     "8e22967f8ae0044f": {
       "company": "Experis Israel",
       "first_seen": "2026-08-12T07:13:45+00:00",
@@ -713,6 +729,14 @@
       "title": "Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-analyst-at-blockaid-4450937569"
     },
+    "bb9960fa52a67d22": {
+      "company": "Discount Bank בנק דיסקונט",
+      "first_seen": "2026-08-12T12:52:21+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist למחלקת כרטיסי אשראי ואמצעי תשלום",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-%D7%9C%D7%9E%D7%97%D7%9C%D7%A7%D7%AA-%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99-%D7%90%D7%A9%D7%A8%D7%90%D7%99-%D7%95%D7%90%D7%9E%D7%A6%D7%A2%D7%99-%D7%AA%D7%A9%D7%9C%D7%95%D7%9D-at-discount-bank-%D7%91%D7%A0%D7%A7-%D7%93%D7%99%D7%A1%D7%A7%D7%95%D7%A0%D7%98-4453105304"
+    },
     "bc4befd373903973": {
       "company": "CrowdStrike",
       "first_seen": "2026-08-08T11:22:06+00:00",
@@ -841,6 +865,14 @@
       "title": "AI Data Analyst",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871564101"
     },
+    "d80a3626c239c78b": {
+      "company": "SGTech - Zero Carbon, Sustainable Farming",
+      "first_seen": "2026-08-12T12:52:21+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist /Algorithm Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-algorithm-engineer-at-sgtech-zero-carbon-sustainable-farming-4449537466"
+    },
     "da80b49cadf74e38": {
       "company": "INSIGHTEC",
       "first_seen": "2026-08-10T09:11:06+00:00",
@@ -912,6 +944,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
+    },
+    "ee8e23ddc12896a9": {
+      "company": "Wix",
+      "first_seen": "2026-08-12T12:52:21+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-wix-4453100230"
     },
     "efe7f87e0e50a7ce": {
       "company": "ONE ZERO BANK",
@@ -986,5 +1026,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-12T10:54:56+00:00"
+  "updated_at": "2026-08-12T12:52:22+00:00"
 }
