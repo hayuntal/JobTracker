@@ -1,5 +1,5 @@
 {
-  "count": 103,
+  "count": 115,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -25,6 +25,14 @@
       "title": "Junior Fraud Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/junior-fraud-data-scientist-at-checkout-com-4434828752"
     },
+    "0e282636ed1459e2": {
+      "company": "Keshet Media Group",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Analyst-Commercial analytics",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-commercial-analytics-at-keshet-media-group-4449286711"
+    },
     "0f5c72cc0ffb492e": {
       "company": "Palo Alto Networks",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -40,6 +48,14 @@
       "source": "linkedin",
       "title": "Data Scientist with 3 years experience",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-with-3-years-experience-at-tel-aviv-yafo-municipality-4449858435"
+    },
+    "124dc9e4db5a7c3e": {
+      "company": "Jobgether",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-jobgether-4451152861"
     },
     "1303aff3bcae47d9": {
       "company": "Palo Alto Networks",
@@ -121,6 +137,14 @@
       "title": "Senior Analytics Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-analytics-engineer-at-connecteam-4431695933"
     },
+    "22752e61ee014ef2": {
+      "company": "Eleos Health",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-eleos-health-4430116340"
+    },
     "237dbbd576012b2b": {
       "company": "Fetcherr",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -177,6 +201,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-alpha-similarweb-partner-4447341912"
     },
+    "39813f26755fcdca": {
+      "company": "Experis Academy Israel",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Junior Data & BI Analyst – Your Entry into the Data World",
+      "url": "https://il.linkedin.com/jobs/view/junior-data-bi-analyst-%E2%80%93-your-entry-into-the-data-world-at-experis-academy-israel-4435963659"
+    },
     "3a36f54f1d9a8407": {
       "company": "Similarweb",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -184,6 +216,14 @@
       "source": "greenhouse",
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7971236"
+    },
+    "3f3d8d9b310e34ee": {
+      "company": "Vi",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-vi-4450062169"
     },
     "4165a32ee69cac8f": {
       "company": "Appcharge",
@@ -216,6 +256,14 @@
       "source": "greenhouse",
       "title": "Data Analyst, Algorithms",
       "url": "https://www.taboola.com/careers/job/8076468?gh_jid=8076468"
+    },
+    "4c33c9836d5ccfd7": {
+      "company": "Elad Software Systems",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data & Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-business-analyst-at-elad-software-systems-4448951366"
     },
     "4cfdb80f7868e5cb": {
       "company": "Gotfriends",
@@ -353,6 +401,14 @@
       "title": "Applied Data Scientist, Finance AI Evaluation & Datasets",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-finance-ai-evaluation-datasets-at-innodata-inc-4445855161"
     },
+    "7593cc1996d2ccd8": {
+      "company": "INCRMNTAL",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Staff Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/staff-data-scientist-at-incrmntal-4449631636"
+    },
     "75e6469e6f0452d7": {
       "company": "Booking.com",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -464,6 +520,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist | Research, Code & Impact",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-research-code-impact-at-dt-4325742634"
+    },
+    "95b003da9a51b847": {
+      "company": "Earnix",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist - AI Research",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-ai-research-at-earnix-4434462141"
     },
     "9a823aa8c8e39005": {
       "company": "G-STAT",
@@ -585,6 +649,14 @@
       "title": "Senior Big Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-big-data-engineer-at-placer-ai-4409025706"
     },
+    "b91b4e2b0511cb59": {
+      "company": "Blockaid",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-analyst-at-blockaid-4450937569"
+    },
     "bc4befd373903973": {
       "company": "CrowdStrike",
       "first_seen": "2026-08-08T11:22:06+00:00",
@@ -657,6 +729,14 @@
       "title": "Senior Principal Data Scientist - LLM Agents (Cortex)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Senior-Data-Scientist---LLM-Agents---Infra--Cortex-_JR-017437"
     },
+    "c355eeda752d7511": {
+      "company": "Moon Active",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Marketing Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/marketing-data-analyst-at-moon-active-4450640436"
+    },
     "c3e96af79b2efda3": {
       "company": "Focus Group - HR Services",
       "first_seen": "2026-08-11T08:10:34+00:00",
@@ -713,6 +793,14 @@
       "title": "BI Analyst",
       "url": "https://il.linkedin.com/jobs/view/bi-analyst-at-insightec-4449525986"
     },
+    "dbec20effe2817d3": {
+      "company": "Playtika",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-playtika-4411138458"
+    },
     "dd3f40777585c63f": {
       "company": "Aidoc",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -768,6 +856,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
+    },
+    "efe7f87e0e50a7ce": {
+      "company": "ONE ZERO BANK",
+      "first_seen": "2026-08-12T03:59:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-one-zero-bank-4450236633"
     },
     "f225461acbec74b1": {
       "company": "Alpha | Similarweb Partner",
@@ -826,5 +922,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-11T15:54:29+00:00"
+  "updated_at": "2026-08-12T03:59:49+00:00"
 }
