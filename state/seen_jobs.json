@@ -1,5 +1,5 @@
 {
-  "count": 131,
+  "count": 132,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -80,6 +80,14 @@
       "source": "linkedin",
       "title": "Machine Learning Engineer",
       "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-gotfriends-4449289938"
+    },
+    "171fea10024e0345": {
+      "company": "ICE",
+      "first_seen": "2026-08-12T21:38:01+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-ice-4450604838"
     },
     "17db86c5915d6179": {
       "company": "Nebius",
@@ -1050,5 +1058,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-12T15:53:44+00:00"
+  "updated_at": "2026-08-12T21:38:02+00:00"
 }
