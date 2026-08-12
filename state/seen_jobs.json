@@ -1,5 +1,5 @@
 {
-  "count": 129,
+  "count": 131,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -344,6 +344,14 @@
       "source": "linkedin",
       "title": "Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-analyst-at-mobileye-4449115398"
+    },
+    "57b094cf081900c3": {
+      "company": "Alpha | Similarweb Partner",
+      "first_seen": "2026-08-12T15:53:43+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "ML & Big Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/ml-big-data-analyst-at-alpha-similarweb-partner-4452724405"
     },
     "5940daafea38c882": {
       "company": "Taboola",
@@ -945,6 +953,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-4450948343"
     },
+    "e70c9253558a2418": {
+      "company": "Cognyte",
+      "first_seen": "2026-08-12T15:53:43+00:00",
+      "location": "Misgav Regional Council, North District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-cognyte-4453110969"
+    },
     "e8c05e57595b689e": {
       "company": "Hello Heart",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -1034,5 +1050,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-12T14:17:16+00:00"
+  "updated_at": "2026-08-12T15:53:44+00:00"
 }
