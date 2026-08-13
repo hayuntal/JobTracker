@@ -1,5 +1,5 @@
 {
-  "count": 150,
+  "count": 152,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -80,6 +80,14 @@
       "source": "linkedin",
       "title": "Machine Learning Engineer",
       "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-gotfriends-4449289938"
+    },
+    "15b9df2de5e05523": {
+      "company": "Millennium",
+      "first_seen": "2026-08-13T18:54:11+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-data-engineer-at-millennium-4444013243"
     },
     "171fea10024e0345": {
       "company": "ICE",
@@ -472,6 +480,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-drs-rada-technologies-4450254012"
+    },
+    "6059fe29f59b18a2": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-08-13T18:54:11+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist (37320)",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-37320-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4454001711"
     },
     "61f2fe334398d4f1": {
       "company": "Mobileye",
@@ -1202,5 +1218,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-13T17:53:10+00:00"
+  "updated_at": "2026-08-13T18:54:12+00:00"
 }
