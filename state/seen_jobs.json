@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 146,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -184,6 +184,14 @@
       "source": "linkedin",
       "title": "Senior Backend Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-backend-data-engineer-at-eleos-health-4429931320"
+    },
+    "2a3bbf77be4f620b": {
+      "company": "Jurni",
+      "first_seen": "2026-08-13T14:19:12+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-jurni-4453150509"
     },
     "2f592669ad0e6868": {
       "company": "FlexFactor",
@@ -416,6 +424,14 @@
       "source": "greenhouse",
       "title": "Product Analyst (Maternity-Leave Replacement)",
       "url": "https://www.taboola.com/careers/job/8035268?gh_jid=8035268"
+    },
+    "59e5cd49fd95919e": {
+      "company": "DoiT",
+      "first_seen": "2026-08-13T14:19:12+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer - Attribute™",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-attribute%E2%84%A2-at-doit-4449569064"
     },
     "5aab6a9bc930fc00": {
       "company": "Extreme",
@@ -985,6 +1001,14 @@
       "title": "Product Analyst Team Lead",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
     },
+    "dfeeb4eac3f5333c": {
+      "company": "Jobgether",
+      "first_seen": "2026-08-13T14:19:12+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer - Web Scraping",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-web-scraping-at-jobgether-4452912010"
+    },
     "e0afe9d7458486a3": {
       "company": "Booking.com",
       "first_seen": "2026-08-10T11:01:41+00:00",
@@ -1146,5 +1170,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-13T12:54:00+00:00"
+  "updated_at": "2026-08-13T14:19:13+00:00"
 }
