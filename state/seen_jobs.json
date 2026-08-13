@@ -1,5 +1,5 @@
 {
-  "count": 152,
+  "count": 156,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -289,6 +289,14 @@
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7971236"
     },
+    "3bf8a631eafa96c3": {
+      "company": "Aman Group",
+      "first_seen": "2026-08-13T23:34:13+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Lead Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-aman-group-4450478789"
+    },
     "3f3d8d9b310e34ee": {
       "company": "Vi",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -304,6 +312,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-appcharge-4448268932"
+    },
+    "426416de89f3c0df": {
+      "company": "Rounds",
+      "first_seen": "2026-08-13T23:34:13+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-business-analyst-at-rounds-4426784889"
     },
     "4443ea5efda1b538": {
       "company": "Similarweb",
@@ -793,6 +809,14 @@
       "title": "Senior Product Analyst",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101"
     },
+    "af984337e51243bd": {
+      "company": "Cloudinary",
+      "first_seen": "2026-08-13T23:34:13+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Staff Data Engineer – Data Modeling",
+      "url": "https://il.linkedin.com/jobs/view/staff-data-engineer-%E2%80%93-data-modeling-at-cloudinary-4411469665"
+    },
     "b035a977211c1b75": {
       "company": "Torq",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -1041,6 +1065,14 @@
       "title": "Product Analyst Team Lead",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871749101"
     },
+    "dd576b27a543759e": {
+      "company": "Stealth Startup",
+      "first_seen": "2026-08-13T23:34:13+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-stealth-startup-4452363025"
+    },
     "dfeeb4eac3f5333c": {
       "company": "Jobgether",
       "first_seen": "2026-08-13T14:19:12+00:00",
@@ -1218,5 +1250,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-13T18:54:12+00:00"
+  "updated_at": "2026-08-13T23:34:14+00:00"
 }
