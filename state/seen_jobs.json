@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 137,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -217,6 +217,14 @@
       "title": "Big Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/big-data-analyst-at-alpha-similarweb-partner-4447342939"
     },
+    "35c6b9037d0d94e4": {
+      "company": "Prisma Photonics",
+      "first_seen": "2026-08-13T01:18:28+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-prisma-photonics-4446634739"
+    },
     "37837176ecc4e34c": {
       "company": "Bringg",
       "first_seen": "2026-08-12T14:17:15+00:00",
@@ -288,6 +296,22 @@
       "source": "linkedin",
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-mobitech-4446614561"
+    },
+    "4800f00c51a8b79b": {
+      "company": "Tastewise",
+      "first_seen": "2026-08-13T01:18:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-tastewise-4453183745"
+    },
+    "48ffac7bb4deb602": {
+      "company": "Rhino Federated Computing",
+      "first_seen": "2026-08-13T01:18:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data & BI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-bi-engineer-at-rhino-federated-computing-4450188239"
     },
     "4afaec2c4aba8440": {
       "company": "Taboola",
@@ -504,6 +528,14 @@
       "source": "linkedin",
       "title": "Business Intelligence Developer 17621",
       "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-17621-at-central-bottling-company-israel-ltd-4451515278"
+    },
+    "79b129db4eb0d73f": {
+      "company": "Experis Israel",
+      "first_seen": "2026-08-13T01:18:28+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst, Fraud Prevention Team - 242766",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-fraud-prevention-team-242766-at-experis-israel-4449505009"
     },
     "7ca81a2e46faae59": {
       "company": "Gotfriends",
@@ -969,6 +1001,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-cognyte-4453110969"
     },
+    "e72b39c7d4c13cfe": {
+      "company": "Play Perfect",
+      "first_seen": "2026-08-13T01:18:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-play-perfect-4411159389"
+    },
     "e8c05e57595b689e": {
       "company": "Hello Heart",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -1058,5 +1098,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-12T21:38:02+00:00"
+  "updated_at": "2026-08-13T01:18:29+00:00"
 }
