@@ -1,5 +1,5 @@
 {
-  "count": 146,
+  "count": 147,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -985,6 +985,14 @@
       "title": "BI Analyst",
       "url": "https://il.linkedin.com/jobs/view/bi-analyst-at-insightec-4449525986"
     },
+    "da833e62a0aea41e": {
+      "company": "Antidote Health",
+      "first_seen": "2026-08-13T15:53:35+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-antidote-health-4453205259"
+    },
     "dbec20effe2817d3": {
       "company": "Playtika",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -1170,5 +1178,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-13T14:19:13+00:00"
+  "updated_at": "2026-08-13T15:53:35+00:00"
 }
