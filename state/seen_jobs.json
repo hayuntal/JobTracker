@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 141,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -304,6 +304,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-tastewise-4453183745"
+    },
+    "481b0de2001e5edc": {
+      "company": "DT",
+      "first_seen": "2026-08-13T09:56:40+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-dt-4452910748"
     },
     "48ffac7bb4deb602": {
       "company": "Rhino Federated Computing",
@@ -1025,6 +1033,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
     },
+    "e96eb58c88540409": {
+      "company": "G-STAT",
+      "first_seen": "2026-08-13T09:56:40+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-g-stat-4452928552"
+    },
     "ee8e23ddc12896a9": {
       "company": "Wix",
       "first_seen": "2026-08-12T12:52:21+00:00",
@@ -1081,6 +1097,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-nift-4448670939"
     },
+    "fde5a139eb2632ea": {
+      "company": "Jobgether",
+      "first_seen": "2026-08-13T09:56:40+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Data Engineer - Senior",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-senior-at-jobgether-4452919469"
+    },
     "fecc7f63fe5cf6cb": {
       "company": "Ashley Digital",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -1106,5 +1130,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-13T08:14:22+00:00"
+  "updated_at": "2026-08-13T09:56:40+00:00"
 }
