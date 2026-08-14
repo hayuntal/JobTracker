@@ -1,5 +1,5 @@
 {
-  "count": 156,
+  "count": 157,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -721,6 +721,14 @@
       "title": "Data Scientist - AI Research",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-ai-research-at-earnix-4434462141"
     },
+    "99ef67b977fe0d03": {
+      "company": "PlateApp",
+      "first_seen": "2026-08-14T12:48:54+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-plateapp-4451206800"
+    },
     "9a823aa8c8e39005": {
       "company": "G-STAT",
       "first_seen": "2026-08-10T07:17:05+00:00",
@@ -1250,5 +1258,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-13T23:34:14+00:00"
+  "updated_at": "2026-08-14T12:48:54+00:00"
 }
