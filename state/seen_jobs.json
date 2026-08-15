@@ -1,5 +1,5 @@
 {
-  "count": 158,
+  "count": 159,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -224,6 +224,14 @@
       "source": "linkedin",
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://il.linkedin.com/jobs/view/product-data-scientist-customer-facing-at-alpha-similarweb-partner-4447341898"
+    },
+    "32bf7639bf1bd1ad": {
+      "company": "Armis",
+      "first_seen": "2026-08-15T05:19:05+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-at-armis-4423141057"
     },
     "34a83578f3087dad": {
       "company": "Chargeflow",
@@ -1266,5 +1274,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-14T14:12:02+00:00"
+  "updated_at": "2026-08-15T05:19:05+00:00"
 }
