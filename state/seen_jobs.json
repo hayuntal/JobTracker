@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 162,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -521,6 +521,14 @@
       "title": "Senior Computer Vision Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-computer-vision-data-engineer-at-mobileye-4394410604"
     },
+    "62eb871697d144cb": {
+      "company": "Appdome",
+      "first_seen": "2026-08-15T12:22:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-appdome-4426405133"
+    },
     "668c79b6f7f76e1b": {
       "company": "Log-On Software",
       "first_seen": "2026-08-11T09:54:22+00:00",
@@ -1025,6 +1033,14 @@
       "title": "Staff Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/staff-data-engineer-at-medulla-4448949633"
     },
+    "d0646ee8990feabd": {
+      "company": "Webbing",
+      "first_seen": "2026-08-15T12:22:48+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist - Network Intelligence",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-network-intelligence-at-webbing-4427649516"
+    },
     "d51f4c8daaf6a419": {
       "company": "Helfy",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -1282,5 +1298,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-15T11:13:38+00:00"
+  "updated_at": "2026-08-15T12:22:48+00:00"
 }
