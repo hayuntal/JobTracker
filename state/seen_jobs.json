@@ -1,5 +1,5 @@
 {
-  "count": 165,
+  "count": 166,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -304,6 +304,14 @@
       "source": "linkedin",
       "title": "Lead Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-aman-group-4450478789"
+    },
+    "3eb3d0dbeb65efc5": {
+      "company": "AppsFlyer",
+      "first_seen": "2026-08-16T11:14:18+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-appsflyer-4436026694"
     },
     "3f3d8d9b310e34ee": {
       "company": "Vi",
@@ -1322,5 +1330,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-16T09:20:57+00:00"
+  "updated_at": "2026-08-16T11:14:19+00:00"
 }
