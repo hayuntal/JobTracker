@@ -1,5 +1,5 @@
 {
-  "count": 169,
+  "count": 170,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -1065,6 +1065,14 @@
       "title": "Staff Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/staff-data-engineer-at-medulla-4448949633"
     },
+    "cd84d69bcfe0f41c": {
+      "company": "Armis",
+      "first_seen": "2026-08-16T15:14:42+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Platform Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-platform-engineer-at-armis-4361380791"
+    },
     "d0646ee8990feabd": {
       "company": "Webbing",
       "first_seen": "2026-08-15T12:22:48+00:00",
@@ -1354,5 +1362,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-16T13:26:11+00:00"
+  "updated_at": "2026-08-16T15:14:42+00:00"
 }
