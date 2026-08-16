@@ -1,5 +1,5 @@
 {
-  "count": 170,
+  "count": 174,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -529,6 +529,14 @@
       "title": "Senior Data Scientist (37320)",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-37320-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4454001711"
     },
+    "60f39f11147b38fb": {
+      "company": "Loora",
+      "first_seen": "2026-08-16T17:13:59+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Backend & Data Platform Engineer",
+      "url": "https://il.linkedin.com/jobs/view/backend-data-platform-engineer-at-loora-2147625360"
+    },
     "61f2fe334398d4f1": {
       "company": "Mobileye",
       "first_seen": "2026-08-12T12:52:21+00:00",
@@ -544,6 +552,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-appdome-4426405133"
+    },
+    "6329be8bc25ae29d": {
+      "company": "Connecteam",
+      "first_seen": "2026-08-16T17:13:59+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Analytics Engineer – AI Analytics Platform",
+      "url": "https://il.linkedin.com/jobs/view/senior-analytics-engineer-%E2%80%93-ai-analytics-platform-at-connecteam-4385004646"
     },
     "668c79b6f7f76e1b": {
       "company": "Log-On Software",
@@ -736,6 +752,14 @@
       "source": "linkedin",
       "title": "Applied Data Scientist, Health AI Evaluation & Datasets",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-health-ai-evaluation-datasets-at-innodata-inc-4448085968"
+    },
+    "8ba8c983b38e0bc6": {
+      "company": "Octally Integration",
+      "first_seen": "2026-08-16T17:13:59+00:00",
+      "location": "Ramat HaSharon, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer (Elasticsearch & Kafka) | חובה סיווג ביטחוני אזרחי רמה 3",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-elasticsearch-kafka-%D7%97%D7%95%D7%91%D7%94-%D7%A1%D7%99%D7%95%D7%95%D7%92-%D7%91%D7%99%D7%98%D7%97%D7%95%D7%A0%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99-%D7%A8%D7%9E%D7%94-3-at-octally-integration-4451797291"
     },
     "8d62750ce7f68b3a": {
       "company": "Shavit Software",
@@ -1273,6 +1297,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-wix-4453100230"
     },
+    "ef80b25eb2bf6258": {
+      "company": "Megayeset - Recruiting, Head Hunting and HR Consulting מגייסת - השמה ומשאבי אנוש",
+      "first_seen": "2026-08-16T17:13:59+00:00",
+      "location": "North District, Israel",
+      "source": "linkedin",
+      "title": "Lead Data Scientist JB-3472",
+      "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-jb-3472-at-megayeset-recruiting-head-hunting-and-hr-consulting-%D7%9E%D7%92%D7%99%D7%99%D7%A1%D7%AA-%D7%94%D7%A9%D7%9E%D7%94-%D7%95%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9-4455203505"
+    },
     "efe7f87e0e50a7ce": {
       "company": "ONE ZERO BANK",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -1362,5 +1394,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-16T15:14:42+00:00"
+  "updated_at": "2026-08-16T17:13:59+00:00"
 }
