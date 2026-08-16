@@ -1,5 +1,5 @@
 {
-  "count": 166,
+  "count": 167,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -128,6 +128,14 @@
       "source": "greenhouse",
       "title": "Data Scientist",
       "url": "https://www.catonetworks.com/careers/careers-post/4848229101?gh_jid=4848229101"
+    },
+    "18e29ac8cb001985": {
+      "company": "Nisha Group - קבוצת נישה",
+      "first_seen": "2026-08-16T12:23:59+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Big-Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-big-data-engineer-at-nisha-group-%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%A0%D7%99%D7%A9%D7%94-4451797086"
     },
     "196a5c930c65a081": {
       "company": "Fiverr",
@@ -1330,5 +1338,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-16T11:14:19+00:00"
+  "updated_at": "2026-08-16T12:23:59+00:00"
 }
