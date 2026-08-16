@@ -1,5 +1,5 @@
 {
-  "count": 167,
+  "count": 169,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -737,6 +737,14 @@
       "title": "Applied Data Scientist, Health AI Evaluation & Datasets",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-health-ai-evaluation-datasets-at-innodata-inc-4448085968"
     },
+    "8d62750ce7f68b3a": {
+      "company": "Shavit Software",
+      "first_seen": "2026-08-16T13:26:10+00:00",
+      "location": "Rosh HaAyin, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-shavit-software-4455181383"
+    },
     "8e22967f8ae0044f": {
       "company": "Experis Israel",
       "first_seen": "2026-08-12T07:13:45+00:00",
@@ -1233,6 +1241,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-g-stat-4452928552"
     },
+    "e995f00fb5bd66e1": {
+      "company": "Meta",
+      "first_seen": "2026-08-16T13:26:10+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist, Product Analytics",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-product-analytics-at-meta-4432749149"
+    },
     "ee87bc6f5a4d4875": {
       "company": "Triple Whale",
       "first_seen": "2026-08-15T11:13:37+00:00",
@@ -1338,5 +1354,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-16T12:23:59+00:00"
+  "updated_at": "2026-08-16T13:26:11+00:00"
 }
