@@ -1,5 +1,5 @@
 {
-  "count": 177,
+  "count": 178,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -1305,6 +1305,14 @@
       "title": "Data Scientist, Product Analytics",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-product-analytics-at-meta-4432749149"
     },
+    "ea4040e3b74ea540": {
+      "company": "Autofleet",
+      "first_seen": "2026-08-17T07:46:12+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-autofleet-4436078442"
+    },
     "ee87bc6f5a4d4875": {
       "company": "Triple Whale",
       "first_seen": "2026-08-15T11:13:37+00:00",
@@ -1418,5 +1426,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T06:38:47+00:00"
+  "updated_at": "2026-08-17T07:46:13+00:00"
 }
