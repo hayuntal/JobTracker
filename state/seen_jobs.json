@@ -1,5 +1,5 @@
 {
-  "count": 187,
+  "count": 189,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -209,6 +209,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-jurni-4453150509"
     },
+    "2f2051cfefbcba3b": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-17T13:34:20+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data & ML Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-ml-engineer-at-mobileye-4444886531"
+    },
     "2f592669ad0e6868": {
       "company": "FlexFactor",
       "first_seen": "2026-08-12T10:54:55+00:00",
@@ -400,6 +408,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-dt-4452910748"
+    },
+    "48d21cfc364093dc": {
+      "company": "Stealth",
+      "first_seen": "2026-08-17T13:34:20+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Backend/Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-backend-data-engineer-at-stealth-4452270332"
     },
     "48ffac7bb4deb602": {
       "company": "Rhino Federated Computing",
@@ -1498,5 +1514,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T12:28:37+00:00"
+  "updated_at": "2026-08-17T13:34:21+00:00"
 }
