@@ -1,5 +1,5 @@
 {
-  "count": 189,
+  "count": 196,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -40,6 +40,14 @@
       "source": "workday",
       "title": "Principal Product Analyst (Cortex)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Product-Analyst--Cortex-XDR-_JR-019918"
+    },
+    "0f5eab66dfdde7da": {
+      "company": "abra",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer (.NET / Kafka / ETL)",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-net-kafka-etl-at-abra-4451691125"
     },
     "103f776c00bbb282": {
       "company": "Tel Aviv Yafo Municipality",
@@ -209,6 +217,22 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-jurni-4453150509"
     },
+    "2cfa16fe8d36fdd7": {
+      "company": "ExpressVPN",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-expressvpn-4425439971"
+    },
+    "2deb70d6f93257ba": {
+      "company": "BioCatch",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-biocatch-4387859082"
+    },
     "2f2051cfefbcba3b": {
       "company": "Mobileye",
       "first_seen": "2026-08-17T13:34:20+00:00",
@@ -328,6 +352,14 @@
       "source": "linkedin",
       "title": "Lead Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-aman-group-4450478789"
+    },
+    "3da75ee7e054fad2": {
+      "company": "entrypoint",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Holon, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst -5664",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-5664-at-entrypoint-4454247399"
     },
     "3eb3d0dbeb65efc5": {
       "company": "AppsFlyer",
@@ -456,6 +488,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-modellama-4428612794"
+    },
+    "51d015f392f4c6f4": {
+      "company": "Tailor Brands",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-tailor-brands-4455239705"
     },
     "53f5ddf4547172ac": {
       "company": "Varonis",
@@ -1001,6 +1041,14 @@
       "title": "Core Data - Big Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
     },
+    "b2d3df625a977792": {
+      "company": "Octally Integration",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "דרוש/ה Data Engineer | ראשון לציון",
+      "url": "https://il.linkedin.com/jobs/view/%D7%93%D7%A8%D7%95%D7%A9-%D7%94-data-engineer-%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%9C%D7%A6%D7%99%D7%95%D7%9F-at-octally-integration-4452237110"
+    },
     "b380d8624b0cb217": {
       "company": "SQLink Group",
       "first_seen": "2026-08-10T12:52:49+00:00",
@@ -1297,6 +1345,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-stealth-startup-4452363025"
     },
+    "dfe49cd0bccb08f1": {
+      "company": "Elad Software Systems",
+      "first_seen": "2026-08-17T14:20:28+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist / GenAI Tech Lead (1007502)",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-genai-tech-lead-1007502-at-elad-software-systems-4455262868"
+    },
     "dfeeb4eac3f5333c": {
       "company": "Jobgether",
       "first_seen": "2026-08-13T14:19:12+00:00",
@@ -1514,5 +1570,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T13:34:21+00:00"
+  "updated_at": "2026-08-17T14:20:29+00:00"
 }
