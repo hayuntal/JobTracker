@@ -1,5 +1,5 @@
 {
-  "count": 175,
+  "count": 176,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -777,6 +777,14 @@
       "title": "Business Data Analyst - 241239",
       "url": "https://il.linkedin.com/jobs/view/business-data-analyst-241239-at-experis-israel-4450102302"
     },
+    "926629fa2e41c71c": {
+      "company": "Navan",
+      "first_seen": "2026-08-17T04:34:53+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-navan-4455165996"
+    },
     "9562c0675dffcfbc": {
       "company": "DT",
       "first_seen": "2026-08-11T14:15:58+00:00",
@@ -1402,5 +1410,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T00:51:02+00:00"
+  "updated_at": "2026-08-17T04:34:53+00:00"
 }
