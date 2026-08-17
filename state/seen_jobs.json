@@ -1,5 +1,5 @@
 {
-  "count": 179,
+  "count": 182,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -753,6 +753,14 @@
       "title": "Applied Data Scientist, Health AI Evaluation & Datasets",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-health-ai-evaluation-datasets-at-innodata-inc-4448085968"
     },
+    "88e0c7faaca6a3b7": {
+      "company": "Prisma Photonics",
+      "first_seen": "2026-08-17T09:34:12+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-prisma-photonics-4398835486"
+    },
     "8ba8c983b38e0bc6": {
       "company": "Octally Integration",
       "first_seen": "2026-08-16T17:13:59+00:00",
@@ -784,6 +792,14 @@
       "source": "linkedin",
       "title": "Senior Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-navan-4455165996"
+    },
+    "937298263219c22c": {
+      "company": "Agoda",
+      "first_seen": "2026-08-17T09:34:12+00:00",
+      "location": "West Jerusalem, Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Senior / Staff Data Engineer (BI) – CEG Team",
+      "url": "https://il.linkedin.com/jobs/view/senior-staff-data-engineer-bi-%E2%80%93-ceg-team-at-agoda-4455258222"
     },
     "9562c0675dffcfbc": {
       "company": "DT",
@@ -1104,6 +1120,14 @@
       "source": "greenhouse",
       "title": "Product Analyst - Taboola News (Maternity Leave Cover)",
       "url": "https://www.taboola.com/careers/job/8035266?gh_jid=8035266"
+    },
+    "c7144d270aac8ada": {
+      "company": "Rounds",
+      "first_seen": "2026-08-17T09:34:12+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-rounds-4440968619"
     },
     "c7ad5ff4c108e3a7": {
       "company": "Fetcherr",
@@ -1434,5 +1458,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T08:35:25+00:00"
+  "updated_at": "2026-08-17T09:34:13+00:00"
 }
