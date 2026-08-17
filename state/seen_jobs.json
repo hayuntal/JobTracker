@@ -1,5 +1,5 @@
 {
-  "count": 174,
+  "count": 175,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -833,6 +833,14 @@
       "title": "Data Scientist (37241)",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-37241-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4451501082"
     },
+    "a195e3ca153711b9": {
+      "company": "Parametrix GmbH",
+      "first_seen": "2026-08-17T00:51:02+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Technical Data Analyst (Tel Aviv)",
+      "url": "https://il.linkedin.com/jobs/view/technical-data-analyst-tel-aviv-at-parametrix-gmbh-4454220057"
+    },
     "a1cfe7710c4be4ef": {
       "company": "InfinityLabs R&D",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -1394,5 +1402,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-16T17:13:59+00:00"
+  "updated_at": "2026-08-17T00:51:02+00:00"
 }
