@@ -1,5 +1,5 @@
 {
-  "count": 199,
+  "count": 200,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -224,6 +224,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-jurni-4453150509"
+    },
+    "2a4606dda979d014": {
+      "company": "Medison Pharma",
+      "first_seen": "2026-08-17T23:16:11+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-medison-pharma-4433603981"
     },
     "2cfa16fe8d36fdd7": {
       "company": "ExpressVPN",
@@ -1594,5 +1602,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T18:27:55+00:00"
+  "updated_at": "2026-08-17T23:16:12+00:00"
 }
