@@ -1,5 +1,5 @@
 {
-  "count": 197,
+  "count": 198,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -408,6 +408,14 @@
       "source": "linkedin",
       "title": "Senior Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-business-analyst-at-rounds-4426784889"
+    },
+    "442a092126d4f97a": {
+      "company": "Sensifai Health",
+      "first_seen": "2026-08-17T16:19:36+00:00",
+      "location": "Binyamina - Givat Ada, Haifa District, Israel",
+      "source": "linkedin",
+      "title": "Lead Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-sensifai-health-4454287282"
     },
     "4443ea5efda1b538": {
       "company": "Similarweb",
@@ -1578,5 +1586,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T15:19:00+00:00"
+  "updated_at": "2026-08-17T16:19:37+00:00"
 }
