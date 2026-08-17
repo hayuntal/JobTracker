@@ -1,5 +1,5 @@
 {
-  "count": 196,
+  "count": 197,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -352,6 +352,14 @@
       "source": "linkedin",
       "title": "Lead Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-aman-group-4450478789"
+    },
+    "3c5345e88b20449d": {
+      "company": "Rakuten Viber",
+      "first_seen": "2026-08-17T15:18:59+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer Manager",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-manager-at-rakuten-viber-4454082465"
     },
     "3da75ee7e054fad2": {
       "company": "entrypoint",
@@ -1570,5 +1578,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T14:20:29+00:00"
+  "updated_at": "2026-08-17T15:19:00+00:00"
 }
