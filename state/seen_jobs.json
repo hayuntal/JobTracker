@@ -1,5 +1,5 @@
 {
-  "count": 182,
+  "count": 186,
   "seen": {
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -329,6 +329,14 @@
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-vi-4450062169"
     },
+    "41087948f6feeff0": {
+      "company": "TechBiz Global",
+      "first_seen": "2026-08-17T10:25:18+00:00",
+      "location": "Raanana, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-techbiz-global-4455263114"
+    },
     "4165a32ee69cac8f": {
       "company": "Appcharge",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -529,6 +537,14 @@
       "title": "Senior Data Scientist (37320)",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-37320-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4454001711"
     },
+    "60c027727718f462": {
+      "company": "Play Perfect",
+      "first_seen": "2026-08-17T10:25:18+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "BI & Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/bi-data-engineer-at-play-perfect-4434843320"
+    },
     "60f39f11147b38fb": {
       "company": "Loora",
       "first_seen": "2026-08-16T17:13:59+00:00",
@@ -648,6 +664,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-bleader-4451773838"
+    },
+    "786976bb27fe2cbc": {
+      "company": "Hexight",
+      "first_seen": "2026-08-17T10:25:18+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hexight-4452227565"
     },
     "78b82be319d6611b": {
       "company": "Central Bottling Company Israel ltd",
@@ -1257,6 +1281,14 @@
       "title": "Senior Data Engineer - Web Scraping",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-web-scraping-at-jobgether-4452912010"
     },
+    "e0226fcb2a939247": {
+      "company": "Opmed.ai",
+      "first_seen": "2026-08-17T10:25:18+00:00",
+      "location": "Raanana, Center District, Israel",
+      "source": "linkedin",
+      "title": "Principal Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/principal-data-scientist-at-opmed-ai-4454238103"
+    },
     "e0afe9d7458486a3": {
       "company": "Booking.com",
       "first_seen": "2026-08-10T11:01:41+00:00",
@@ -1458,5 +1490,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-17T09:34:13+00:00"
+  "updated_at": "2026-08-17T10:25:18+00:00"
 }
