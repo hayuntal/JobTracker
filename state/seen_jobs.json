@@ -1,5 +1,5 @@
 {
-  "count": 204,
+  "count": 205,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1065,6 +1065,14 @@
       "title": "Senior Product Analyst",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101"
     },
+    "aea3833a91bd57e6": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-18T23:15:43+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Platform Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-platform-engineer-at-mobileye-4416181276"
+    },
     "af984337e51243bd": {
       "company": "Cloudinary",
       "first_seen": "2026-08-13T23:34:13+00:00",
@@ -1634,5 +1642,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-18T20:15:40+00:00"
+  "updated_at": "2026-08-18T23:15:43+00:00"
 }
