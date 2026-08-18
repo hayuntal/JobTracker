@@ -1,5 +1,5 @@
 {
-  "count": 202,
+  "count": 204,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -177,6 +177,14 @@
       "title": " Senior Data Engineer ( Data Collection)",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7911963"
     },
+    "1f79525e48ed529f": {
+      "company": "Zipher",
+      "first_seen": "2026-08-18T20:15:39+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-zipher-4454903277"
+    },
     "1fd55075837df07e": {
       "company": "Connecteam",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -216,6 +224,14 @@
       "source": "linkedin",
       "title": "Senior Backend Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-backend-data-engineer-at-eleos-health-4429931320"
+    },
+    "28a3965977620fa5": {
+      "company": "Airwayz",
+      "first_seen": "2026-08-18T20:15:39+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-airwayz-4452246538"
     },
     "2a1423556c6bb3b6": {
       "company": "SQLink Group",
@@ -1618,5 +1634,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-18T13:37:32+00:00"
+  "updated_at": "2026-08-18T20:15:40+00:00"
 }
