@@ -1,5 +1,5 @@
 {
-  "count": 217,
+  "count": 220,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -289,6 +289,14 @@
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-expressvpn-4425439971"
     },
+    "2d5b5f97990c408d": {
+      "company": "Mobileye",
+      "first_seen": "2026-08-19T13:39:08+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-mobileye-4398784947"
+    },
     "2deb70d6f93257ba": {
       "company": "BioCatch",
       "first_seen": "2026-08-17T14:20:28+00:00",
@@ -520,6 +528,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-mobitech-4446614561"
+    },
+    "47c5d604e245dd76": {
+      "company": "Confidential",
+      "first_seen": "2026-08-19T13:39:08+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-confidential-4456302101"
     },
     "4800f00c51a8b79b": {
       "company": "Tastewise",
@@ -1096,6 +1112,14 @@
       "source": "linkedin",
       "title": "BI Developer – Defense Company, Northern Israel",
       "url": "https://il.linkedin.com/jobs/view/bi-developer-%E2%80%93-defense-company-northern-israel-at-yael-korentec-technologies-4453666237"
+    },
+    "a90f5a356e5ad551": {
+      "company": "Nogamy",
+      "first_seen": "2026-08-19T13:39:08+00:00",
+      "location": "Haifa District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-at-nogamy-4456309301"
     },
     "a9371830290ee537": {
       "company": "Elbit Systems Israel",
@@ -1738,5 +1762,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-19T12:31:34+00:00"
+  "updated_at": "2026-08-19T13:39:09+00:00"
 }
