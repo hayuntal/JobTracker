@@ -1,5 +1,5 @@
 {
-  "count": 214,
+  "count": 217,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -121,6 +121,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-ice-4450604838"
     },
+    "17b4feda45236dd8": {
+      "company": "SolarEdge Technologies",
+      "first_seen": "2026-08-19T12:31:34+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Sales Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/sales-data-analyst-at-solaredge-technologies-4431482435"
+    },
     "17db86c5915d6179": {
       "company": "Nebius",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -168,6 +176,14 @@
       "source": "linkedin",
       "title": "Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-analyst-at-fiverr-4370681136"
+    },
+    "1b0ffd8177bd1ddb": {
+      "company": "Riskified",
+      "first_seen": "2026-08-19T12:31:34+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Junior Data Scientist ",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8653104002"
     },
     "1b70870776b5adec": {
       "company": "Taboola",
@@ -720,6 +736,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-appdome-4426405133"
+    },
+    "631620b77c2c6186": {
+      "company": "Lusha",
+      "first_seen": "2026-08-19T12:31:34+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-lusha-4456301263"
     },
     "6329be8bc25ae29d": {
       "company": "Connecteam",
@@ -1714,5 +1738,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-19T11:18:52+00:00"
+  "updated_at": "2026-08-19T12:31:34+00:00"
 }
