@@ -1,5 +1,5 @@
 {
-  "count": 205,
+  "count": 206,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1393,6 +1393,14 @@
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-antidote-health-4453205259"
     },
+    "dad74e91ffba383b": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-19T00:48:50+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist - Security",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-security-at-nvidia-4454916833"
+    },
     "dbec20effe2817d3": {
       "company": "Playtika",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -1642,5 +1650,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-18T23:15:43+00:00"
+  "updated_at": "2026-08-19T00:48:51+00:00"
 }
