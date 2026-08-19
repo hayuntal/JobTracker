@@ -1,5 +1,5 @@
 {
-  "count": 211,
+  "count": 214,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -24,6 +24,14 @@
       "source": "linkedin",
       "title": "Data Engineer - 239783",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-239783-at-experis-israel-4448096207"
+    },
+    "091ad8825585f937": {
+      "company": "Cal (Israel Credit Cards)",
+      "first_seen": "2026-08-19T11:18:52+00:00",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist | Visa JB-26773",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-visa-jb-26773-at-cal-israel-credit-cards-4453418783"
     },
     "0bbcc20713201857": {
       "company": "Checkout.com",
@@ -665,6 +673,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-drs-rada-technologies-4450254012"
     },
+    "5fb67893159bf6b0": {
+      "company": "HonestReporting",
+      "first_seen": "2026-08-19T11:18:52+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-honestreporting-4451778041"
+    },
     "6059fe29f59b18a2": {
       "company": "מרטנס | Mertens – מקבוצת מלם תים",
       "first_seen": "2026-08-13T18:54:11+00:00",
@@ -1056,6 +1072,14 @@
       "source": "linkedin",
       "title": "BI Developer – Defense Company, Northern Israel",
       "url": "https://il.linkedin.com/jobs/view/bi-developer-%E2%80%93-defense-company-northern-israel-at-yael-korentec-technologies-4453666237"
+    },
+    "a9371830290ee537": {
+      "company": "Elbit Systems Israel",
+      "first_seen": "2026-08-19T11:18:52+00:00",
+      "location": "Holon, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-elbit-systems-israel-4453423541"
     },
     "a96fe9c9240ee0fe": {
       "company": "Discount Bank בנק דיסקונט",
@@ -1690,5 +1714,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-19T09:26:26+00:00"
+  "updated_at": "2026-08-19T11:18:52+00:00"
 }
