@@ -1,5 +1,5 @@
 {
-  "count": 206,
+  "count": 209,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -929,6 +929,14 @@
       "title": "Business Data Analyst - 241239",
       "url": "https://il.linkedin.com/jobs/view/business-data-analyst-241239-at-experis-israel-4450102302"
     },
+    "91da04277f95831a": {
+      "company": "Palo Alto Networks",
+      "first_seen": "2026-08-19T07:32:36+00:00",
+      "location": "Office - Israel - CyberArk Petach Tikva",
+      "source": "workday",
+      "title": "Senior Staff Data Engineer (Data & AI solutions)",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Senior-Staff-Data-Engineer--Data---AI-solutions-_JR-021153"
+    },
     "926629fa2e41c71c": {
       "company": "Navan",
       "first_seen": "2026-08-17T04:34:53+00:00",
@@ -1329,6 +1337,14 @@
       "title": "Data Scientist - Network Intelligence",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-network-intelligence-at-webbing-4427649516"
     },
+    "d466fdcdf92e8941": {
+      "company": "AppsFlyer",
+      "first_seen": "2026-08-19T07:32:36+00:00",
+      "location": "Herzliya",
+      "source": "greenhouse",
+      "title": "Financial Data Analyst - Temporary position (9 months)",
+      "url": "https://careers.appsflyer.com/jobs/position/8725456002?gh_jid=8725456002"
+    },
     "d4fd6c214769296e": {
       "company": "Aidoc",
       "first_seen": "2026-08-16T09:20:57+00:00",
@@ -1569,6 +1585,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-one-zero-bank-4450236633"
     },
+    "f194a037c6503840": {
+      "company": "Palo Alto Networks",
+      "first_seen": "2026-08-19T07:32:36+00:00",
+      "location": "Office - Israel - CyberArk Petach Tikva",
+      "source": "workday",
+      "title": "Staff Data Engineer (Data & AI solutions)",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---CyberArk-Petach-Tikva/Staff-Data-Engineer--Data---AI-solutions-_JR-021154"
+    },
     "f225461acbec74b1": {
       "company": "Alpha | Similarweb Partner",
       "first_seen": "2026-08-09T05:46:20+00:00",
@@ -1650,5 +1674,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-19T00:48:51+00:00"
+  "updated_at": "2026-08-19T07:32:37+00:00"
 }
