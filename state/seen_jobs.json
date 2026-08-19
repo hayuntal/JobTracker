@@ -1,5 +1,5 @@
 {
-  "count": 209,
+  "count": 211,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -345,6 +345,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-genecit-4454003188"
     },
+    "35a1b191db0e371f": {
+      "company": "Medulla",
+      "first_seen": "2026-08-19T09:26:25+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-medulla-4456184272"
+    },
     "35c6b9037d0d94e4": {
       "company": "Prisma Photonics",
       "first_seen": "2026-08-13T01:18:28+00:00",
@@ -384,6 +392,14 @@
       "source": "greenhouse",
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7971236"
+    },
+    "3b7043fd71bf01db": {
+      "company": "Harel Insurance & Finance",
+      "first_seen": "2026-08-19T09:26:25+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-analyst-at-harel-insurance-finance-4453426199"
     },
     "3bf8a631eafa96c3": {
       "company": "Aman Group",
@@ -1674,5 +1690,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-19T07:32:37+00:00"
+  "updated_at": "2026-08-19T09:26:26+00:00"
 }
