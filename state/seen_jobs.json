@@ -1,5 +1,5 @@
 {
-  "count": 222,
+  "count": 223,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1681,6 +1681,14 @@
       "title": "Lead Data Scientist JB-3472",
       "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-jb-3472-at-megayeset-recruiting-head-hunting-and-hr-consulting-%D7%9E%D7%92%D7%99%D7%99%D7%A1%D7%AA-%D7%94%D7%A9%D7%9E%D7%94-%D7%95%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9-4455203505"
     },
+    "efb4b8f5824a1ec8": {
+      "company": "Analytical Factor",
+      "first_seen": "2026-08-20T00:49:09+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Junior Data Analyst - Supply Chain | Full-Time, On-Site | Rishon LeZion",
+      "url": "https://il.linkedin.com/jobs/view/junior-data-analyst-supply-chain-full-time-on-site-rishon-lezion-at-analytical-factor-4455411789"
+    },
     "efe7f87e0e50a7ce": {
       "company": "ONE ZERO BANK",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -1778,5 +1786,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-19T17:21:12+00:00"
+  "updated_at": "2026-08-20T00:49:09+00:00"
 }
