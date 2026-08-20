@@ -1,5 +1,5 @@
 {
-  "count": 224,
+  "count": 225,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1113,6 +1113,14 @@
       "title": "AI Researcher & Data Scientist - Entry Level (Quantitative STEM)",
       "url": "https://il.linkedin.com/jobs/view/ai-researcher-data-scientist-entry-level-quantitative-stem-at-infinitylabs-r-d-4450258301"
     },
+    "a2338c6d284698f6": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-20T08:29:24+00:00",
+      "location": "Tel Aviv-Yafo, Israel",
+      "source": "greenhouse",
+      "title": "Ops Data Engineer",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8143476"
+    },
     "a326b03298cfa3d3": {
       "company": "PLAYSTUDIOS",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -1794,5 +1802,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-20T07:35:34+00:00"
+  "updated_at": "2026-08-20T08:29:25+00:00"
 }
