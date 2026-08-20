@@ -1,5 +1,5 @@
 {
-  "count": 223,
+  "count": 224,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1169,6 +1169,14 @@
       "title": "Senior Data Scientist ",
       "url": "https://job-boards.greenhouse.io/melio/jobs/7765818003"
     },
+    "ade12d66ac2b23e6": {
+      "company": "Phoenix Financial",
+      "first_seen": "2026-08-20T07:35:33+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist - 50400399",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-50400399-at-phoenix-financial-4455497585"
+    },
     "ae83181e72f9f079": {
       "company": "Aidoc",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -1786,5 +1794,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-20T00:49:09+00:00"
+  "updated_at": "2026-08-20T07:35:34+00:00"
 }
