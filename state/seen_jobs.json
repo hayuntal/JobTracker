@@ -1,5 +1,5 @@
 {
-  "count": 227,
+  "count": 229,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -264,6 +264,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-airwayz-4452246538"
+    },
+    "28f81cc536a73df7": {
+      "company": "Logica-IT",
+      "first_seen": "2026-08-20T10:22:23+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Tech Lead Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/tech-lead-data-scientist-at-logica-it-4453426303"
     },
     "2a1423556c6bb3b6": {
       "company": "SQLink Group",
@@ -1761,6 +1769,14 @@
       "title": "Data scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-8fig-4454080313"
     },
+    "f600b53ee96dbab2": {
+      "company": "Arpeely",
+      "first_seen": "2026-08-20T10:22:23+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-arpeely-4455601772"
+    },
     "f6d2557954158801": {
       "company": "Percepto",
       "first_seen": "2026-08-08T15:22:38+00:00",
@@ -1818,5 +1834,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-20T09:26:56+00:00"
+  "updated_at": "2026-08-20T10:22:24+00:00"
 }
