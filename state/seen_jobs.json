@@ -1,5 +1,5 @@
 {
-  "count": 239,
+  "count": 241,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -112,6 +112,14 @@
       "source": "linkedin",
       "title": "AI Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/ai-data-engineer-at-millennium-4444013243"
+    },
+    "164a292fb1f0d221": {
+      "company": "Teads",
+      "first_seen": "2026-08-21T14:27:29+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-teads-4426862213"
     },
     "171fea10024e0345": {
       "company": "ICE",
@@ -528,6 +536,14 @@
       "source": "linkedin",
       "title": "Senior Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-business-analyst-at-rounds-4426784889"
+    },
+    "440cef66c963fb5e": {
+      "company": "PwC Israel",
+      "first_seen": "2026-08-21T14:27:29+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist - JB-745",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-jb-745-at-pwc-israel-4456724830"
     },
     "442a092126d4f97a": {
       "company": "Sensifai Health",
@@ -1914,5 +1930,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-21T12:31:59+00:00"
+  "updated_at": "2026-08-21T14:27:30+00:00"
 }
