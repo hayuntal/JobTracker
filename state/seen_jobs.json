@@ -1,5 +1,5 @@
 {
-  "count": 237,
+  "count": 238,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -592,6 +592,14 @@
       "source": "linkedin",
       "title": "Data & BI Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-bi-engineer-at-rhino-federated-computing-4450188239"
+    },
+    "4a8dde0cda107157": {
+      "company": "Jobgether",
+      "first_seen": "2026-08-21T06:34:10+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Azure Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/azure-data-engineer-at-jobgether-4456083513"
     },
     "4afaec2c4aba8440": {
       "company": "Taboola",
@@ -1898,5 +1906,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-21T03:44:16+00:00"
+  "updated_at": "2026-08-21T06:34:11+00:00"
 }
