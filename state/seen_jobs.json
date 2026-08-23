@@ -1,5 +1,5 @@
 {
-  "count": 241,
+  "count": 242,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -64,6 +64,14 @@
       "source": "linkedin",
       "title": "Data Engineer (.NET / Kafka / ETL)",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-net-kafka-etl-at-abra-4451691125"
+    },
+    "0facbe5e42f27d6c": {
+      "company": "Find Data Science Jobs",
+      "first_seen": "2026-08-23T09:21:17+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Sr. AI Backend & Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/sr-ai-backend-data-engineer-at-find-data-science-jobs-4457546077"
     },
     "103f776c00bbb282": {
       "company": "Tel Aviv Yafo Municipality",
@@ -1930,5 +1938,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-21T14:27:30+00:00"
+  "updated_at": "2026-08-23T09:21:18+00:00"
 }
