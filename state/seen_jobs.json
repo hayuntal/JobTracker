@@ -1,5 +1,5 @@
 {
-  "count": 247,
+  "count": 248,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1585,6 +1585,14 @@
       "title": "Staff Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/staff-data-engineer-at-medulla-4448949633"
     },
+    "c9fbccb32da29900": {
+      "company": "Moveo Source",
+      "first_seen": "2026-08-23T16:17:02+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-at-moveo-source-4456812514"
+    },
     "cd84d69bcfe0f41c": {
       "company": "Armis",
       "first_seen": "2026-08-16T15:14:42+00:00",
@@ -1978,5 +1986,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-23T15:15:23+00:00"
+  "updated_at": "2026-08-23T16:17:03+00:00"
 }
