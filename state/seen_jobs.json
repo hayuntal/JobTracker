@@ -1,5 +1,5 @@
 {
-  "count": 250,
+  "count": 252,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1417,6 +1417,14 @@
       "title": "Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-analyst-at-blockaid-4450937569"
     },
+    "bb6130fc8c8efd0d": {
+      "company": "John Bryce",
+      "first_seen": "2026-08-24T07:52:45+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer Junior",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-junior-at-john-bryce-4452239044"
+    },
     "bb9960fa52a67d22": {
       "company": "Discount Bank בנק דיסקונט",
       "first_seen": "2026-08-12T12:52:21+00:00",
@@ -1793,6 +1801,14 @@
       "title": "Data Engineer Team Leader",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-team-leader-at-one-zero-bank-4443244263"
     },
+    "e5685702c79c4cd2": {
+      "company": "Placer.ai",
+      "first_seen": "2026-08-24T07:52:45+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Big Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/big-data-engineer-at-placer-ai-4458166206"
+    },
     "e639187b85b4179a": {
       "company": "Cybersecurity Company",
       "first_seen": "2026-08-10T11:01:41+00:00",
@@ -2002,5 +2018,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-24T05:32:42+00:00"
+  "updated_at": "2026-08-24T07:52:45+00:00"
 }
