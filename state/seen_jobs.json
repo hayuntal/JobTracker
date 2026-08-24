@@ -1,5 +1,5 @@
 {
-  "count": 259,
+  "count": 261,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -16,6 +16,14 @@
       "source": "greenhouse",
       "title": "Software & Data Engineer",
       "url": "https://job-boards.greenhouse.io/via/jobs/8557879002"
+    },
+    "0345c87f9856f873": {
+      "company": "PAPAYA",
+      "first_seen": "2026-08-24T15:32:16+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-machine-learning-engineer-at-papaya-4443783232"
     },
     "034bf87ceb5bfe92": {
       "company": "Experis Israel",
@@ -1177,6 +1185,14 @@
       "title": "Senior / Staff Data Engineer (BI) – CEG Team",
       "url": "https://il.linkedin.com/jobs/view/senior-staff-data-engineer-bi-%E2%80%93-ceg-team-at-agoda-4455258222"
     },
+    "94fd565c0fa0cf20": {
+      "company": "comblack",
+      "first_seen": "2026-08-24T15:32:16+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-comblack-4458188907"
+    },
     "9562c0675dffcfbc": {
       "company": "DT",
       "first_seen": "2026-08-11T14:15:58+00:00",
@@ -2074,5 +2090,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-24T12:34:00+00:00"
+  "updated_at": "2026-08-24T15:32:16+00:00"
 }
