@@ -1,5 +1,5 @@
 {
-  "count": 272,
+  "count": 274,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -593,6 +593,14 @@
       "title": "Senior Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-business-analyst-at-rounds-4426784889"
     },
+    "42dcea3858f5d2cd": {
+      "company": "HoneyBook",
+      "first_seen": "2026-08-25T14:37:54+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-honeybook-4456923326"
+    },
     "43f7631192ed39d5": {
       "company": "Vega",
       "first_seen": "2026-08-24T21:21:50+00:00",
@@ -736,6 +744,14 @@
       "source": "linkedin",
       "title": "Product Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-tailor-brands-4455239705"
+    },
+    "52490e06ca41edb1": {
+      "company": "PLAYSTUDIOS",
+      "first_seen": "2026-08-25T14:37:54+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Gaming Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/gaming-business-analyst-at-playstudios-4437223401"
     },
     "53f5ddf4547172ac": {
       "company": "Varonis",
@@ -2178,5 +2194,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-25T12:33:48+00:00"
+  "updated_at": "2026-08-25T14:37:56+00:00"
 }
