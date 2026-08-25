@@ -1,5 +1,5 @@
 {
-  "count": 270,
+  "count": 271,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1729,6 +1729,14 @@
       "title": "Senior Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-at-moveo-source-4456812514"
     },
+    "ccfb55932b18ebb6": {
+      "company": "Jobgether",
+      "first_seen": "2026-08-25T11:21:02+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Team Lead Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/team-lead-product-analyst-at-jobgether-4457464817"
+    },
     "cd453bae55793365": {
       "company": "Hire-Match",
       "first_seen": "2026-08-24T12:34:00+00:00",
@@ -2162,5 +2170,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-25T10:24:45+00:00"
+  "updated_at": "2026-08-25T11:21:03+00:00"
 }
