@@ -1,5 +1,5 @@
 {
-  "count": 274,
+  "count": 275,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -152,6 +152,14 @@
       "source": "linkedin",
       "title": "AI Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/ai-data-engineer-at-millennium-4444013243"
+    },
+    "15e93c7d73198d4e": {
+      "company": "Kinetiqo Ltd.",
+      "first_seen": "2026-08-25T18:29:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Junior Business Analyst - Growth & Operations",
+      "url": "https://il.linkedin.com/jobs/view/junior-business-analyst-growth-operations-at-kinetiqo-ltd-4455826881"
     },
     "164a292fb1f0d221": {
       "company": "Teads",
@@ -2194,5 +2202,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-25T14:37:56+00:00"
+  "updated_at": "2026-08-25T18:29:08+00:00"
 }
