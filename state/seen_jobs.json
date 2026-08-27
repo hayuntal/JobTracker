@@ -1,5 +1,5 @@
 {
-  "count": 293,
+  "count": 298,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -320,6 +320,14 @@
       "source": "linkedin",
       "title": "Senior Backend Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-backend-data-engineer-at-eleos-health-4429931320"
+    },
+    "2834d99abe3f506b": {
+      "company": "Samsung Semiconductor",
+      "first_seen": "2026-08-27T23:26:12+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-samsung-semiconductor-4434983896"
     },
     "28a3965977620fa5": {
       "company": "Airwayz",
@@ -1505,6 +1513,14 @@
       "title": "AI Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/ai-data-engineer-at-port-io-4448202063"
     },
+    "adb7c0567fd1cc8a": {
+      "company": "GENECIT",
+      "first_seen": "2026-08-27T23:26:12+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Lead Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-genecit-4455878317"
+    },
     "ade12d66ac2b23e6": {
       "company": "Phoenix Financial",
       "first_seen": "2026-08-20T07:35:33+00:00",
@@ -1777,6 +1793,14 @@
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-finout-4449045308"
     },
+    "c5bf2a59a938ef30": {
+      "company": "HAAT Delivery",
+      "first_seen": "2026-08-27T23:26:12+00:00",
+      "location": "North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer - Real Time Streams",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-real-time-streams-at-haat-delivery-4457778142"
+    },
     "c652daf5d6f05f76": {
       "company": "CaliAlfa (Previously Alfabet)",
       "first_seen": "2026-08-24T09:39:29+00:00",
@@ -1936,6 +1960,14 @@
       "source": "linkedin",
       "title": "Senior BI Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-bi-data-engineer-at-checkmarx-4430326429"
+    },
+    "d5da89ffca99e613": {
+      "company": "EY",
+      "first_seen": "2026-08-27T23:26:12+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist לצוות Industry Tech",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-%D7%9C%D7%A6%D7%95%D7%95%D7%AA-industry-tech-at-ey-4457739889"
     },
     "d6614d6dcb34fe8b": {
       "company": "Aidoc",
@@ -2305,6 +2337,14 @@
       "title": "Data Engineer- 2628",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-2628-at-shabak-israeli-security-agency-career-4445850181"
     },
+    "fabc937896b92a85": {
+      "company": "KESHET-HR",
+      "first_seen": "2026-08-27T23:26:12+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-4459876059"
+    },
     "fbae11205cbd1524": {
       "company": "Nift",
       "first_seen": "2026-08-07T22:28:19+00:00",
@@ -2346,5 +2386,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-27T13:27:12+00:00"
+  "updated_at": "2026-08-27T23:26:12+00:00"
 }
