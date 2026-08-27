@@ -1,5 +1,5 @@
 {
-  "count": 286,
+  "count": 293,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -384,6 +384,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-mobileye-4398784947"
+    },
+    "2d8b0e738aff19b8": {
+      "company": "CaliAlfa (Previously Alfabet)",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-calialfa-previously-alfabet-4431967059"
     },
     "2deb70d6f93257ba": {
       "company": "BioCatch",
@@ -1225,6 +1233,14 @@
       "title": "Applied Data Scientist, Health AI Evaluation & Datasets",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-health-ai-evaluation-datasets-at-innodata-inc-4448085968"
     },
+    "8860008b29251926": {
+      "company": "Similarweb",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Tel Aviv-Yafo, Israel",
+      "source": "greenhouse",
+      "title": "Senior Ops Data Engineer",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8143476"
+    },
     "88e0c7faaca6a3b7": {
       "company": "Prisma Photonics",
       "first_seen": "2026-08-17T09:34:12+00:00",
@@ -1248,6 +1264,14 @@
       "source": "linkedin",
       "title": "Data Engineer (Elasticsearch & Kafka) | חובה סיווג ביטחוני אזרחי רמה 3",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-elasticsearch-kafka-%D7%97%D7%95%D7%91%D7%94-%D7%A1%D7%99%D7%95%D7%95%D7%92-%D7%91%D7%99%D7%98%D7%97%D7%95%D7%A0%D7%99-%D7%90%D7%96%D7%A8%D7%97%D7%99-%D7%A8%D7%9E%D7%94-3-at-octally-integration-4451797291"
+    },
+    "8d1f3cf9db82eb56": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst (37417)",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-37417-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4459809196"
     },
     "8d62750ce7f68b3a": {
       "company": "Shavit Software",
@@ -1745,6 +1769,14 @@
       "title": "Data Scientist – Maternity Leave Cover (Long-Term)",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-%E2%80%93-maternity-leave-cover-long-term-at-bringg-4450147629"
     },
+    "c5a62595ca7f79e6": {
+      "company": "Finout",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-finout-4449045308"
+    },
     "c652daf5d6f05f76": {
       "company": "CaliAlfa (Previously Alfabet)",
       "first_seen": "2026-08-24T09:39:29+00:00",
@@ -1864,6 +1896,14 @@
       "source": "linkedin",
       "title": "Data Scientist - Network Intelligence",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-network-intelligence-at-webbing-4427649516"
+    },
+    "d2f625b85d47fc79": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer (37419)",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-37419-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4459815191"
     },
     "d466fdcdf92e8941": {
       "company": "AppsFlyer",
@@ -2137,6 +2177,22 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-autofleet-4436078442"
     },
+    "ed0dc70e7628c67d": {
+      "company": "HoneyBook",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-honeybook-4456923326"
+    },
+    "ee2ff65057beaa69": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-08-27T13:27:12+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist specializing in AI (37437)",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-specializing-in-ai-37437-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4459691932"
+    },
     "ee87bc6f5a4d4875": {
       "company": "Triple Whale",
       "first_seen": "2026-08-15T11:13:37+00:00",
@@ -2290,5 +2346,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-26T21:32:33+00:00"
+  "updated_at": "2026-08-27T13:27:12+00:00"
 }
