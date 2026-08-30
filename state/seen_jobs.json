@@ -1,5 +1,5 @@
 {
-  "count": 308,
+  "count": 312,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1065,6 +1065,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-allcloud-4456483124"
     },
+    "71cfd93bf7e733c7": {
+      "company": "Helfy",
+      "first_seen": "2026-08-30T18:20:10+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-analyst-at-helfy-4461000037"
+    },
     "742012adae826501": {
       "company": "Bridgify",
       "first_seen": "2026-08-09T09:32:36+00:00",
@@ -1465,6 +1473,14 @@
       "title": "AI Researcher & Data Scientist - Entry Level (Quantitative STEM)",
       "url": "https://il.linkedin.com/jobs/view/ai-researcher-data-scientist-entry-level-quantitative-stem-at-infinitylabs-r-d-4450258301"
     },
+    "a1d863638c6f786a": {
+      "company": "Yael Group",
+      "first_seen": "2026-08-30T18:20:10+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer (25600)",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-25600-at-yael-group-4458844326"
+    },
     "a2338c6d284698f6": {
       "company": "Similarweb",
       "first_seen": "2026-08-20T08:29:24+00:00",
@@ -1696,6 +1712,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-grain-4456488882"
+    },
+    "bc3403b4e6478afc": {
+      "company": "KLA",
+      "first_seen": "2026-08-30T18:20:10+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Algorithm Developer – Deep Learning",
+      "url": "https://il.linkedin.com/jobs/view/senior-algorithm-developer-%E2%80%93-deep-learning-at-kla-4411552045"
     },
     "bc47eb2afacc6a64": {
       "company": "DRW",
@@ -1984,6 +2008,14 @@
       "source": "linkedin",
       "title": "Data Engineer (37419)",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-37419-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4459815191"
+    },
+    "d30f9678df1a091b": {
+      "company": "Logica-IT",
+      "first_seen": "2026-08-30T18:20:10+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-logica-it-4458844332"
     },
     "d466fdcdf92e8941": {
       "company": "AppsFlyer",
@@ -2466,5 +2498,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-30T14:12:05+00:00"
+  "updated_at": "2026-08-30T18:20:10+00:00"
 }
