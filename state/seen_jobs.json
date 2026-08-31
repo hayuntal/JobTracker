@@ -1,5 +1,5 @@
 {
-  "count": 313,
+  "count": 315,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -760,6 +760,14 @@
       "source": "linkedin",
       "title": "Azure Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/azure-data-engineer-at-jobgether-4456083513"
+    },
+    "4adfc5fc97850708": {
+      "company": "NVIDIA AI",
+      "first_seen": "2026-08-31T06:30:23+00:00",
+      "location": "Yoqneam Illit, North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Business Intelligence Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-business-intelligence-analyst-at-nvidia-ai-4458885094"
     },
     "4afaec2c4aba8440": {
       "company": "Taboola",
@@ -2153,6 +2161,14 @@
       "title": "Senior Data Scientist – Personalisation & E-commerce Intelligence",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-%E2%80%93-personalisation-e-commerce-intelligence-at-ecommerce-guide-4460860592"
     },
+    "de2044811f499176": {
+      "company": "Jobgether",
+      "first_seen": "2026-08-31T06:30:23+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Sr. Healthcare Data Scientist (Medicare/Medicaid)",
+      "url": "https://il.linkedin.com/jobs/view/sr-healthcare-data-scientist-medicare-medicaid-at-jobgether-4459764021"
+    },
     "dfe49cd0bccb08f1": {
       "company": "Elad Software Systems",
       "first_seen": "2026-08-17T14:20:28+00:00",
@@ -2506,5 +2522,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-08-30T21:47:29+00:00"
+  "updated_at": "2026-08-31T06:30:23+00:00"
 }
