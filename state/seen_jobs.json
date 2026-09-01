@@ -1,5 +1,5 @@
 {
-  "count": 328,
+  "count": 330,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1393,6 +1393,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-shavit-software-4455181383"
     },
+    "8d9960a878625ce1": {
+      "company": "Confidential Careers",
+      "first_seen": "2026-09-01T15:24:36+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-confidential-careers-4459288658"
+    },
     "8e22967f8ae0044f": {
       "company": "Experis Israel",
       "first_seen": "2026-08-12T07:13:45+00:00",
@@ -1488,6 +1496,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-plateapp-4451206800"
+    },
+    "9a11ceb78a66f808": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-01T15:24:36+00:00",
+      "location": "Yokneam Ilit, North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Business Intelligence Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-business-intelligence-analyst-at-nvidia-4460091336"
     },
     "9a823aa8c8e39005": {
       "company": "G-STAT",
@@ -2626,5 +2642,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-01T10:58:49+00:00"
+  "updated_at": "2026-09-01T15:24:36+00:00"
 }
