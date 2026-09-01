@@ -1,5 +1,5 @@
 {
-  "count": 325,
+  "count": 326,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -568,6 +568,14 @@
       "source": "linkedin",
       "title": "Business Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-data-analyst-at-moon-active-4447017590"
+    },
+    "388f2dec7e5fa231": {
+      "company": "HiBob",
+      "first_seen": "2026-09-01T05:56:43+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Product Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/ai-product-data-analyst-at-hibob-4461002711"
     },
     "39813f26755fcdca": {
       "company": "Experis Academy Israel",
@@ -2602,5 +2610,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-01T00:16:49+00:00"
+  "updated_at": "2026-09-01T05:56:44+00:00"
 }
