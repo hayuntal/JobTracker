@@ -1,5 +1,5 @@
 {
-  "count": 339,
+  "count": 341,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -816,6 +816,14 @@
       "source": "linkedin",
       "title": "Data & BI Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-bi-engineer-at-rhino-federated-computing-4450188239"
+    },
+    "49bd627c21f30933": {
+      "company": "Immunai",
+      "first_seen": "2026-09-02T21:29:37+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-immunai-4459858938"
     },
     "4a8dde0cda107157": {
       "company": "Jobgether",
@@ -1865,6 +1873,14 @@
       "title": "Data Scientist למחלקת כרטיסי אשראי ואמצעי תשלום",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-%D7%9C%D7%9E%D7%97%D7%9C%D7%A7%D7%AA-%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99-%D7%90%D7%A9%D7%A8%D7%90%D7%99-%D7%95%D7%90%D7%9E%D7%A6%D7%A2%D7%99-%D7%AA%D7%A9%D7%9C%D7%95%D7%9D-at-discount-bank-%D7%91%D7%A0%D7%A7-%D7%93%D7%99%D7%A1%D7%A7%D7%95%D7%A0%D7%98-4453105304"
     },
+    "bc1d3bf7543084e8": {
+      "company": "EverC",
+      "first_seen": "2026-09-02T21:29:37+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist – AI & Data Platforms",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-%E2%80%93-ai-data-platforms-at-everc-4462174358"
+    },
     "bc27c9f1dafcec9e": {
       "company": "Grain",
       "first_seen": "2026-08-20T12:33:03+00:00",
@@ -2714,5 +2730,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-02T18:18:46+00:00"
+  "updated_at": "2026-09-02T21:29:37+00:00"
 }
