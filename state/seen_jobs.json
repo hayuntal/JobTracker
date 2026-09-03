@@ -1,5 +1,5 @@
 {
-  "count": 349,
+  "count": 350,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1625,6 +1625,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-g-stat-4451108454"
     },
+    "9c1936be2a463255": {
+      "company": "Rafael Advanced Defense Systems",
+      "first_seen": "2026-09-03T22:06:09+00:00",
+      "location": "North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-rafael-advanced-defense-systems-4462794757"
+    },
     "9c8c204495ab54ee": {
       "company": "comblack",
       "first_seen": "2026-08-31T14:42:25+00:00",
@@ -2794,5 +2802,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-03T16:49:48+00:00"
+  "updated_at": "2026-09-03T22:06:10+00:00"
 }
