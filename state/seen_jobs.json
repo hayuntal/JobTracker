@@ -1,5 +1,5 @@
 {
-  "count": 342,
+  "count": 349,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -152,6 +152,14 @@
       "source": "workday",
       "title": "Principal Data Engineer (Cortex)",
       "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Tel-Aviv/Principal-Data-Engineer--Cortex-_JR-016610"
+    },
+    "13c84f528a76ee56": {
+      "company": "Yael Group",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer (25635)",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-25635-at-yael-group-4460715728"
     },
     "15b2a8b5fb00ee7b": {
       "company": "Gotfriends",
@@ -401,6 +409,14 @@
       "title": "Tech Lead Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/tech-lead-data-scientist-at-logica-it-4453426303"
     },
+    "29ce39c5beede360": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist (37514)",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-37514-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4462855187"
+    },
     "2a1423556c6bb3b6": {
       "company": "SQLink Group",
       "first_seen": "2026-08-18T10:21:13+00:00",
@@ -472,6 +488,14 @@
       "source": "linkedin",
       "title": "Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-analyst-at-artlist-4457491826"
+    },
+    "2e8076178696904f": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Analyst (37485)",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-37485-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4462836413"
     },
     "2f2051cfefbcba3b": {
       "company": "Mobileye",
@@ -664,6 +688,14 @@
       "source": "linkedin",
       "title": "Data Engineer Manager",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-manager-at-rakuten-viber-4454082465"
+    },
+    "3d04c71aab44426e": {
+      "company": "DoiT",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-analyst-at-doit-4459541740"
     },
     "3da75ee7e054fad2": {
       "company": "entrypoint",
@@ -913,6 +945,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-varonis-4452462599"
     },
+    "548c9a4e4f6552fc": {
+      "company": "Omri HR",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-analyst-4176188553"
+    },
     "54e01b0f27981da0": {
       "company": "Nift",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -968,6 +1008,14 @@
       "source": "linkedin",
       "title": "Data Engineer - Attribute™",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-attribute%E2%84%A2-at-doit-4449569064"
+    },
+    "5a9317eef6c9378c": {
+      "company": "Yael Group",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst (25346)",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-25346-at-yael-group-4460475610"
     },
     "5aab6a9bc930fc00": {
       "company": "Extreme",
@@ -1800,6 +1848,14 @@
       "source": "greenhouse",
       "title": "Core Data - Big Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
+    },
+    "b2140a9f12d0de5e": {
+      "company": "Peak Innovation",
+      "first_seen": "2026-09-03T16:49:48+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-peak-innovation-4460700720"
     },
     "b2d3df625a977792": {
       "company": "Octally Integration",
@@ -2738,5 +2794,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-03T12:26:34+00:00"
+  "updated_at": "2026-09-03T16:49:48+00:00"
 }
