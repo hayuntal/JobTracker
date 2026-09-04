@@ -1,5 +1,5 @@
 {
-  "count": 350,
+  "count": 354,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -753,6 +753,14 @@
       "title": "Product Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-honeybook-4456923326"
     },
+    "43266423181a90b5": {
+      "company": "TLVTech",
+      "first_seen": "2026-09-04T00:36:11+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-tlvtech-4458856049"
+    },
     "433d5e635a9195f1": {
       "company": "Hello Heart",
       "first_seen": "2026-08-26T14:37:44+00:00",
@@ -1145,6 +1153,14 @@
       "title": "Machine Learning Engineer",
       "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-dialog-4456581622"
     },
+    "64395089ea742118": {
+      "company": "EPAM Systems",
+      "first_seen": "2026-09-04T00:36:11+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-epam-systems-4461909813"
+    },
     "645befeca4af68d3": {
       "company": "Action Item Solutions",
       "first_seen": "2026-09-02T10:20:02+00:00",
@@ -1480,6 +1496,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-lusha-4456301263"
+    },
+    "8a062dc76bbf3c74": {
+      "company": "Yuval HR - Talent agency and advisory",
+      "first_seen": "2026-09-04T00:36:11+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Analyst (B2C)",
+      "url": "https://il.linkedin.com/jobs/view/business-analyst-b2c-at-yuval-hr-talent-agency-and-advisory-4463132134"
     },
     "8ba8c983b38e0bc6": {
       "company": "Octally Integration",
@@ -2769,6 +2793,14 @@
       "title": "Business Intelligence Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-intelligence-analyst-at-comblack-4459852860"
     },
+    "fd62bd60afebd6b8": {
+      "company": "Experis Academy Israel",
+      "first_seen": "2026-09-04T00:36:11+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Entry-Level BI / Data Analyst Role – Training + Placement",
+      "url": "https://il.linkedin.com/jobs/view/entry-level-bi-data-analyst-role-%E2%80%93-training-%2B-placement-at-experis-academy-israel-4460472803"
+    },
     "fde5a139eb2632ea": {
       "company": "Jobgether",
       "first_seen": "2026-08-13T09:56:40+00:00",
@@ -2802,5 +2834,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-03T22:06:10+00:00"
+  "updated_at": "2026-09-04T00:36:11+00:00"
 }
