@@ -1,5 +1,5 @@
 {
-  "count": 363,
+  "count": 366,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -40,6 +40,14 @@
       "source": "linkedin",
       "title": "Data Scientist | Visa JB-26773",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-visa-jb-26773-at-cal-israel-credit-cards-4453418783"
+    },
+    "0a8445e923f18f6d": {
+      "company": "Yael Group",
+      "first_seen": "2026-09-07T16:59:23+00:00",
+      "location": "West Jerusalem, Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-yael-group-4462214298"
     },
     "0bbcc20713201857": {
       "company": "Checkout.com",
@@ -424,6 +432,14 @@
       "source": "linkedin",
       "title": "Tech Lead Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/tech-lead-data-scientist-at-logica-it-4453426303"
+    },
+    "290c379f6f016c76": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-09-07T16:59:23+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer (37493)",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-37493-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4464356205"
     },
     "29ce39c5beede360": {
       "company": "מרטנס | Mertens – מקבוצת מלם תים",
@@ -1336,6 +1352,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-bleader-4451773838"
+    },
+    "784d792cbf7a617a": {
+      "company": "AppsFlyer",
+      "first_seen": "2026-09-07T16:59:23+00:00",
+      "location": "Herzliya",
+      "source": "greenhouse",
+      "title": "Data Analyst - Temporary position (9 months)",
+      "url": "https://careers.appsflyer.com/jobs/position/8725456002?gh_jid=8725456002"
     },
     "786976bb27fe2cbc": {
       "company": "Hexight",
@@ -2906,5 +2930,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-07T11:13:57+00:00"
+  "updated_at": "2026-09-07T16:59:23+00:00"
 }
