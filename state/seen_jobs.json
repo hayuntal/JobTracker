@@ -1,5 +1,5 @@
 {
-  "count": 386,
+  "count": 390,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -144,6 +144,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-eleos-health-4464309483"
+    },
+    "118b7239f05f7ae4": {
+      "company": "Mobileye",
+      "first_seen": "2026-09-09T05:41:02+00:00",
+      "location": "Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Algorithm Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/algorithm-data-analyst-at-mobileye-4463506240"
     },
     "11b44e61cf53fcf3": {
       "company": "A Security",
@@ -369,6 +377,14 @@
       "title": "Data Scientist",
       "url": "https://join.jfrog.com/job/?job=8131741&gh_jid=8131741"
     },
+    "20abce173407a247": {
+      "company": "Stealth Startup",
+      "first_seen": "2026-09-09T05:41:02+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Founding Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/founding-data-engineer-at-stealth-startup-4462954084"
+    },
     "22752e61ee014ef2": {
       "company": "Eleos Health",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -512,6 +528,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-integress-inc-4456032057"
+    },
+    "2c0610ff31ea67f1": {
+      "company": "Deloitte",
+      "first_seen": "2026-09-09T05:41:02+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-deloitte-4464477520"
     },
     "2c1af3625ad4f9f0": {
       "company": "Scopely",
@@ -1504,6 +1528,14 @@
       "source": "linkedin",
       "title": "Senior Business Intelligence Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-business-intelligence-analyst-at-comblack-4459832984"
+    },
+    "79bfdde9cc45ad39": {
+      "company": "Revolut",
+      "first_seen": "2026-09-09T05:41:02+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Data Analyst (Finance)",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-finance-at-revolut-4437960601"
     },
     "79d092bb7799f937": {
       "company": "Priority Software",
@@ -3090,5 +3122,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-09T00:57:09+00:00"
+  "updated_at": "2026-09-09T05:41:03+00:00"
 }
