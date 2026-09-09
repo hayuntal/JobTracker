@@ -1,5 +1,5 @@
 {
-  "count": 391,
+  "count": 398,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -40,6 +40,14 @@
       "source": "linkedin",
       "title": "Data Scientist | Visa JB-26773",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-visa-jb-26773-at-cal-israel-credit-cards-4453418783"
+    },
+    "09e9cd0852f044f0": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "ETL Developer (36614)",
+      "url": "https://il.linkedin.com/jobs/view/etl-developer-36614-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4464341202"
     },
     "0a8445e923f18f6d": {
       "company": "Yael Group",
@@ -1008,6 +1016,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-immunai-4459858938"
+    },
+    "4a32656d61042d31": {
+      "company": "Cato Networks",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "GTM Business Analyst - Marketing",
+      "url": "https://www.catonetworks.com/careers/careers-post/4969554101?gh_jid=4969554101"
     },
     "4a8dde0cda107157": {
       "company": "Jobgether",
@@ -1985,6 +2001,14 @@
       "title": "Junior Marketing Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/junior-marketing-data-analyst-at-skyers-4455079756"
     },
+    "a75b7cab5fddedf4": {
+      "company": "DSG.AI",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-dsg-ai-4463025265"
+    },
     "a7ccadc2cb900779": {
       "company": "Yael Korentec Technologies",
       "first_seen": "2026-08-13T17:53:09+00:00",
@@ -2145,6 +2169,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-sqlink-group-4449559595"
     },
+    "b4fb201864c00e10": {
+      "company": "Log-On Software",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-log-on-software-4463041493"
+    },
     "b5a0188c9b77ec57": {
       "company": "ARAN Software",
       "first_seen": "2026-08-09T11:23:07+00:00",
@@ -2152,6 +2184,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-aran-software-4451339516"
+    },
+    "b7512a46f1ccbfcc": {
+      "company": "HR Home",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "North District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Engineer - Real Time Streams",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-real-time-streams-at-hr-home-4462941954"
     },
     "b80de8e873b19210": {
       "company": "Palo Alto Networks",
@@ -2249,6 +2289,14 @@
       "title": "Data Analytics Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-analytics-engineer-at-empathy-4432293293"
     },
+    "bcd2e8bfd27f8429": {
+      "company": "OnTarget Communications",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "Rishon LeZion, Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Big Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/senior-big-data-engineer-at-ontarget-communications-4464483006"
+    },
     "bcd6047643b0f7e6": {
       "company": "Lusha",
       "first_seen": "2026-09-08T19:45:09+00:00",
@@ -2280,6 +2328,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-alpha-similarweb-partner-4447344790"
+    },
+    "bf291487dcabc390": {
+      "company": "Logica-IT",
+      "first_seen": "2026-09-09T14:57:41+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-logica-it-4463026251"
     },
     "bf3586ecb3ac8396": {
       "company": "NVIDIA",
@@ -3130,5 +3186,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-09T10:32:24+00:00"
+  "updated_at": "2026-09-09T14:57:41+00:00"
 }
