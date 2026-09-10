@@ -1,5 +1,5 @@
 {
-  "count": 406,
+  "count": 412,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -8,6 +8,14 @@
       "source": "linkedin",
       "title": "Lead Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/lead-data-engineer-at-expressvpn-4455339439"
+    },
+    "0229976b32b46cd2": {
+      "company": "Hexion Inc.",
+      "first_seen": "2026-09-10T19:24:39+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-engineer-at-hexion-inc-4407792165"
     },
     "02f7ed4e3a17cea6": {
       "company": "Via",
@@ -1745,6 +1753,14 @@
       "title": "Senior Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-prisma-photonics-4398835486"
     },
+    "894da615a0a66d23": {
+      "company": "Speedata.io",
+      "first_seen": "2026-09-10T19:24:39+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Infrastructure Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-infrastructure-engineer-at-speedata-io-4465639580"
+    },
     "89d37ded7edc8858": {
       "company": "Lusha",
       "first_seen": "2026-08-24T12:34:00+00:00",
@@ -1920,6 +1936,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-g-stat-4451108454"
+    },
+    "9a8d900b38ebef5a": {
+      "company": "mylo AI",
+      "first_seen": "2026-09-10T19:24:39+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Senior Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-mylo-ai-4463900231"
     },
     "9c1936be2a463255": {
       "company": "Rafael Advanced Defense Systems",
@@ -2240,6 +2264,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer - Real Time Streams",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-real-time-streams-at-hr-home-4462941954"
+    },
+    "b790d9f004e4c938": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-09-10T19:24:39+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Analyst (37570)",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-37570-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4465655386"
     },
     "b80de8e873b19210": {
       "company": "Palo Alto Networks",
@@ -2649,6 +2681,14 @@
       "title": "Data Scientist - Network Intelligence",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-network-intelligence-at-webbing-4427649516"
     },
+    "d082203555ad61bf": {
+      "company": "Mobileye",
+      "first_seen": "2026-09-10T19:24:39+00:00",
+      "location": "Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Algorithm Developer – REM Change Detection Team",
+      "url": "https://il.linkedin.com/jobs/view/algorithm-developer-%E2%80%93-rem-change-detection-team-at-mobileye-4464536078"
+    },
     "d2f625b85d47fc79": {
       "company": "מרטנס | Mertens – מקבוצת מלם תים",
       "first_seen": "2026-08-27T13:27:12+00:00",
@@ -3009,6 +3049,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-hello-heart-4449460132"
     },
+    "e91d7fa9fe55584a": {
+      "company": "Software AG Israel",
+      "first_seen": "2026-09-10T19:24:39+00:00",
+      "location": "West Jerusalem, Jerusalem District, Israel",
+      "source": "linkedin",
+      "title": "Senior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-software-ag-israel-4463426973"
+    },
     "e961cafbd0bd0936": {
       "company": "Arpeely",
       "first_seen": "2026-08-20T13:40:50+00:00",
@@ -3250,5 +3298,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-10T16:49:23+00:00"
+  "updated_at": "2026-09-10T19:24:40+00:00"
 }
