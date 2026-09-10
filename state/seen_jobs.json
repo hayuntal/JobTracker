@@ -1,5 +1,5 @@
 {
-  "count": 403,
+  "count": 406,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1353,6 +1353,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-action-item-solutions-4460959612"
     },
+    "65380585ac553cbf": {
+      "company": "FINQ ISRAEL",
+      "first_seen": "2026-09-10T16:49:22+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-finq-israel-4463486360"
+    },
     "66099e6ea580b2bb": {
       "company": "Gotfriends",
       "first_seen": "2026-09-06T13:52:49+00:00",
@@ -1649,6 +1657,14 @@
       "title": "Business Analyst - Channels",
       "url": "https://il.linkedin.com/jobs/view/business-analyst-channels-at-wix-4451523814"
     },
+    "827d7777c5c3bd16": {
+      "company": "ONE datAI",
+      "first_seen": "2026-09-10T16:49:22+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Business Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-data-analyst-at-one-datai-4463487684"
+    },
     "82d801ab97cefcf3": {
       "company": "Nisha Pro",
       "first_seen": "2026-08-31T14:42:25+00:00",
@@ -1928,6 +1944,14 @@
       "source": "linkedin",
       "title": "Senior Data Platform Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-platform-engineer-at-orca-ai-4445886593"
+    },
+    "9d46598e7ee0ae85": {
+      "company": "Axon Pulse",
+      "first_seen": "2026-09-10T16:49:22+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-axon-pulse-4464522733"
     },
     "9e17e8b08f5bc136": {
       "company": "Aqurate Data",
@@ -3226,5 +3250,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-10T12:34:53+00:00"
+  "updated_at": "2026-09-10T16:49:23+00:00"
 }
