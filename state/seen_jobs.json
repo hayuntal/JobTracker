@@ -1,5 +1,5 @@
 {
-  "count": 412,
+  "count": 413,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -8,6 +8,14 @@
       "source": "linkedin",
       "title": "Lead Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/lead-data-engineer-at-expressvpn-4455339439"
+    },
+    "020750deceebc7d7": {
+      "company": "mylo AI",
+      "first_seen": "2026-09-10T22:09:45+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-mylo-ai-4463905319"
     },
     "0229976b32b46cd2": {
       "company": "Hexion Inc.",
@@ -3298,5 +3306,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-10T19:24:40+00:00"
+  "updated_at": "2026-09-10T22:09:45+00:00"
 }
