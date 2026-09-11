@@ -1,5 +1,5 @@
 {
-  "count": 413,
+  "count": 414,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1753,6 +1753,14 @@
       "title": "Senior Ops Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/8143476"
     },
+    "889d12595412736a": {
+      "company": "DoiT",
+      "first_seen": "2026-09-11T10:22:01+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer - Cloud & SaaS Integrations",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-cloud-saas-integrations-at-doit-4466047682"
+    },
     "88e0c7faaca6a3b7": {
       "company": "Prisma Photonics",
       "first_seen": "2026-08-17T09:34:12+00:00",
@@ -3306,5 +3314,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-10T22:09:45+00:00"
+  "updated_at": "2026-09-11T10:22:02+00:00"
 }
