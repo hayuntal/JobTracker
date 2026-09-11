@@ -5,6 +5,10 @@
 # at least one job with an Israeli location. `verified_il_jobs` is the count at
 # the time of setup — it's a snapshot for reference, not used by the code.
 #
+# A token that resolves is NOT proof it is the right company: slugs like
+# `lever/via` or `greenhouse/next` hit real but unrelated boards. Nothing lands
+# here until its feed returns a posting in an actual Israeli city.
+#
 # To add a company, run:   /add-company <name>
 # ---------------------------------------------------------------------------
 
@@ -20,6 +24,11 @@ companies:
     token: appsflyer
     verified_il_jobs: 24
 
+  - name: Augury
+    provider: greenhouse
+    token: augury
+    verified_il_jobs: 3
+
   - name: Axonius
     provider: greenhouse
     token: axonius
@@ -30,10 +39,25 @@ companies:
     token: bigid
     verified_il_jobs: 1
 
+  - name: Bringg
+    provider: greenhouse
+    token: bringg
+    verified_il_jobs: 2
+
   - name: Cato Networks
     provider: greenhouse
     token: catonetworks
     verified_il_jobs: 43
+
+  - name: Cymulate
+    provider: greenhouse
+    token: cymulate
+    verified_il_jobs: 4
+
+  - name: Descope
+    provider: greenhouse
+    token: descope
+    verified_il_jobs: 2
 
   - name: Fireblocks
     provider: greenhouse
@@ -55,6 +79,11 @@ companies:
     token: jfrog
     verified_il_jobs: 9
 
+  - name: K Health
+    provider: greenhouse
+    token: khealthcareers
+    verified_il_jobs: 1
+
   - name: Lightricks
     provider: greenhouse
     token: lightricks
@@ -65,10 +94,29 @@ companies:
     token: melio
     verified_il_jobs: 9
 
+  # NICE Ltd — the board is the EU-hosted Greenhouse instance, but the same
+  # boards-api token works. Postings show as "Israel - Raanana".
+  - name: NICE
+    provider: greenhouse
+    token: nice
+    verified_il_jobs: 24
+
+  - name: Optimove
+    provider: greenhouse
+    token: optimove
+    verified_il_jobs: 4
+
   - name: Orca Security
     provider: greenhouse
     token: orcasecurity
     verified_il_jobs: 4
+
+  # Note the `is` suffix: the bare `pagaya` board is the US one and carries no
+  # Israeli postings at all. `pagayais` is the Israeli board.
+  - name: Pagaya
+    provider: greenhouse
+    token: pagayais
+    verified_il_jobs: 9
 
   - name: Payoneer
     provider: greenhouse
@@ -89,11 +137,6 @@ companies:
     provider: greenhouse
     token: similarweb
     verified_il_jobs: 24
-
-  - name: Sisense
-    provider: greenhouse
-    token: sisense
-    verified_il_jobs: 2
 
   - name: Taboola
     provider: greenhouse
@@ -125,17 +168,60 @@ companies:
     token: yotpo
     verified_il_jobs: 3
 
+  # ---- Lever -------------------------------------------------------------
+  - name: WalkMe
+    provider: lever
+    token: walkme
+    verified_il_jobs: 8
+
+  # Lever tokens are case-sensitive — lowercase `zadara` 404s.
+  - name: Zadara
+    provider: lever
+    token: Zadara
+    verified_il_jobs: 2
+
   # ---- SmartRecruiters ---------------------------------------------------
   - name: Armis
     provider: smartrecruiters
     token: armis
     verified_il_jobs: 2
 
+  - name: Kaltura
+    provider: smartrecruiters
+    token: kalturainc
+    verified_il_jobs: 3
+
   # ---- Ashby -------------------------------------------------------------
+  - name: Lemonade
+    provider: ashby
+    token: lemonade
+    verified_il_jobs: 22
+
+  - name: Nexxen
+    provider: ashby
+    token: nexxen
+    verified_il_jobs: 2
+
   - name: Simply
     provider: ashby
     token: simply
     verified_il_jobs: 6
+
+  - name: Singular
+    provider: ashby
+    token: singular
+    verified_il_jobs: 3
+
+  # Moved off Greenhouse — the old `greenhouse/sisense` board 404s now.
+  - name: Sisense
+    provider: ashby
+    token: sisense
+    verified_il_jobs: 2
+
+  - name: Unit
+    provider: ashby
+    token: unit
+    verified_il_jobs: 2
 
   # ---- Workday -------------------------------------------------------------
   - name: Palo Alto Networks
@@ -145,14 +231,114 @@ companies:
     wd: "5"
     verified_il_jobs: 160
 
+  - name: Unity
+    provider: workday
+    token: unitytech
+    site: Unity
+    wd: "1"
+    verified_il_jobs: 9
+
   # ---- Comeet ------------------------------------------------------------
-  # Comeet is very common in Israel (monday.com, Rapyd, eToro, Verbit,
-  # Coralogix, Playtika...). It needs a company UID + token pair that is only
-  # present in the JS-rendered careers page, so it can't be guessed like the
-  # others. Run `/add-company <name>` — it drives a browser to extract the
-  # pair — then entries appear here as:
+  # Comeet is the most common ATS on Israeli careers pages. It is not
+  # slug-addressable: each entry needs the company's own `uid` + `token` pair,
+  # which is embedded in the rendered careers page (as `COMEET.init({...})` or
+  # as `"comeet_token"`/`"comeet_uid"` in the WordPress embed). Requesting
+  # without the token returns {"status":400,"message":"Token is missing"}.
   #
-  # - name: Example Co
-  #   provider: comeet
-  #   uid: "12.ABC"
-  #   token: "34.DEF"
+  # These rotate. A 400 here means the pair was re-issued — re-extract it from
+  # the careers page rather than guessing.
+  - name: Aqua Security
+    provider: comeet
+    uid: "91.001"
+    token: "191644966966644E194B3191644644"
+    verified_il_jobs: 5
+
+  - name: Arbe
+    provider: comeet
+    uid: "C6.001"
+    token: "6C12886D821B0414432886144328862F472F47"
+    verified_il_jobs: 7
+
+  - name: CTERA
+    provider: comeet
+    uid: "A0.003"
+    token: "A328CA332FA3032F1E932FA3"
+    verified_il_jobs: 2
+
+  - name: eToro
+    provider: comeet
+    uid: "41.009"
+    token: "14952452466D3DB7B61495240B91"
+    verified_il_jobs: 3
+
+  - name: Justt
+    provider: comeet
+    uid: "36.001"
+    token: "6312526631018C41EF518C431883188C62"
+    verified_il_jobs: 3
+
+  - name: Minute Media
+    provider: comeet
+    uid: "45.00A"
+    token: "54A1A7225062A50FDE2F9A1FBC01FBC1528"
+    verified_il_jobs: 4
+
+  - name: Moovit
+    provider: comeet
+    uid: "63.007"
+    token: "36711036CE11031E9F146A1B38367A356CE"
+    verified_il_jobs: 1
+
+  - name: Nym Health
+    provider: comeet
+    uid: "46.005"
+    token: "645259E645C8A32281F59259E1F596453228"
+    verified_il_jobs: 2
+
+  - name: Panorays
+    provider: comeet
+    uid: "97.00D"
+    token: "79D2DAE1E7479D1E742DAE3CE802DAE1E74"
+    verified_il_jobs: 1
+
+  - name: Pentera
+    provider: comeet
+    uid: "C5.00D"
+    token: "5CD1D013435289B343501D012E682E68289B"
+    verified_il_jobs: 9
+
+  - name: Personetics
+    provider: comeet
+    uid: "83.00A"
+    token: "38A11B2A9E018C60153C714A9E38A"
+    verified_il_jobs: 9
+
+  - name: Silverfort
+    provider: comeet
+    uid: "54.007"
+    token: "45715B315B38AE22B8D051A0A457D051E61"
+    verified_il_jobs: 11
+
+  - name: Start.io
+    provider: comeet
+    uid: "B2.004"
+    token: "2B4D84056812EC185415A015A015A081C"
+    verified_il_jobs: 1
+
+  - name: Tailor Brands
+    provider: comeet
+    uid: "94.009"
+    token: "49916FD16FD24C89320DCB296116FD2961"
+    verified_il_jobs: 8
+
+  - name: Upwind
+    provider: comeet
+    uid: "49.004"
+    token: "94440DC0944094401BCC12882510"
+    verified_il_jobs: 18
+
+  - name: WSC Sports
+    provider: comeet
+    uid: "93.007"
+    token: "39711F3AC5AC539701CB81CB8204FE5C"
+    verified_il_jobs: 2

@@ -14,19 +14,32 @@
 # the `roles` patterns below do the filtering. LinkedIn is different: it has to
 # be asked for something, so this is that list.
 #
-# Keep it SHORT and BROAD. Each term costs ~12s of throttled requests, and
-# "Data Analyst" already brings back the senior/junior/product variants, which
-# the patterns below then filter properly. Adding "Senior Data Analyst" here
-# gains nothing and just slows every run down.
+# Keep it SHORT and BROAD. Each term costs ~12s of throttled requests (2 pages
+# at one request per 6s), and hammering LinkedIn earns a 429 that zeroes the
+# whole source for that run. "Data Analyst" already brings back the
+# senior/junior/product variants, which the patterns below then filter
+# properly — adding "Senior Data Analyst" here gains nothing.
+#
+# What DOES belong here is a role family LinkedIn cannot infer from the others.
+# Searching "Data Engineer" never returns "BI Developer" or "ML Engineer", so
+# those role groups were invisible to LinkedIn even though `roles` accepts them.
 search_queries:
   - Data Engineer
   - Data Analyst
   - Data Scientist
+  - Analytics Engineer
+  - BI Developer
+  - Machine Learning Engineer
+  - AI Engineer
 
 # ---------------------------------------------------------------------------
 # Target roles. `patterns` are matched case-insensitively against the job title
 # as whole words. Mode is "moderate": your three titles plus the equivalent
 # titles Israeli companies actually use for the same job.
+#
+# Seniority is handled by `seniority_filter` below, NOT here — so there are no
+# "senior ..." patterns in this list. They would match and then be rejected one
+# gate later, which just makes the config lie about what you receive.
 #
 # To stop hearing about a role entirely, delete its whole block (or comment it
 # out). To stop hearing about one variant, delete just that pattern line.
@@ -38,35 +51,53 @@ roles:
     patterns:
       - data engineer
       - big data engineer
+      - big data developer
       - data platform engineer
       - data infrastructure engineer
       - data warehouse engineer
+      - data warehouse developer
       - analytics engineer
+      - analytics developer
       - etl developer
       - etl engineer
+      - elt developer
       - bi engineer
       - bi developer
+      # "BI Engineer" does NOT match "Business Intelligence Engineer" — `bi` is
+      # matched as a whole word, so the spelled-out form needs its own line.
+      - business intelligence engineer
       - business intelligence developer
       - dwh developer
+      - dwh engineer
+      - dataops engineer
+      - data ops engineer
+      - data architect
       # Hebrew
       - מהנדס דאטה
       - מהנדסת דאטה
       - מהנדס נתונים
+      - מהנדס ביג דאטה
+      - מפתח דאטה
       - מפתח bi
       - מפתחת bi
 
-  senior_data_analyst:
-    label: Senior Data Analyst
+  data_analyst:
+    label: Data Analyst
     patterns:
-      - senior data analyst
       - data analyst
-      - senior analyst
+      - junior data analyst
       - bi analyst
       - business intelligence analyst
-      - senior bi analyst
       - product analyst
-      - senior product analyst
-      - business analyst
+      - growth analyst
+      - monetization analyst
+      - insights analyst
+      - reporting analyst
+      # NOTE: bare `senior analyst` and `business analyst` were removed. The
+      # first matched "Senior Analyst, Procurement / Operations / Risk" and no
+      # blocklist could keep up; the second is a requirements-gathering role in
+      # Israel far more often than a data one (it was pulling in
+      # "Business Analyst (GTM)"). Add them back if you want that reach.
       # Hebrew
       - אנליסט דאטה
       - אנליסטית דאטה
@@ -74,20 +105,34 @@ roles:
       - אנליסט bi
       - אנליסט מוצר
 
-  junior_data_scientist:
-    label: Junior Data Scientist
+  data_scientist:
+    label: Data Scientist
     patterns:
-      - junior data scientist
       - data scientist
+      - junior data scientist
       - associate data scientist
       - entry level data scientist
       - machine learning engineer
       - ml engineer
+      - mlops engineer
+      - ai engineer
+      - applied scientist
+      - research scientist
+      - decision scientist
+      - nlp engineer
+      - computer vision engineer
+      - deep learning engineer
+      # Israeli ad-tech/mobility companies post these as ML roles. Note the
+      # plural and the "engineer" spelling are separate patterns — whole-word
+      # matching means `algorithm developer` misses both.
       - algorithm developer
+      - algorithms developer
+      - algorithm engineer
       # Hebrew
       - דאטה סיינטיסט
       - מדען נתונים
       - מדענית נתונים
+      - מהנדס למידת מכונה
       - חוקר אלגוריתמים
 
 # Titles that superficially contain a keyword but are never the job you want.
@@ -99,6 +144,13 @@ exclude_titles:
   - data protection officer
   - data privacy
   - data governance manager
+  # `ai engineer` is a target pattern, but cyber companies attach "AI" to
+  # customer-facing roles too. These two are the sales-side collisions.
+  - field ai engineer
+  - gtm ai engineer
+  # Analyst flavours from other departments. Mostly unreachable now that the
+  # bare `senior analyst` pattern is gone — kept as insurance in case a pattern
+  # is ever widened again.
   - sales analyst
   - financial analyst
   - credit analyst
@@ -108,12 +160,20 @@ exclude_titles:
   - hr analyst
   - payroll analyst
 
-# You chose NOT to filter by seniority, so this is off — every level reaches
-# you and the alert is tagged with the detected level so you can judge fast.
-# Flip `enabled: true` if Principal/Staff/VP noise starts getting annoying.
+# You asked not to see senior-and-above roles, so this is ON. A title is
+# dropped when its detected level appears below, and the level is also matched
+# as a plain phrase — so "Sr. Data Analyst" and "Senior Data Analyst" both go.
+#
+# Everything junior through mid/lead still reaches you, tagged with the
+# detected level so you can judge fast.
+#
+# Caveat worth knowing: a rare hybrid title like "Junior/Senior Data Analyst"
+# is dropped too, because "senior" appears in it at all.
 seniority_filter:
-  enabled: false
+  enabled: true
   exclude_levels:
+    - senior
+    - expert          # Israeli convention for a senior IC ("Data Scientist Expert")
     - principal
     - staff
     - director
@@ -121,11 +181,17 @@ seniority_filter:
     - vp
     - vice president
     - chief
-    - intern
-    - student
+    # Uncomment to also drop internships and student positions:
+    # - intern
+    # - student
+    # Uncomment to drop people-management roles as well:
+    # - manager
 
-# You chose NOT to exclude recruiting agencies, so this is off. Enable it to
-# only receive roles posted directly by the employer.
+# You chose NOT to exclude recruiting agencies, so this is still off. Worth
+# knowing: agencies dominate LinkedIn results — a single run surfaced SQLink,
+# Experis, Recruitx, Talent-HR and Jobgether postings, none of which the old
+# list covered. They are listed now, so flipping `enabled: true` actually does
+# something. Company career pages are unaffected either way.
 agency_filter:
   enabled: false
   agencies:
@@ -133,7 +199,12 @@ agency_filter:
     - nisha
     - manpower
     - adecco
-    - experis
+    - experis          # also catches "Experis Academy Israel"
+    - sqlink
+    - recruitx
+    - talent-hr
+    - jobgether
+    - danel
     - jobinfo
     - hunter
     - taldor
@@ -148,6 +219,7 @@ location:
     - tel-aviv
     - tel aviv-yafo
     - tlv
+    - gush dan
     - herzliya
     - herzeliya
     - ra'anana
@@ -162,8 +234,11 @@ location:
     - beer sheva
     - be'er sheva
     - rehovot
+    - nes ziona
+    - ness ziona
     - caesarea
     - ramat gan
+    - ramat hasharon
     - givatayim
     - kfar saba
     - hod hasharon
@@ -173,11 +248,29 @@ location:
     - rosh ha'ayin
     - rosh haayin
     - ashdod
+    - ashkelon
     - lod
+    - yehud
     - or yehuda
     - bnei brak
     - holon
+    - bat yam
     - rishon lezion
+    - kiryat gat
+    - kiryat ono
+    - migdal haemek
+    - karmiel
+    - tirat carmel
+    # Hebrew city names, for the Hebrew-language sources.
+    - תל אביב
+    - הרצליה
+    - רעננה
+    - פתח תקווה
+    - חיפה
+    - ירושלים
+    - נתניה
+    - באר שבע
+    - רמת גן
 
   # You opted IN to remote roles open to Israel. A posting with no Israeli city
   # still qualifies if it looks remote AND is scoped to a region covering

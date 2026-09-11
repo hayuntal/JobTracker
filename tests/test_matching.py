@@ -25,15 +25,18 @@ def job(title, location="Tel Aviv-Yafo", company="Test Co", description=""):
 
 @pytest.mark.parametrize("title,role", [
     ("Data Engineer", "Data Engineer"),
-    ("Senior Data Engineer", "Data Engineer"),
     ("Analytics Engineer", "Data Engineer"),
     ("BI Developer", "Data Engineer"),
-    ("Data Analyst", "Senior Data Analyst"),
-    ("Senior Product Analyst", "Senior Data Analyst"),
-    ("Data Scientist", "Junior Data Scientist"),
-    ("Machine Learning Engineer", "Junior Data Scientist"),
+    ("Business Intelligence Engineer", "Data Engineer"),
+    ("Data Analyst", "Data Analyst"),
+    ("Product Analyst", "Data Analyst"),
+    ("Data Scientist", "Data Scientist"),
+    ("Machine Learning Engineer", "Data Scientist"),
+    ("AI Engineer", "Data Scientist"),
+    ("Algorithm Engineer", "Data Scientist"),
+    ("Research Scientist", "Data Scientist"),
     ("מהנדס נתונים", "Data Engineer"),
-    ("אנליסט דאטה", "Senior Data Analyst"),
+    ("אנליסט דאטה", "Data Analyst"),
 ])
 def test_target_titles_match(matcher, title, role):
     ok, reason = matcher.evaluate(job(title))
@@ -48,10 +51,49 @@ def test_target_titles_match(matcher, title, role):
     "Security Analyst",
     "Backend Engineer",
     "Product Manager",
+    "Business Analyst (GTM)",     # requirements role, not a data one
+    "Senior Analyst, Procurement",
 ])
 def test_non_target_titles_rejected(matcher, title):
     ok, _ = matcher.evaluate(job(title))
     assert not ok
+
+
+@pytest.mark.parametrize("title", [
+    "Senior Data Engineer",
+    "Sr. Data Analyst",
+    "Staff ML Engineer",
+    "Principal Product Analyst",
+    "Data Scientist Expert",
+    "Head of Data Engineer Group",
+    "VP Data Analyst",
+])
+def test_senior_and_above_are_filtered(matcher, title):
+    """The title gate accepts these; the seniority gate is what drops them."""
+    assert matcher.match_title(title)[0] is not None
+    ok, reason = matcher.evaluate(job(title))
+    assert not ok
+    assert "seniority" in reason
+
+
+@pytest.mark.parametrize("title", [
+    "Junior Data Analyst",
+    "Data Engineer",
+    "Data Analyst",
+    "ML Engineer",
+    "Data Engineer Team Lead",    # 'lead' is deliberately not filtered
+])
+def test_junior_and_mid_still_pass(matcher, title):
+    ok, reason = matcher.evaluate(job(title))
+    assert ok, reason
+
+
+def test_field_and_gtm_ai_engineers_are_excluded(matcher):
+    """`ai engineer` is a target, but the sales-side variants are not."""
+    for title in ("Field AI Engineer", "GTM AI Engineer"):
+        ok, reason = matcher.evaluate(job(title))
+        assert not ok
+        assert "excluded title" in reason
 
 
 def test_word_boundaries_are_respected(matcher):
@@ -60,8 +102,8 @@ def test_word_boundaries_are_respected(matcher):
 
 
 def test_most_specific_pattern_wins(matcher):
-    _, pattern = matcher.match_title("Senior Data Analyst")
-    assert pattern == "senior data analyst"
+    _, pattern = matcher.match_title("Junior Data Analyst")
+    assert pattern == "junior data analyst"
 
 
 # -- locations --------------------------------------------------------------
@@ -110,10 +152,10 @@ def test_description_is_not_fetched_when_location_is_clear(matcher):
 # -- annotation -------------------------------------------------------------
 
 def test_accepted_job_is_annotated(matcher):
-    j = job("Senior Data Engineer", location="Remote - Israel")
+    j = job("Junior Data Engineer", location="Remote - Israel")
     assert matcher.evaluate(j)[0]
     assert j.matched_role == "Data Engineer"
-    assert j.seniority == "senior"
+    assert j.seniority == "junior"
     assert j.is_remote is True
 
 
