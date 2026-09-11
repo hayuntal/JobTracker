@@ -1,0 +1,10 @@
+# The package is used straight from the repo — there is no build/install step,
+# and CI runs `pytest` from the project root.
+#
+# Bare `pytest` only puts the *test* directory on sys.path, so `import
+# jobtracker` fails even though the package sits right there. `python -m pytest`
+# happens to work (it adds the cwd), which is why this stayed hidden locally.
+# `pythonpath` pins the root explicitly so both invocations behave the same.
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
