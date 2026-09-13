@@ -1,5 +1,5 @@
 {
-  "count": 438,
+  "count": 441,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1961,6 +1961,14 @@
       "title": "Data Scientist - AI Research",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-ai-research-at-earnix-4434462141"
     },
+    "95f5d178685054eb": {
+      "company": "Menahel4U",
+      "first_seen": "2026-09-13T17:11:29+00:00",
+      "location": "Ramat HaSharon, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Power BI Developer",
+      "url": "https://il.linkedin.com/jobs/view/power-bi-developer-at-menahel4u-4463227801"
+    },
     "964b42301df909b5": {
       "company": "LETSGO",
       "first_seen": "2026-09-06T13:52:49+00:00",
@@ -2016,6 +2024,14 @@
       "source": "linkedin",
       "title": "Senior Business Intelligence Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-business-intelligence-analyst-at-nvidia-4460091336"
+    },
+    "9a2b298c845cc131": {
+      "company": "SQLink Group",
+      "first_seen": "2026-09-13T17:11:29+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-at-sqlink-group-4462283829"
     },
     "9a823aa8c8e39005": {
       "company": "G-STAT",
@@ -3001,6 +3017,14 @@
       "title": "Business Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-data-analyst-at-communix-4462672357"
     },
+    "da744ff119869648": {
+      "company": "HBX Group",
+      "first_seen": "2026-09-13T17:11:29+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer (Python ETL & Integrations)",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-python-etl-integrations-at-hbx-group-4463001707"
+    },
     "da80b49cadf74e38": {
       "company": "INSIGHTEC",
       "first_seen": "2026-08-10T09:11:06+00:00",
@@ -3506,5 +3530,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-13T07:54:10+00:00"
+  "updated_at": "2026-09-13T17:11:30+00:00"
 }
