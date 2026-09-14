@@ -1,5 +1,5 @@
 {
-  "count": 441,
+  "count": 444,
   "seen": {
     "00e12eab71e830f2": {
       "company": "ExpressVPN",
@@ -1609,6 +1609,14 @@
       "title": "Business Intelligence Developer 17621",
       "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-17621-at-central-bottling-company-israel-ltd-4451515278"
     },
+    "78f6a828f991e1cc": {
+      "company": "Team8",
+      "first_seen": "2026-09-14T11:25:09+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Popai Health- AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/popai-health-ai-engineer-at-team8-4465729410"
+    },
     "79b129db4eb0d73f": {
       "company": "Experis Israel",
       "first_seen": "2026-08-13T01:18:28+00:00",
@@ -2048,6 +2056,14 @@
       "source": "linkedin",
       "title": "Senior Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-mylo-ai-4463900231"
+    },
+    "9b85b22fe0fd24e2": {
+      "company": "Mobileye",
+      "first_seen": "2026-09-14T11:25:09+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Deep Learning Algorithm Engineer | Learned-Policy Group",
+      "url": "https://il.linkedin.com/jobs/view/deep-learning-algorithm-engineer-learned-policy-group-at-mobileye-4465727337"
     },
     "9c1936be2a463255": {
       "company": "Rafael Advanced Defense Systems",
@@ -3305,6 +3321,14 @@
       "title": "Data Scientist, Product Analytics",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-product-analytics-at-meta-4432749149"
     },
+    "ea334dff49c66a55": {
+      "company": "Harel Insurance & Finance",
+      "first_seen": "2026-09-14T11:25:09+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-harel-insurance-finance-4464783967"
+    },
     "ea4040e3b74ea540": {
       "company": "Autofleet",
       "first_seen": "2026-08-17T07:46:12+00:00",
@@ -3530,5 +3554,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-13T17:11:30+00:00"
+  "updated_at": "2026-09-14T11:25:10+00:00"
 }
