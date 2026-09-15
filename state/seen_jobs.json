@@ -1,5 +1,5 @@
 {
-  "count": 453,
+  "count": 458,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -569,6 +569,14 @@
       "title": "Senior Data Scientist (37514)",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-37514-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4462855187"
     },
+    "29e6ba074c9ae033": {
+      "company": "Dialog",
+      "first_seen": "2026-09-15T15:23:32+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-dialog-4464718833"
+    },
     "2a1423556c6bb3b6": {
       "company": "SQLink Group",
       "first_seen": "2026-08-18T10:21:13+00:00",
@@ -816,6 +824,14 @@
       "source": "linkedin",
       "title": "AI Product Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/ai-product-data-analyst-at-hibob-4461002711"
+    },
+    "391b6722623aef28": {
+      "company": "CodeValue",
+      "first_seen": "2026-09-15T15:23:32+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-codevalue-4467718392"
     },
     "39813f26755fcdca": {
       "company": "Experis Academy Israel",
@@ -2041,6 +2057,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-personetics-4437856062"
     },
+    "96fa3e1901add129": {
+      "company": "entrypoint",
+      "first_seen": "2026-09-15T15:23:32+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer-5675",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-5675-at-entrypoint-4466187018"
+    },
     "97bc5bba75e43a79": {
       "company": "ONE datAI",
       "first_seen": "2026-08-31T14:42:25+00:00",
@@ -2320,6 +2344,14 @@
       "source": "linkedin",
       "title": "Business And Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-and-data-analyst-at-xt-group-4456576543"
+    },
+    "abf62f2e1c79ef8b": {
+      "company": "Sunbit",
+      "first_seen": "2026-09-15T15:23:32+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-sunbit-4467752003"
     },
     "ac57c5d8c08d2e28": {
       "company": "Melio",
@@ -3057,6 +3089,14 @@
       "title": "Analytics Engineer",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4897240101"
     },
+    "d744fa196eb7322e": {
+      "company": "Apptor-AI",
+      "first_seen": "2026-09-15T15:23:32+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Founding ML Engineer",
+      "url": "https://il.linkedin.com/jobs/view/founding-ml-engineer-at-apptor-ai-4465550110"
+    },
     "d80a3626c239c78b": {
       "company": "SGTech - Zero Carbon, Sustainable Farming",
       "first_seen": "2026-08-12T12:52:21+00:00",
@@ -3626,5 +3666,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-15T10:48:29+00:00"
+  "updated_at": "2026-09-15T15:23:33+00:00"
 }
