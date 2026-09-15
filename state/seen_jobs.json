@@ -1,5 +1,5 @@
 {
-  "count": 450,
+  "count": 451,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -2361,6 +2361,14 @@
       "title": "Data Scientist - 50400399",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-50400399-at-phoenix-financial-4455497585"
     },
+    "ae61b05d0b73fbe3": {
+      "company": "SIG SAUER, Inc.",
+      "first_seen": "2026-09-15T05:39:26+00:00",
+      "location": "Beit Nehemya, Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Computer Vision Engineer II",
+      "url": "https://il.linkedin.com/jobs/view/ai-computer-vision-engineer-ii-at-sig-sauer-inc-4466169218"
+    },
     "ae83181e72f9f079": {
       "company": "Aidoc",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -3602,5 +3610,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-14T21:16:17+00:00"
+  "updated_at": "2026-09-15T05:39:27+00:00"
 }
