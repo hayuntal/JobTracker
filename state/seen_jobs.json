@@ -1,5 +1,5 @@
 {
-  "count": 461,
+  "count": 464,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -112,6 +112,14 @@
       "source": "linkedin",
       "title": "Senior Data Analyst-Commercial analytics",
       "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-commercial-analytics-at-keshet-media-group-4449286711"
+    },
+    "0ecf24f06a8702c9": {
+      "company": "Sett",
+      "first_seen": "2026-09-16T15:16:02+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Lead Research Scientist",
+      "url": "https://il.linkedin.com/jobs/view/lead-research-scientist-at-sett-4466841983"
     },
     "0f0a6d0ac6e54010": {
       "company": "Elbit Systems Israel",
@@ -1033,6 +1041,14 @@
       "title": "Big Data Analyst",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6897277"
     },
+    "458bddd79771552d": {
+      "company": "Datamind BI & AI",
+      "first_seen": "2026-09-16T15:16:02+00:00",
+      "location": "Or Yehuda, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer- Qlik",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-qlik-at-datamind-bi-ai-4351172162"
+    },
     "467c732f20831e01": {
       "company": "Mobitech",
       "first_seen": "2026-08-12T05:40:14+00:00",
@@ -1320,6 +1336,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-rapyd-4439428377"
+    },
+    "5d2fb8995739469f": {
+      "company": "BYC",
+      "first_seen": "2026-09-16T15:16:02+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Algorithm Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-algorithm-engineer-at-byc-4465998367"
     },
     "5db10d6942941a34": {
       "company": "Yael Group",
@@ -3690,5 +3714,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-16T10:37:19+00:00"
+  "updated_at": "2026-09-16T15:16:03+00:00"
 }
