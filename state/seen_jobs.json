@@ -1,5 +1,5 @@
 {
-  "count": 464,
+  "count": 465,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1736,6 +1736,14 @@
       "source": "linkedin",
       "title": "Experienced Deep Learning Algorithm Developer – Object Perception Group",
       "url": "https://il.linkedin.com/jobs/view/experienced-deep-learning-algorithm-developer-%E2%80%93-object-perception-group-at-mobileye-4437062220"
+    },
+    "7a0191727cfecfa9": {
+      "company": "Cellebrite",
+      "first_seen": "2026-09-17T05:55:34+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-cellebrite-4467167703"
     },
     "7a2fb8d3473a7021": {
       "company": "ONE datAI",
@@ -3714,5 +3722,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-16T15:16:03+00:00"
+  "updated_at": "2026-09-17T05:55:34+00:00"
 }
