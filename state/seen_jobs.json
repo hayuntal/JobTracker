@@ -1,5 +1,5 @@
 {
-  "count": 467,
+  "count": 471,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -64,6 +64,14 @@
       "source": "linkedin",
       "title": "Marketing Data Analyst - 50400118",
       "url": "https://il.linkedin.com/jobs/view/marketing-data-analyst-50400118-at-phoenix-financial-4465224075"
+    },
+    "08153c142c41fbf3": {
+      "company": "IVIX",
+      "first_seen": "2026-09-17T15:24:56+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI,ML Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-ml-engineer-at-ivix-4468259231"
     },
     "091ad8825585f937": {
       "company": "Cal (Israel Credit Cards)",
@@ -472,6 +480,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-eleos-health-4430116340"
+    },
+    "228acc970e55c020": {
+      "company": "monday.com",
+      "first_seen": "2026-09-17T15:24:56+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Research Scientist (Harmony)",
+      "url": "https://il.linkedin.com/jobs/view/ai-research-scientist-harmony-at-monday-com-4459014767"
     },
     "237dbbd576012b2b": {
       "company": "Fetcherr",
@@ -1152,6 +1168,14 @@
       "source": "greenhouse",
       "title": "Data Analyst, Algorithms",
       "url": "https://www.taboola.com/careers/job/8076468?gh_jid=8076468"
+    },
+    "4b412b03a372d450": {
+      "company": "Payoneer",
+      "first_seen": "2026-09-17T15:24:56+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "greenhouse",
+      "title": "Platform Enablement & AI Engineer",
+      "url": "https://www.payoneer.com/careers/position/8185359/?gh_jid=8185359"
     },
     "4b63e3158529c118": {
       "company": "Peak Innovation",
@@ -2497,6 +2521,14 @@
       "title": "Data Engineer (Product & Customer Insights)",
       "url": "https://job-boards.greenhouse.io/torq/jobs/6119508004"
     },
+    "b04c4d2ceb665ac6": {
+      "company": "Samsung Semiconductor",
+      "first_seen": "2026-09-17T15:24:56+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning & Computer Vision Algorithm Engineer",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-computer-vision-algorithm-engineer-at-samsung-semiconductor-4468659353"
+    },
     "b12999db277837d9": {
       "company": "Questar Auto Technologies",
       "first_seen": "2026-08-08T13:40:00+00:00",
@@ -3738,5 +3770,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-17T10:46:44+00:00"
+  "updated_at": "2026-09-17T15:24:57+00:00"
 }
