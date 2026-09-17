@@ -1,5 +1,5 @@
 {
-  "count": 465,
+  "count": 467,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1480,6 +1480,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-action-item-solutions-4460959612"
+    },
+    "652027850e630f80": {
+      "company": "Google",
+      "first_seen": "2026-09-17T10:46:43+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Research Data Scientist II, Waze",
+      "url": "https://il.linkedin.com/jobs/view/research-data-scientist-ii-waze-at-google-4467197730"
     },
     "65380585ac553cbf": {
       "company": "FINQ ISRAEL",
@@ -3649,6 +3657,14 @@
       "title": "Data Engineer- 2628",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-2628-at-shabak-israeli-security-agency-career-4445850181"
     },
+    "f93601ff26841b86": {
+      "company": "ARAN Software",
+      "first_seen": "2026-09-17T10:46:43+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Generative AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/generative-ai-engineer-at-aran-software-4468379622"
+    },
     "fabc937896b92a85": {
       "company": "KESHET-HR",
       "first_seen": "2026-08-27T23:26:12+00:00",
@@ -3722,5 +3738,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-17T05:55:34+00:00"
+  "updated_at": "2026-09-17T10:46:44+00:00"
 }
