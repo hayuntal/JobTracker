@@ -1,5 +1,5 @@
 {
-  "count": 472,
+  "count": 473,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -488,6 +488,14 @@
       "source": "linkedin",
       "title": "AI Research Scientist (Harmony)",
       "url": "https://il.linkedin.com/jobs/view/ai-research-scientist-harmony-at-monday-com-4459014767"
+    },
+    "232a76d14ea59ce6": {
+      "company": "Millennium",
+      "first_seen": "2026-09-18T20:40:01+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/applied-ai-engineer-at-millennium-4440764803"
     },
     "237dbbd576012b2b": {
       "company": "Fetcherr",
@@ -3778,5 +3786,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-18T10:22:35+00:00"
+  "updated_at": "2026-09-18T20:40:02+00:00"
 }
