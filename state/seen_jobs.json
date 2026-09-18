@@ -1,5 +1,5 @@
 {
-  "count": 471,
+  "count": 472,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1352,6 +1352,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-extreme-4450217678"
+    },
+    "5adb4cde1bb8b5cd": {
+      "company": "Veeva Crossix",
+      "first_seen": "2026-09-18T10:22:34+00:00",
+      "location": "Kiryat Ono, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst - Pioneer",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-pioneer-at-veeva-crossix-4467842313"
     },
     "5bac45f009ba180f": {
       "company": "Rapyd",
@@ -3770,5 +3778,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-17T15:24:57+00:00"
+  "updated_at": "2026-09-18T10:22:35+00:00"
 }
