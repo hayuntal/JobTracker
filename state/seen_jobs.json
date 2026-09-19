@@ -1,5 +1,5 @@
 {
-  "count": 473,
+  "count": 475,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -376,6 +376,14 @@
       "source": "linkedin",
       "title": "Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-analyst-at-fiverr-4370681136"
+    },
+    "198c4027238453b5": {
+      "company": "Mobileye",
+      "first_seen": "2026-09-19T14:06:29+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Algorithm Engineer - Vision Localization Group",
+      "url": "https://il.linkedin.com/jobs/view/ai-algorithm-engineer-vision-localization-group-at-mobileye-4440229270"
     },
     "1a3d703b4015d5cd": {
       "company": "Talent-HR",
@@ -2585,6 +2593,14 @@
       "title": "AI ENGINEER",
       "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-aqurate-data-4464019969"
     },
+    "b3419aea6ae2ec7a": {
+      "company": "proman",
+      "first_seen": "2026-09-19T14:06:29+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-proman-4465548314"
+    },
     "b361673b79c093db": {
       "company": "Selectika AI",
       "first_seen": "2026-08-29T14:52:17+00:00",
@@ -3786,5 +3802,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-18T20:40:02+00:00"
+  "updated_at": "2026-09-19T14:06:29+00:00"
 }
