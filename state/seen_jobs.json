@@ -1,5 +1,5 @@
 {
-  "count": 477,
+  "count": 479,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1608,6 +1608,14 @@
       "source": "linkedin",
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-rhino-federated-computing-4456536029"
+    },
+    "6b0ce985d740ffc0": {
+      "company": "Trilogy Equity Partners",
+      "first_seen": "2026-09-20T20:06:34+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Applied Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-trilogy-equity-partners-4468485265"
     },
     "6c38f405b58643d8": {
       "company": "Minute Media",
@@ -3793,6 +3801,14 @@
       "title": "Data Scientist - AI & Big Data Team",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-ai-big-data-team-at-epam-systems-4461918481"
     },
+    "fec0f8bb4851bd44": {
+      "company": "Millennium",
+      "first_seen": "2026-09-20T20:06:34+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-millennium-4372898016"
+    },
     "fecc7f63fe5cf6cb": {
       "company": "Ashley Digital",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -3818,5 +3834,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-20T13:28:50+00:00"
+  "updated_at": "2026-09-20T20:06:35+00:00"
 }
