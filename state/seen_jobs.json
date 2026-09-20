@@ -1,5 +1,5 @@
 {
-  "count": 475,
+  "count": 476,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -96,6 +96,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-yael-group-4462214298"
+    },
+    "0ae2f2d97459b250": {
+      "company": "HAAT Delivery",
+      "first_seen": "2026-09-20T08:58:48+00:00",
+      "location": "North District, Israel",
+      "source": "linkedin",
+      "title": "Lead Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/lead-product-analyst-at-haat-delivery-4467317754"
     },
     "0bbcc20713201857": {
       "company": "Checkout.com",
@@ -3802,5 +3810,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-19T14:06:29+00:00"
+  "updated_at": "2026-09-20T08:58:48+00:00"
 }
