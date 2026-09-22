@@ -1,5 +1,5 @@
 {
-  "count": 480,
+  "count": 484,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -40,6 +40,14 @@
       "source": "greenhouse",
       "title": "Software & Data Engineer",
       "url": "https://job-boards.greenhouse.io/via/jobs/8557879002"
+    },
+    "03151db49cbd2907": {
+      "company": "Experis Israel",
+      "first_seen": "2026-09-22T10:44:13+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer - 243878",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-243878-at-experis-israel-4468579227"
     },
     "0345c87f9856f873": {
       "company": "PAPAYA",
@@ -448,6 +456,14 @@
       "source": "greenhouse",
       "title": "Product Analyst ",
       "url": "https://job-boards.greenhouse.io/torq/jobs/6177745004"
+    },
+    "1e7248208e718a22": {
+      "company": "Experis Israel",
+      "first_seen": "2026-09-22T10:44:13+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer - 239704",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-239704-at-experis-israel-4468558249"
     },
     "1f6046164e786305": {
       "company": "Quicklizard",
@@ -2537,6 +2553,14 @@
       "title": "Data Scientist - 50400399",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-50400399-at-phoenix-financial-4455497585"
     },
+    "ae01092f631f4e25": {
+      "company": "ONE datAI",
+      "first_seen": "2026-09-22T10:44:13+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-one-datai-4470291606"
+    },
     "ae61b05d0b73fbe3": {
       "company": "SIG SAUER, Inc.",
       "first_seen": "2026-09-15T05:39:26+00:00",
@@ -2728,6 +2752,14 @@
       "source": "linkedin",
       "title": "AI Engineer",
       "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-gotfriends-4461826750"
+    },
+    "bb39dbb113e6d3ef": {
+      "company": "HR Home",
+      "first_seen": "2026-09-22T10:44:13+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist – Product Analytics",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-%E2%80%93-product-analytics-at-hr-home-4470277149"
     },
     "bb6130fc8c8efd0d": {
       "company": "John Bryce",
@@ -3842,5 +3874,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-21T21:32:16+00:00"
+  "updated_at": "2026-09-22T10:44:13+00:00"
 }
