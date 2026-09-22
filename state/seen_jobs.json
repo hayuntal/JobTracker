@@ -1,5 +1,5 @@
 {
-  "count": 484,
+  "count": 489,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -72,6 +72,14 @@
       "source": "linkedin",
       "title": "Marketing Data Analyst - 50400118",
       "url": "https://il.linkedin.com/jobs/view/marketing-data-analyst-50400118-at-phoenix-financial-4465224075"
+    },
+    "05e8e171b298e0ef": {
+      "company": "Staffin Israel",
+      "first_seen": "2026-09-22T15:20:55+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-staffin-israel-4470413723"
     },
     "08153c142c41fbf3": {
       "company": "IVIX",
@@ -256,6 +264,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-jobgether-4451152861"
+    },
+    "12c062029cf5e358": {
+      "company": "Similarweb",
+      "first_seen": "2026-09-22T15:20:55+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Scientist Team Manager",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8222946"
     },
     "1303aff3bcae47d9": {
       "company": "Palo Alto Networks",
@@ -504,6 +520,14 @@
       "source": "linkedin",
       "title": "Founding Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/founding-data-engineer-at-stealth-startup-4462954084"
+    },
+    "21d76d7828be5b4d": {
+      "company": "ONE Technologies",
+      "first_seen": "2026-09-22T15:20:55+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-at-one-technologies-4468583702"
     },
     "22752e61ee014ef2": {
       "company": "Eleos Health",
@@ -1881,6 +1905,14 @@
       "title": "Senior ML Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-ml-data-engineer-at-mobileye-4402132278"
     },
+    "7fbd2c5154a32861": {
+      "company": "Autofleet",
+      "first_seen": "2026-09-22T15:20:55+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-autofleet-4469005048"
+    },
     "80d79fe8e566e4c4": {
       "company": "Via",
       "first_seen": "2026-08-07T21:01:05+00:00",
@@ -2288,6 +2320,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-comblack-4461202319"
+    },
+    "9cf3878b6bf5978e": {
+      "company": "Extreme",
+      "first_seen": "2026-09-22T15:20:55+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-at-extreme-4470463042"
     },
     "9d3db305e410a1d3": {
       "company": "Orca AI",
@@ -3874,5 +3914,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-22T10:44:13+00:00"
+  "updated_at": "2026-09-22T15:20:55+00:00"
 }
