@@ -1,5 +1,5 @@
 {
-  "count": 494,
+  "count": 504,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -104,6 +104,14 @@
       "source": "linkedin",
       "title": "ETL Developer (36614)",
       "url": "https://il.linkedin.com/jobs/view/etl-developer-36614-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4464341202"
+    },
+    "0a04cae9a2623041": {
+      "company": "PAPAYA",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-papaya-4470929380"
     },
     "0a8445e923f18f6d": {
       "company": "Yael Group",
@@ -520,6 +528,14 @@
       "source": "greenhouse",
       "title": "Data Scientist",
       "url": "https://join.jfrog.com/job/?job=8131741&gh_jid=8131741"
+    },
+    "2090e628200f3780": {
+      "company": "Workday",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer - HiredScore",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-hiredscore-at-workday-4469315345"
     },
     "20abce173407a247": {
       "company": "Stealth Startup",
@@ -1289,6 +1305,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-modellama-4428612794"
     },
+    "4d9dbe468d6d6cac": {
+      "company": "Extreme",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer – GenAI & LLM",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-%E2%80%93-genai-llm-at-extreme-4459199892"
+    },
     "4fec6b2ca7a3925a": {
       "company": "MalamTeam",
       "first_seen": "2026-08-24T05:32:42+00:00",
@@ -1913,6 +1937,14 @@
       "title": "Data Engineer | AI & Big Data",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-ai-big-data-at-one-datai-4456572689"
     },
+    "7b4e09be456902ea": {
+      "company": "IAI - Israel Aerospace Industries",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Ashdod, South District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-iai-israel-aerospace-industries-4460968561"
+    },
     "7ca81a2e46faae59": {
       "company": "Gotfriends",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -2009,6 +2041,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-nisha-pro-4459217174"
     },
+    "84574deda7b6247d": {
+      "company": "DRS RADA Technologies",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-drs-rada-technologies-4469457045"
+    },
     "8458eafde357bc39": {
       "company": "Elad Software Systems",
       "first_seen": "2026-08-08T03:19:11+00:00",
@@ -2025,6 +2065,22 @@
       "title": " Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7556162"
     },
+    "85bba32e9227d2e5": {
+      "company": "Vi",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-vi-4469425880"
+    },
+    "86d109d75555f146": {
+      "company": "Equashield Israel",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Migdal Tefen, North District, Israel",
+      "source": "linkedin",
+      "title": "Computer Vision Engineer",
+      "url": "https://il.linkedin.com/jobs/view/computer-vision-engineer-at-equashield-israel-4470419233"
+    },
     "86d1685f3fd48c92": {
       "company": "AppsFlyer",
       "first_seen": "2026-08-07T20:05:49+00:00",
@@ -2032,6 +2088,14 @@
       "source": "greenhouse",
       "title": "Data Engineer - Billing Platform",
       "url": "https://careers.appsflyer.com/jobs/position/8620283002?gh_jid=8620283002"
+    },
+    "8734a4375198b72f": {
+      "company": "Axon Pulse",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Deep Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/deep-learning-engineer-at-axon-pulse-4468991316"
     },
     "879f8f4712e19179": {
       "company": "Checkout.com",
@@ -2688,6 +2752,14 @@
       "source": "linkedin",
       "title": "Senior Data Scientist — Individual Contributor",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-%E2%80%94-individual-contributor-at-questar-auto-technologies-4445877568"
+    },
+    "b1c2c01850cfb329": {
+      "company": "G-STAT",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Developer",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-developer-at-g-stat-4469437507"
     },
     "b1cda5d2f8a3a765": {
       "company": "Similarweb",
@@ -3697,6 +3769,14 @@
       "title": "Data Scientist, Product Analytics",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-product-analytics-at-meta-4432749149"
     },
+    "e9eb4e4459ea26ca": {
+      "company": "Yad2",
+      "first_seen": "2026-09-23T13:12:55+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-yad2-4399612916"
+    },
     "ea334dff49c66a55": {
       "company": "Harel Insurance & Finance",
       "first_seen": "2026-09-14T11:25:09+00:00",
@@ -3954,5 +4034,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-23T07:07:26+00:00"
+  "updated_at": "2026-09-23T13:12:55+00:00"
 }
