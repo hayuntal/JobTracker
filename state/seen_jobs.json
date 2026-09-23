@@ -1,5 +1,5 @@
 {
-  "count": 504,
+  "count": 505,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3377,6 +3377,14 @@
       "title": "Product Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-helfy-4413457838"
     },
+    "d53a65ae892bec7b": {
+      "company": "ThirdEye Systems",
+      "first_seen": "2026-09-23T18:08:36+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist – Computer Vision & AI",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-%E2%80%93-computer-vision-ai-at-thirdeye-systems-4470945487"
+    },
     "d5825d731e14771e": {
       "company": "Checkmarx",
       "first_seen": "2026-08-07T21:32:36+00:00",
@@ -4034,5 +4042,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-23T13:12:55+00:00"
+  "updated_at": "2026-09-23T18:08:36+00:00"
 }
