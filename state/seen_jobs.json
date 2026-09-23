@@ -1,5 +1,5 @@
 {
-  "count": 491,
+  "count": 494,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -504,6 +504,14 @@
       "source": "linkedin",
       "title": "Senior Analytics Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-analytics-engineer-at-connecteam-4431695933"
+    },
+    "2047b22bc118c5ad": {
+      "company": "Peak Innovation",
+      "first_seen": "2026-09-23T07:07:25+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst - Qlik Sense Experience Required",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-qlik-sense-experience-required-at-peak-innovation-4466268662"
     },
     "206def49807ef912": {
       "company": "JFrog",
@@ -1384,6 +1392,14 @@
       "source": "linkedin",
       "title": "ML & Big Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/ml-big-data-analyst-at-alpha-similarweb-partner-4452724405"
+    },
+    "593e131b119c8f0a": {
+      "company": "Intuit",
+      "first_seen": "2026-09-23T07:07:25+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Machine Learning Engineer 2",
+      "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-2-at-intuit-4469429086"
     },
     "5940daafea38c882": {
       "company": "Taboola",
@@ -3161,6 +3177,14 @@
       "title": "Senior Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-at-moveo-source-4456812514"
     },
+    "cb476f5a18f859fe": {
+      "company": "CHEQ",
+      "first_seen": "2026-09-23T07:07:25+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-cheq-4445835793"
+    },
     "cca236a3f57b7a14": {
       "company": "DustPhotonics",
       "first_seen": "2026-08-26T10:28:06+00:00",
@@ -3930,5 +3954,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-22T19:28:49+00:00"
+  "updated_at": "2026-09-23T07:07:26+00:00"
 }
