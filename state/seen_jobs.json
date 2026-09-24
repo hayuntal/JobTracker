@@ -1,5 +1,5 @@
 {
-  "count": 505,
+  "count": 506,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1824,6 +1824,14 @@
       "source": "linkedin",
       "title": "Data Engineer II - GenAI",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-ii-genai-at-booking-com-4300566172"
+    },
+    "76ee425ac6aab7ed": {
+      "company": "MONTICELLOAM, LLC",
+      "first_seen": "2026-09-24T05:44:30+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-monticelloam-llc-4471168416"
     },
     "7790387f73217a7e": {
       "company": "Lightricks",
@@ -4042,5 +4050,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-23T18:08:36+00:00"
+  "updated_at": "2026-09-24T05:44:30+00:00"
 }
