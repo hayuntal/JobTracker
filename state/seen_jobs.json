@@ -1,5 +1,5 @@
 {
-  "count": 508,
+  "count": 511,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -112,6 +112,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-papaya-4470929380"
+    },
+    "0a5adb9e93ed6f33": {
+      "company": "Personetics",
+      "first_seen": "2026-09-24T19:42:19+00:00",
+      "location": "Givatayim, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-personetics-4471641203"
     },
     "0a8445e923f18f6d": {
       "company": "Yael Group",
@@ -1776,6 +1784,14 @@
       "source": "greenhouse",
       "title": "Senior Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/8143476"
+    },
+    "7136ade728f6ab5b": {
+      "company": "Exodigo",
+      "first_seen": "2026-09-24T19:42:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Algorithm Developer",
+      "url": "https://il.linkedin.com/jobs/view/algorithm-developer-at-exodigo-4470917958"
     },
     "71cfd93bf7e733c7": {
       "company": "Helfy",
@@ -4025,6 +4041,14 @@
       "title": "Data Engineer - Senior",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-senior-at-jobgether-4452919469"
     },
+    "fe03fbac02a17375": {
+      "company": "Connecteam",
+      "first_seen": "2026-09-24T19:42:19+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Gen AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/gen-ai-engineer-at-connecteam-4416223252"
+    },
     "fe7f33f2a5318087": {
       "company": "EPAM Systems",
       "first_seen": "2026-09-08T22:14:51+00:00",
@@ -4066,5 +4090,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-24T15:40:31+00:00"
+  "updated_at": "2026-09-24T19:42:20+00:00"
 }
