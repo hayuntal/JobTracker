@@ -1,5 +1,5 @@
 {
-  "count": 506,
+  "count": 508,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -144,6 +144,14 @@
       "source": "greenhouse",
       "title": "Senior Data Infrastructure Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7556162"
+    },
+    "0d9c88bcd54b5b44": {
+      "company": "Exodigo",
+      "first_seen": "2026-09-24T15:40:31+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Algorithms Developer",
+      "url": "https://il.linkedin.com/jobs/view/algorithms-developer-at-exodigo-4470917958"
     },
     "0e282636ed1459e2": {
       "company": "Keshet Media Group",
@@ -3961,6 +3969,14 @@
       "title": "Data Engineer- 2628",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-2628-at-shabak-israeli-security-agency-career-4445850181"
     },
+    "f85aad7b322494a6": {
+      "company": "Mobileye",
+      "first_seen": "2026-09-24T15:40:31+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Experienced Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/experienced-machine-learning-engineer-at-mobileye-4442639520"
+    },
     "f93601ff26841b86": {
       "company": "ARAN Software",
       "first_seen": "2026-09-17T10:46:43+00:00",
@@ -4050,5 +4066,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-24T05:44:30+00:00"
+  "updated_at": "2026-09-24T15:40:31+00:00"
 }
