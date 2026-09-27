@@ -1,5 +1,5 @@
 {
-  "count": 511,
+  "count": 513,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1449,6 +1449,14 @@
       "title": "Product Analyst (Maternity-Leave Replacement)",
       "url": "https://www.taboola.com/careers/job/8035268?gh_jid=8035268"
     },
+    "5944eddf1e380e56": {
+      "company": "G-STAT",
+      "first_seen": "2026-09-27T14:30:44+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-g-stat-4469437507"
+    },
     "594647e79d901c4a": {
       "company": "Ferrero",
       "first_seen": "2026-09-07T20:23:34+00:00",
@@ -1584,6 +1592,14 @@
       "source": "linkedin",
       "title": "Senior Computer Vision Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-computer-vision-data-engineer-at-mobileye-4394410604"
+    },
+    "62143300829ff951": {
+      "company": "Check Point Software",
+      "first_seen": "2026-09-27T14:30:44+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer – Next-Generation Cyber Security",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-%E2%80%93-next-generation-cyber-security-at-check-point-software-4472446484"
     },
     "62d1ebde98e99a46": {
       "company": "Logica-IT",
@@ -4090,5 +4106,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-24T19:42:20+00:00"
+  "updated_at": "2026-09-27T14:30:45+00:00"
 }
