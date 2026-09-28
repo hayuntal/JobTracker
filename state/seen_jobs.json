@@ -1,5 +1,5 @@
 {
-  "count": 514,
+  "count": 515,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1728,6 +1728,14 @@
       "source": "linkedin",
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-rhino-federated-computing-4456536029"
+    },
+    "6a4035740bab5d74": {
+      "company": "Vi",
+      "first_seen": "2026-09-28T21:00:07+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer (Vi Platform)",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-vi-platform-at-vi-4471541407"
     },
     "6b0ce985d740ffc0": {
       "company": "Trilogy Equity Partners",
@@ -4114,5 +4122,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-28T14:49:35+00:00"
+  "updated_at": "2026-09-28T21:00:07+00:00"
 }
