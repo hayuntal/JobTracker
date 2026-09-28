@@ -1,5 +1,5 @@
 {
-  "count": 513,
+  "count": 514,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -2121,6 +2121,14 @@
       "title": "AI Engineer",
       "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-vi-4469425880"
     },
+    "86587308abcd4536": {
+      "company": "Gotfriends",
+      "first_seen": "2026-09-28T14:49:34+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Computer Vision Engineer",
+      "url": "https://il.linkedin.com/jobs/view/computer-vision-engineer-at-gotfriends-4470842910"
+    },
     "86d109d75555f146": {
       "company": "Equashield Israel",
       "first_seen": "2026-09-23T13:12:55+00:00",
@@ -4106,5 +4114,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-27T14:30:45+00:00"
+  "updated_at": "2026-09-28T14:49:35+00:00"
 }
