@@ -1,5 +1,5 @@
 {
-  "count": 520,
+  "count": 523,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -633,6 +633,14 @@
       "title": "Senior Backend Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-backend-data-engineer-at-eleos-health-4429931320"
     },
+    "260730113c47618a": {
+      "company": "Experis",
+      "first_seen": "2026-09-29T19:04:00+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "AI & ML Engineer 244047",
+      "url": "https://il.linkedin.com/jobs/view/ai-ml-engineer-244047-at-experis-4471724821"
+    },
     "2775f1ce1889beac": {
       "company": "Fiverr",
       "first_seen": "2026-08-30T21:47:28+00:00",
@@ -1096,6 +1104,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-appcharge-4448268932"
+    },
+    "41fc9e13c1f34c79": {
+      "company": "RiverPool",
+      "first_seen": "2026-09-29T19:04:00+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Forward Deployed Data Architect",
+      "url": "https://il.linkedin.com/jobs/view/forward-deployed-data-architect-at-riverpool-4469453431"
     },
     "426416de89f3c0df": {
       "company": "Rounds",
@@ -4153,6 +4169,14 @@
       "title": "Data Scientist ",
       "url": "https://job-boards.greenhouse.io/melio/jobs/7748138003"
     },
+    "ffa5e263e36bacfd": {
+      "company": "Peak Innovation",
+      "first_seen": "2026-09-29T19:04:00+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst- Qlik Sense mandatory!",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-qlik-sense-mandatory%21-at-peak-innovation-4471737512"
+    },
     "ffaf295a326dd8db": {
       "company": "Yotpo",
       "first_seen": "2026-08-07T21:17:06+00:00",
@@ -4162,5 +4186,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-29T13:38:59+00:00"
+  "updated_at": "2026-09-29T19:04:01+00:00"
 }
