@@ -1,5 +1,5 @@
 {
-  "count": 515,
+  "count": 516,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -4049,6 +4049,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-nift-4448670939"
     },
+    "fc0ba76a3d491cba": {
+      "company": "Compie Technologies",
+      "first_seen": "2026-09-29T06:29:52+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "Generative AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/generative-ai-engineer-at-compie-technologies-4473098231"
+    },
     "fcc1813b39aee9a4": {
       "company": "comblack",
       "first_seen": "2026-08-29T02:59:29+00:00",
@@ -4122,5 +4130,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-28T21:00:07+00:00"
+  "updated_at": "2026-09-29T06:29:52+00:00"
 }
