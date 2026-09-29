@@ -1,5 +1,5 @@
 {
-  "count": 516,
+  "count": 520,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1433,6 +1433,14 @@
       "title": "ML & Big Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/ml-big-data-analyst-at-alpha-similarweb-partner-4452724405"
     },
+    "586008277fc8a55c": {
+      "company": "SuperPlay",
+      "first_seen": "2026-09-29T13:38:58+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-data-analyst-at-superplay-4473243340"
+    },
     "593e131b119c8f0a": {
       "company": "Intuit",
       "first_seen": "2026-09-23T07:07:25+00:00",
@@ -1512,6 +1520,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-rapyd-4439428377"
+    },
+    "5cfac1093762b9cd": {
+      "company": "Pango",
+      "first_seen": "2026-09-29T13:38:58+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-pango-4471726313"
     },
     "5d2fb8995739469f": {
       "company": "BYC",
@@ -3097,6 +3113,14 @@
       "title": "BI Developer",
       "url": "https://il.linkedin.com/jobs/view/bi-developer-at-extreme-4451327762"
     },
+    "bffc6dd0b0fcec11": {
+      "company": "Mgroup",
+      "first_seen": "2026-09-29T13:38:58+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Ai algorithm engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-algorithm-engineer-at-mgroup-4468519709"
+    },
     "c006913c239211cf": {
       "company": "Cybord",
       "first_seen": "2026-08-07T23:27:44+00:00",
@@ -3745,6 +3769,14 @@
       "title": "Big Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/big-data-engineer-at-placer-ai-4458166206"
     },
+    "e585489bd2f8be24": {
+      "company": "Bank of Jerusalem",
+      "first_seen": "2026-09-29T13:38:58+00:00",
+      "location": "Shoham, Center District, Israel",
+      "source": "linkedin",
+      "title": "Software & Machine Learning Engineer",
+      "url": "https://il.linkedin.com/jobs/view/software-machine-learning-engineer-4471721434"
+    },
     "e639187b85b4179a": {
       "company": "Cybersecurity Company",
       "first_seen": "2026-08-10T11:01:41+00:00",
@@ -4130,5 +4162,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-29T06:29:52+00:00"
+  "updated_at": "2026-09-29T13:38:59+00:00"
 }
