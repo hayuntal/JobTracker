@@ -1,5 +1,5 @@
 {
-  "count": 528,
+  "count": 530,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1040,6 +1040,14 @@
       "source": "linkedin",
       "title": "Data Engineer Manager",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-manager-at-rakuten-viber-4454082465"
+    },
+    "3ca8b180c15849c1": {
+      "company": "Antidote Health",
+      "first_seen": "2026-09-30T16:36:59+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Healthcare Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/healthcare-data-analyst-at-antidote-health-4471996995"
     },
     "3d04c71aab44426e": {
       "company": "DoiT",
@@ -2881,6 +2889,14 @@
       "title": "Core Data - Big Data Engineer",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/7972320"
     },
+    "b20a06cb1b190452": {
+      "company": "Reindeer",
+      "first_seen": "2026-09-30T16:36:59+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-reindeer-4370523530"
+    },
     "b2140a9f12d0de5e": {
       "company": "Peak Innovation",
       "first_seen": "2026-09-03T16:49:48+00:00",
@@ -4226,5 +4242,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-30T10:11:29+00:00"
+  "updated_at": "2026-09-30T16:36:59+00:00"
 }
