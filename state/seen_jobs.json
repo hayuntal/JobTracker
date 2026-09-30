@@ -1,5 +1,5 @@
 {
-  "count": 523,
+  "count": 528,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -808,6 +808,14 @@
       "source": "linkedin",
       "title": "Senior Data Analyst (37485)",
       "url": "https://il.linkedin.com/jobs/view/senior-data-analyst-37485-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4462836413"
+    },
+    "2ec25463d5b4b70c": {
+      "company": "Ocean",
+      "first_seen": "2026-09-30T10:11:29+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer- Detection & Agents",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-detection-agents-at-ocean-4471904253"
     },
     "2f2051cfefbcba3b": {
       "company": "Mobileye",
@@ -2057,6 +2065,14 @@
       "title": "Senior ML Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-ml-data-engineer-at-mobileye-4402132278"
     },
+    "7e8119ba2b78ec98": {
+      "company": "Elad Software Systems",
+      "first_seen": "2026-09-30T10:11:29+00:00",
+      "location": "North District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer (1007297)",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-1007297-at-elad-software-systems-4473733940"
+    },
     "7fbd2c5154a32861": {
       "company": "Autofleet",
       "first_seen": "2026-09-22T15:20:55+00:00",
@@ -2976,6 +2992,14 @@
       "source": "linkedin",
       "title": "Data Analyst (37176)",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-37176-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4461069902"
+    },
+    "b8cd9af59070ee6d": {
+      "company": "ONE datAI",
+      "first_seen": "2026-09-30T10:11:29+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-one-datai-4471283845"
     },
     "b91b4e2b0511cb59": {
       "company": "Blockaid",
@@ -3969,6 +3993,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-wix-4453100230"
     },
+    "ef77b244dddbf2df": {
+      "company": "Similarweb",
+      "first_seen": "2026-09-30T10:11:29+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Data Engineer – Applied ML",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8239378"
+    },
     "ef80b25eb2bf6258": {
       "company": "Megayeset - Recruiting, Head Hunting and HR Consulting מגייסת - השמה ומשאבי אנוש",
       "first_seen": "2026-08-16T17:13:59+00:00",
@@ -4081,6 +4113,14 @@
       "title": "Generative AI Engineer",
       "url": "https://il.linkedin.com/jobs/view/generative-ai-engineer-at-aran-software-4468379622"
     },
+    "fa4c701f2990bea1": {
+      "company": "Novo Nordisk",
+      "first_seen": "2026-09-30T10:11:29+00:00",
+      "location": "Kfar Saba, Center District, Israel",
+      "source": "linkedin",
+      "title": "Commercial Insights Analyst",
+      "url": "https://il.linkedin.com/jobs/view/commercial-insights-analyst-at-novo-nordisk-4469762985"
+    },
     "fabc937896b92a85": {
       "company": "KESHET-HR",
       "first_seen": "2026-08-27T23:26:12+00:00",
@@ -4186,5 +4226,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-29T19:04:01+00:00"
+  "updated_at": "2026-09-30T10:11:29+00:00"
 }
