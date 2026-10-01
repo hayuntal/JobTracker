@@ -1,5 +1,5 @@
 {
-  "count": 530,
+  "count": 531,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1072,6 +1072,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-passportcard-4469591744"
+    },
+    "3e31588b76904b1c": {
+      "company": "Arpeely",
+      "first_seen": "2026-10-01T06:56:12+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-data-analyst-at-arpeely-4471324932"
     },
     "3eb3d0dbeb65efc5": {
       "company": "AppsFlyer",
@@ -4242,5 +4250,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-09-30T16:36:59+00:00"
+  "updated_at": "2026-10-01T06:56:12+00:00"
 }
