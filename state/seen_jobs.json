@@ -1,5 +1,5 @@
 {
-  "count": 538,
+  "count": 539,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3865,6 +3865,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-aqurate-data-4457238517"
     },
+    "e2f9b94296d28b38": {
+      "company": "Greylock Partners",
+      "first_seen": "2026-10-02T18:52:36+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied AI Engineer, Founding Team",
+      "url": "https://il.linkedin.com/jobs/view/applied-ai-engineer-founding-team-at-greylock-partners-4397297692"
+    },
     "e2ff87ba6cbb103e": {
       "company": "Venn",
       "first_seen": "2026-09-09T00:57:09+00:00",
@@ -4306,5 +4314,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-01T20:03:10+00:00"
+  "updated_at": "2026-10-02T18:52:37+00:00"
 }
