@@ -1,5 +1,5 @@
 {
-  "count": 540,
+  "count": 543,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -2193,6 +2193,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-nisha-pro-4459217174"
     },
+    "83bc73dcf572b218": {
+      "company": "Faye",
+      "first_seen": "2026-10-04T15:05:22+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/product-analyst-at-faye-4475383668"
+    },
     "84574deda7b6247d": {
       "company": "DRS RADA Technologies",
       "first_seen": "2026-09-23T13:12:55+00:00",
@@ -4201,6 +4209,14 @@
       "title": "Experienced Machine Learning Engineer",
       "url": "https://il.linkedin.com/jobs/view/experienced-machine-learning-engineer-at-mobileye-4442639520"
     },
+    "f8e2626e6d789c90": {
+      "company": "no company name",
+      "first_seen": "2026-10-04T15:05:22+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Strategic Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/strategic-data-analyst-at-no-company-name-4474215172"
+    },
     "f93601ff26841b86": {
       "company": "ARAN Software",
       "first_seen": "2026-09-17T10:46:43+00:00",
@@ -4224,6 +4240,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-4459876059"
+    },
+    "fabe94a0b0b4a52e": {
+      "company": "G-STAT",
+      "first_seen": "2026-10-04T15:05:22+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Lead Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/lead-data-engineer-at-g-stat-4474214301"
     },
     "fbae11205cbd1524": {
       "company": "Nift",
@@ -4322,5 +4346,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-04T09:12:58+00:00"
+  "updated_at": "2026-10-04T15:05:23+00:00"
 }
