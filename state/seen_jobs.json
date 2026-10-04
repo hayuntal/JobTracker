@@ -1,5 +1,5 @@
 {
-  "count": 539,
+  "count": 540,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3489,6 +3489,14 @@
       "title": "Senior Data Platform Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-platform-engineer-at-armis-4361380791"
     },
+    "ce5b5b943ab40437": {
+      "company": "Omnisys",
+      "first_seen": "2026-10-04T09:12:58+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Generative AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/generative-ai-engineer-at-omnisys-4473892951"
+    },
     "cefe473ac8b9b2cb": {
       "company": "Converge Bio",
       "first_seen": "2026-09-08T16:58:24+00:00",
@@ -4314,5 +4322,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-02T18:52:37+00:00"
+  "updated_at": "2026-10-04T09:12:58+00:00"
 }
