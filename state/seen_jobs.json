@@ -1,5 +1,5 @@
 {
-  "count": 543,
+  "count": 544,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -4201,6 +4201,14 @@
       "title": "Data Engineer- 2628",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-2628-at-shabak-israeli-security-agency-career-4445850181"
     },
+    "f7ce99d17e4a930c": {
+      "company": "Shavit Software",
+      "first_seen": "2026-10-05T08:03:51+00:00",
+      "location": "Bnei Brak, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Predictive Analytics Developer",
+      "url": "https://il.linkedin.com/jobs/view/predictive-analytics-developer-at-shavit-software-4475534623"
+    },
     "f85aad7b322494a6": {
       "company": "Mobileye",
       "first_seen": "2026-09-24T15:40:31+00:00",
@@ -4346,5 +4354,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-04T15:05:23+00:00"
+  "updated_at": "2026-10-05T08:03:52+00:00"
 }
