@@ -1,5 +1,5 @@
 {
-  "count": 544,
+  "count": 546,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3937,6 +3937,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-play-perfect-4411159389"
     },
+    "e7dd35e4d5789d04": {
+      "company": "monday.com",
+      "first_seen": "2026-10-05T17:40:54+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist– AI Infra & Evaluation Foundations",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist%E2%80%93-ai-infra-evaluation-foundations-at-monday-com-4475386621"
+    },
     "e7e183ea3d1f691e": {
       "company": "Jazz",
       "first_seen": "2026-09-06T10:01:54+00:00",
@@ -4201,6 +4209,14 @@
       "title": "Data Engineer- 2628",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-2628-at-shabak-israeli-security-agency-career-4445850181"
     },
+    "f785941a216abdae": {
+      "company": "Antidote Health",
+      "first_seen": "2026-10-05T17:40:54+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Clinical Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/clinical-data-analyst-at-antidote-health-4471996995"
+    },
     "f7ce99d17e4a930c": {
       "company": "Shavit Software",
       "first_seen": "2026-10-05T08:03:51+00:00",
@@ -4354,5 +4370,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-05T08:03:52+00:00"
+  "updated_at": "2026-10-05T17:40:54+00:00"
 }
