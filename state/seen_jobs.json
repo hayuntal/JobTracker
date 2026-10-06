@@ -1,5 +1,5 @@
 {
-  "count": 555,
+  "count": 558,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1129,6 +1129,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-autods-automatic-dropshipping-tools-4464481513"
     },
+    "3f28397e1c07be0c": {
+      "company": "Nogamy",
+      "first_seen": "2026-10-06T22:07:10+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer Databricks",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-databricks-at-nogamy-4476349464"
+    },
     "3f3d8d9b310e34ee": {
       "company": "Vi",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -1648,6 +1656,14 @@
       "source": "linkedin",
       "title": "AI Data Engineer - Early Career",
       "url": "https://il.linkedin.com/jobs/view/ai-data-engineer-early-career-at-dario-4458797443"
+    },
+    "5fa5b9e966c325c8": {
+      "company": "Jobist",
+      "first_seen": "2026-10-06T22:07:10+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst לגוף פיננסי מוביל בתל אביב",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-%D7%9C%D7%92%D7%95%D7%A3-%D7%A4%D7%99%D7%A0%D7%A0%D7%A1%D7%99-%D7%9E%D7%95%D7%91%D7%99%D7%9C-%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-at-jobist-4474073591"
     },
     "5fb67893159bf6b0": {
       "company": "HonestReporting",
@@ -3969,6 +3985,14 @@
       "title": "Software & Machine Learning Engineer",
       "url": "https://il.linkedin.com/jobs/view/software-machine-learning-engineer-4471721434"
     },
+    "e5e7d8d2ea14a239": {
+      "company": "morning by Green Invoice",
+      "first_seen": "2026-10-06T22:07:10+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Business Product Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-product-analyst-at-morning-by-green-invoice-4476351247"
+    },
     "e639187b85b4179a": {
       "company": "Cybersecurity Company",
       "first_seen": "2026-08-10T11:01:41+00:00",
@@ -4442,5 +4466,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-06T17:43:19+00:00"
+  "updated_at": "2026-10-06T22:07:10+00:00"
 }
