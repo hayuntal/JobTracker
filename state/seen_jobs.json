@@ -1,5 +1,5 @@
 {
-  "count": 550,
+  "count": 555,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -296,6 +296,14 @@
       "source": "linkedin",
       "title": "Business Intelligence Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-intelligence-analyst-at-talent-hr-4336450195"
+    },
+    "1234db1599c157b3": {
+      "company": "Medulla",
+      "first_seen": "2026-10-06T17:43:18+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Lead Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/lead-data-scientist-at-medulla-4475552954"
     },
     "124dc9e4db5a7c3e": {
       "company": "Jobgether",
@@ -872,6 +880,14 @@
       "source": "linkedin",
       "title": "Product Data Scientist (Customer-facing)",
       "url": "https://il.linkedin.com/jobs/view/product-data-scientist-customer-facing-at-alpha-similarweb-partner-4447341898"
+    },
+    "3143d929d7bba8d2": {
+      "company": "QPoint Technologies",
+      "first_seen": "2026-10-06T17:43:18+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist | Machine Learning",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-machine-learning-at-qpoint-technologies-4473628995"
     },
     "31fc60dc4069de94": {
       "company": "Playtika",
@@ -1649,6 +1665,14 @@
       "title": "Senior Data Scientist (37320)",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-37320-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4454001711"
     },
+    "60b5ec337fbb7de2": {
+      "company": "Fetcherr",
+      "first_seen": "2026-10-06T17:43:18+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-engineer-at-fetcherr-4474061416"
+    },
     "60c027727718f462": {
       "company": "Play Perfect",
       "first_seen": "2026-08-17T10:25:18+00:00",
@@ -1833,6 +1857,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-trilogy-equity-partners-4468485265"
     },
+    "6c3066bb4756af8d": {
+      "company": "Pentera",
+      "first_seen": "2026-10-06T17:43:18+00:00",
+      "location": "Tel Aviv, IL",
+      "source": "comeet",
+      "title": "Data & AI Engineer",
+      "url": "https://pentera.io/careers/co/israel/BD.072/data-ai-engineer/all/"
+    },
     "6c38f405b58643d8": {
       "company": "Minute Media",
       "first_seen": "2026-08-11T11:39:26+00:00",
@@ -1864,6 +1896,14 @@
       "source": "greenhouse",
       "title": "Senior Data Engineer ",
       "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101"
+    },
+    "6fe03bdbc4790aa5": {
+      "company": "Yael Group",
+      "first_seen": "2026-10-06T17:43:18+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst (25456)",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-25456-at-yael-group-4474058499"
     },
     "6fe3593ab33b4159": {
       "company": "CloudBuzz",
@@ -4402,5 +4442,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-06T11:39:57+00:00"
+  "updated_at": "2026-10-06T17:43:19+00:00"
 }
