@@ -1,5 +1,5 @@
 {
-  "count": 558,
+  "count": 559,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -464,6 +464,14 @@
       "source": "linkedin",
       "title": "AI Algorithm Engineer - Vision Localization Group",
       "url": "https://il.linkedin.com/jobs/view/ai-algorithm-engineer-vision-localization-group-at-mobileye-4440229270"
+    },
+    "1990431b9db7add6": {
+      "company": "Edikted",
+      "first_seen": "2026-10-07T08:05:04+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Retail Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/retail-data-analyst-at-edikted-4464470745"
     },
     "1a3d703b4015d5cd": {
       "company": "Talent-HR",
@@ -4466,5 +4474,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-06T22:07:10+00:00"
+  "updated_at": "2026-10-07T08:05:05+00:00"
 }
