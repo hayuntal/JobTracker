@@ -1,5 +1,5 @@
 {
-  "count": 559,
+  "count": 561,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3313,6 +3313,14 @@
       "title": "Mid-Senior Data Scientist – Image Analysis, Computer Vision, and Text Reading",
       "url": "https://il.linkedin.com/jobs/view/mid-senior-data-scientist-%E2%80%93-image-analysis-computer-vision-and-text-reading-at-cybord-4449095374"
     },
+    "c01c8a2f2c7e13f0": {
+      "company": "Meta",
+      "first_seen": "2026-10-07T15:58:37+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist, Product Analytics STE 18 Month Contract",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-product-analytics-ste-18-month-contract-at-meta-4476594130"
+    },
     "c048da8a2a7f0ed1": {
       "company": "Migdal Group",
       "first_seen": "2026-08-30T08:48:19+00:00",
@@ -3352,6 +3360,14 @@
       "source": "greenhouse",
       "title": "Senior Data Scientist - AI Research & Reliability ",
       "url": "https://job-boards.greenhouse.io/gongio/jobs/4699279006"
+    },
+    "c0fe75289ffe9712": {
+      "company": "Taboola",
+      "first_seen": "2026-10-07T15:58:37+00:00",
+      "location": "Tel Aviv, Israel",
+      "source": "greenhouse",
+      "title": "Product Analyst",
+      "url": "https://www.taboola.com/careers/job/8243356?gh_jid=8243356"
     },
     "c21619ccf040e4b8": {
       "company": "Nuvei",
@@ -4474,5 +4490,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-07T08:05:05+00:00"
+  "updated_at": "2026-10-07T15:58:37+00:00"
 }
