@@ -1,5 +1,5 @@
 {
-  "count": 568,
+  "count": 571,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -2681,6 +2681,14 @@
       "title": "Senior Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-product-analyst-at-mylo-ai-4463900231"
     },
+    "9aab50fc52fd7a61": {
+      "company": "Weebit Nano Ltd",
+      "first_seen": "2026-10-08T20:27:09+00:00",
+      "location": "Hod HaSharon, Center District, Israel",
+      "source": "linkedin",
+      "title": "DevOps and Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/devops-and-data-engineer-at-weebit-nano-ltd-4473897842"
+    },
     "9b85b22fe0fd24e2": {
       "company": "Mobileye",
       "first_seen": "2026-09-14T11:25:09+00:00",
@@ -3489,6 +3497,14 @@
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-finout-4449045308"
     },
+    "c5b5df37490aa6a2": {
+      "company": "IAI - Israel Aerospace Industries",
+      "first_seen": "2026-10-08T20:27:09+00:00",
+      "location": "Ashdod, South District, Israel",
+      "source": "linkedin",
+      "title": "AI Algorithm Developer",
+      "url": "https://il.linkedin.com/jobs/view/ai-algorithm-developer-at-iai-israel-aerospace-industries-4473463638"
+    },
     "c5bf2a59a938ef30": {
       "company": "HAAT Delivery",
       "first_seen": "2026-08-27T23:26:12+00:00",
@@ -3880,6 +3896,14 @@
       "source": "linkedin",
       "title": "Senior Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-at-antidote-health-4453205259"
+    },
+    "da89222ec93e1310": {
+      "company": "DRS RADA Technologies",
+      "first_seen": "2026-10-08T20:27:09+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Junior Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/junior-data-analyst-at-drs-rada-technologies-4475931641"
     },
     "dad74e91ffba383b": {
       "company": "NVIDIA",
@@ -4546,5 +4570,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-08T14:18:57+00:00"
+  "updated_at": "2026-10-08T20:27:10+00:00"
 }
