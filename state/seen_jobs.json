@@ -1,5 +1,5 @@
 {
-  "count": 562,
+  "count": 568,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -657,6 +657,14 @@
       "title": "Data Scientist ",
       "url": "https://job-boards.greenhouse.io/similarweb/jobs/6829705"
     },
+    "25086f9be5e51712": {
+      "company": "Twine Security",
+      "first_seen": "2026-10-08T14:18:56+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-twine-security-4475952262"
+    },
     "251a419c3b2dc3d8": {
       "company": "comblack",
       "first_seen": "2026-08-24T12:34:00+00:00",
@@ -992,6 +1000,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-bringg-4450147629"
+    },
+    "381b14d47342265f": {
+      "company": "IEC - Israel Electric Corporation חברת החשמל לישראל בע\"מ",
+      "first_seen": "2026-10-08T14:18:56+00:00",
+      "location": "Haifa, Haifa District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer AI Ready",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-ai-ready-at-iec-israel-electric-corporation-%D7%97%D7%91%D7%A8%D7%AA-%D7%94%D7%97%D7%A9%D7%9E%D7%9C-%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%91%D7%A2-%D7%9E-4477130632"
     },
     "3821fead070bedb1": {
       "company": "Alpha | Similarweb Partner",
@@ -1793,6 +1809,14 @@
       "title": "Big Data Developer",
       "url": "https://il.linkedin.com/jobs/view/big-data-developer-at-placer-ai-4458166206"
     },
+    "63c86511b061a097": {
+      "company": "Astral Hotels",
+      "first_seen": "2026-10-08T14:18:56+00:00",
+      "location": "Eilat, South District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer & Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-data-analyst-at-astral-hotels-4477122234"
+    },
     "64395089ea742118": {
       "company": "EPAM Systems",
       "first_seen": "2026-09-04T00:36:11+00:00",
@@ -1992,6 +2016,14 @@
       "source": "linkedin",
       "title": "BI Developer | Qlik Developer",
       "url": "https://il.linkedin.com/jobs/view/bi-developer-qlik-developer-at-michal-recruiting-placement-4470482908"
+    },
+    "731c465cfeb4901b": {
+      "company": "Sensi.AI",
+      "first_seen": "2026-10-08T14:18:56+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Analytics Engineer",
+      "url": "https://il.linkedin.com/jobs/view/analytics-engineer-at-sensi-ai-4475760742"
     },
     "742012adae826501": {
       "company": "Bridgify",
@@ -2513,6 +2545,14 @@
       "title": "Senior BI Analyst",
       "url": "https://il.linkedin.com/jobs/view/senior-bi-analyst-at-port-io-4448277590"
     },
+    "93c9ee8f61124308": {
+      "company": "Corephotonics Ltd",
+      "first_seen": "2026-10-08T14:18:56+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Computer Vision Engineer",
+      "url": "https://il.linkedin.com/jobs/view/computer-vision-engineer-at-corephotonics-ltd-4474022863"
+    },
     "94fd565c0fa0cf20": {
       "company": "comblack",
       "first_seen": "2026-08-24T15:32:16+00:00",
@@ -2720,6 +2760,14 @@
       "source": "linkedin",
       "title": "BI Developer",
       "url": "https://il.linkedin.com/jobs/view/bi-developer-at-comblack-4458185631"
+    },
+    "a0e8f9e9dca81680": {
+      "company": "DRS RADA Technologies",
+      "first_seen": "2026-10-08T14:18:56+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Power BI & Data Warehouse Developer",
+      "url": "https://il.linkedin.com/jobs/view/power-bi-data-warehouse-developer-at-drs-rada-technologies-4475936418"
     },
     "a1908ffe4323f1ca": {
       "company": "Alpha | Similarweb Partner",
@@ -4498,5 +4546,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-08T06:56:07+00:00"
+  "updated_at": "2026-10-08T14:18:57+00:00"
 }
