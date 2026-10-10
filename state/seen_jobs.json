@@ -1,5 +1,5 @@
 {
-  "count": 571,
+  "count": 572,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -2120,6 +2120,14 @@
       "source": "linkedin",
       "title": "Popai Health- AI Engineer",
       "url": "https://il.linkedin.com/jobs/view/popai-health-ai-engineer-at-team8-4465729410"
+    },
+    "796e2c149c1cf416": {
+      "company": "Amazon Science",
+      "first_seen": "2026-10-10T16:05:40+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied Scientist, Personalization, Personalization",
+      "url": "https://il.linkedin.com/jobs/view/applied-scientist-personalization-personalization-at-amazon-science-4475622188"
     },
     "79b129db4eb0d73f": {
       "company": "Experis Israel",
@@ -4570,5 +4578,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-08T20:27:10+00:00"
+  "updated_at": "2026-10-10T16:05:41+00:00"
 }
