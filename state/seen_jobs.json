@@ -1,5 +1,5 @@
 {
-  "count": 574,
+  "count": 577,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -16,6 +16,14 @@
       "source": "linkedin",
       "title": "Lead Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/lead-data-engineer-at-expressvpn-4455339439"
+    },
+    "00ea9ef97b3d0cac": {
+      "company": "MedINT",
+      "first_seen": "2026-10-11T13:43:19+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/data-scientist-at-medint-4475652228"
     },
     "00f76058eb801dc1": {
       "company": "IAI - Israel Aerospace Industries",
@@ -152,6 +160,14 @@
       "source": "linkedin",
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-yael-group-4462214298"
+    },
+    "0abe9e0fa8dd2fc5": {
+      "company": "Enlight Renewable Energy Ltd (ENLT)",
+      "first_seen": "2026-10-11T13:43:19+00:00",
+      "location": "Rosh HaAyin, Center District, Israel",
+      "source": "linkedin",
+      "title": "Performance Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/performance-data-analyst-at-enlight-renewable-energy-ltd-enlt-4478097956"
     },
     "0ae2f2d97459b250": {
       "company": "HAAT Delivery",
@@ -2048,6 +2064,14 @@
       "source": "linkedin",
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-compie-technologies-4460871922"
+    },
+    "7526410c8f1bdd32": {
+      "company": "Peak Innovation",
+      "first_seen": "2026-10-11T13:43:19+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Business Intelligence Analyst",
+      "url": "https://il.linkedin.com/jobs/view/business-intelligence-analyst-at-peak-innovation-4475662138"
     },
     "752947cc075cf633": {
       "company": "Innodata Inc.",
@@ -4594,5 +4618,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-11T06:43:33+00:00"
+  "updated_at": "2026-10-11T13:43:19+00:00"
 }
