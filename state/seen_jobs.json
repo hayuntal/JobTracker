@@ -1,5 +1,5 @@
 {
-  "count": 572,
+  "count": 574,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -16,6 +16,14 @@
       "source": "linkedin",
       "title": "Lead Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/lead-data-engineer-at-expressvpn-4455339439"
+    },
+    "00f76058eb801dc1": {
+      "company": "IAI - Israel Aerospace Industries",
+      "first_seen": "2026-10-11T06:43:32+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-iai-israel-aerospace-industries-4475639591"
     },
     "020750deceebc7d7": {
       "company": "mylo AI",
@@ -4289,6 +4297,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-wix-4453100230"
     },
+    "eeef04631fc3f6c3": {
+      "company": "IAI - Israel Aerospace Industries",
+      "first_seen": "2026-10-11T06:43:32+00:00",
+      "location": "Petah Tikva, Center District, Israel",
+      "source": "linkedin",
+      "title": "Algorithm Developer",
+      "url": "https://il.linkedin.com/jobs/view/algorithm-developer-at-iai-israel-aerospace-industries-4473477609"
+    },
     "ef77b244dddbf2df": {
       "company": "Similarweb",
       "first_seen": "2026-09-30T10:11:29+00:00",
@@ -4578,5 +4594,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-10T16:05:41+00:00"
+  "updated_at": "2026-10-11T06:43:33+00:00"
 }
