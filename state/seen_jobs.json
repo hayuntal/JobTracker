@@ -1,5 +1,5 @@
 {
-  "count": 578,
+  "count": 583,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1512,6 +1512,14 @@
       "source": "linkedin",
       "title": "Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-analyst-4176188553"
+    },
+    "54924ca367e786c0": {
+      "company": "Lenovo",
+      "first_seen": "2026-10-12T18:28:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Platform Engineer - AI Security Team",
+      "url": "https://il.linkedin.com/jobs/view/data-platform-engineer-ai-security-team-at-lenovo-4477568550"
     },
     "54c751fee7b53a95": {
       "company": "Nexxen",
@@ -3481,6 +3489,14 @@
       "title": "Product Analyst",
       "url": "https://www.taboola.com/careers/job/8243356?gh_jid=8243356"
     },
+    "c1b5fb817d85e4e0": {
+      "company": "Nebius",
+      "first_seen": "2026-10-12T18:28:06+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-nebius-4476034202"
+    },
     "c21619ccf040e4b8": {
       "company": "Nuvei",
       "first_seen": "2026-09-11T23:46:41+00:00",
@@ -3536,6 +3552,14 @@
       "source": "linkedin",
       "title": "Data Scientist – Maternity Leave Cover (Long-Term)",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-%E2%80%93-maternity-leave-cover-long-term-at-bringg-4450147629"
+    },
+    "c4f51d0a8585e4d0": {
+      "company": "Mize",
+      "first_seen": "2026-10-12T18:28:06+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Junior Data Scientist",
+      "url": "https://il.linkedin.com/jobs/view/junior-data-scientist-at-mize-4477530162"
     },
     "c5a62595ca7f79e6": {
       "company": "Finout",
@@ -3608,6 +3632,14 @@
       "source": "linkedin",
       "title": "Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/business-analyst-at-unity-4457142566"
+    },
+    "c8774edab3866c36": {
+      "company": "INGIMA",
+      "first_seen": "2026-10-12T18:28:06+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer – Leading Company | 5373",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-%E2%80%93-leading-company-5373-at-ingima-4478395990"
     },
     "c8b0ae411d9ef4db": {
       "company": "XT Group",
@@ -4561,6 +4593,14 @@
       "title": "Entry-Level BI / Data Analyst Role – Training + Placement",
       "url": "https://il.linkedin.com/jobs/view/entry-level-bi-data-analyst-role-%E2%80%93-training-%2B-placement-at-experis-academy-israel-4460472803"
     },
+    "fdb59deb301a35dc": {
+      "company": "StarHunter",
+      "first_seen": "2026-10-12T18:28:06+00:00",
+      "location": "Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst - Gaming",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-gaming-at-starhunter-4476004234"
+    },
     "fde5a139eb2632ea": {
       "company": "Jobgether",
       "first_seen": "2026-08-13T09:56:40+00:00",
@@ -4626,5 +4666,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-11T18:35:17+00:00"
+  "updated_at": "2026-10-12T18:28:06+00:00"
 }
