@@ -1,5 +1,5 @@
 {
-  "count": 584,
+  "count": 587,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1185,6 +1185,14 @@
       "title": "Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-analyst-at-autods-automatic-dropshipping-tools-4464481513"
     },
+    "3ee383696622737e": {
+      "company": "Menora Mivtachim Group",
+      "first_seen": "2026-10-13T08:49:18+00:00",
+      "location": "Ramat Gan, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "BI Developer",
+      "url": "https://il.linkedin.com/jobs/view/bi-developer-at-menora-mivtachim-group-4478753934"
+    },
     "3f28397e1c07be0c": {
       "company": "Nogamy",
       "first_seen": "2026-10-06T22:07:10+00:00",
@@ -1440,6 +1448,14 @@
       "source": "linkedin",
       "title": "Data & Business Analyst",
       "url": "https://il.linkedin.com/jobs/view/data-business-analyst-at-elad-software-systems-4448951366"
+    },
+    "4c46e9391dc3c8e0": {
+      "company": "ISCAR ISRAEL",
+      "first_seen": "2026-10-13T08:49:18+00:00",
+      "location": "Migdal Tefen, North District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-iscar-israel-4478761202"
     },
     "4cfdb80f7868e5cb": {
       "company": "Gotfriends",
@@ -3993,6 +4009,14 @@
       "title": "Senior Data Scientist - Security",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-security-at-nvidia-4454916833"
     },
+    "dbd19e69cb81957b": {
+      "company": "Innodata Inc.",
+      "first_seen": "2026-10-13T08:49:18+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Financial Crime Research Scientist",
+      "url": "https://il.linkedin.com/jobs/view/financial-crime-research-scientist-at-innodata-inc-4476084771"
+    },
     "dbec20effe2817d3": {
       "company": "Playtika",
       "first_seen": "2026-08-12T03:59:48+00:00",
@@ -4674,5 +4698,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-13T01:05:20+00:00"
+  "updated_at": "2026-10-13T08:49:19+00:00"
 }
