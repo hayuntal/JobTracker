@@ -1,5 +1,5 @@
 {
-  "count": 587,
+  "count": 590,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1704,6 +1704,14 @@
       "source": "linkedin",
       "title": "AI Algorithm Engineer",
       "url": "https://il.linkedin.com/jobs/view/ai-algorithm-engineer-at-byc-4465998367"
+    },
+    "5d7cbfd471694e3f": {
+      "company": "abra",
+      "first_seen": "2026-10-13T16:39:59+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-abra-4479004198"
     },
     "5db10d6942941a34": {
       "company": "Yael Group",
@@ -4385,6 +4393,14 @@
       "title": "Applied Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/applied-data-scientist-at-wix-4453100230"
     },
+    "eebd9c389b4d5566": {
+      "company": "Nisha Pro",
+      "first_seen": "2026-10-13T16:39:59+00:00",
+      "location": "Lod, Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-nisha-pro-4476407623"
+    },
     "eeef04631fc3f6c3": {
       "company": "IAI - Israel Aerospace Industries",
       "first_seen": "2026-10-11T06:43:32+00:00",
@@ -4561,6 +4577,14 @@
       "title": "Generative AI Engineer",
       "url": "https://il.linkedin.com/jobs/view/generative-ai-engineer-at-aran-software-4468379622"
     },
+    "f944049062c3acb3": {
+      "company": "Similarweb",
+      "first_seen": "2026-10-13T16:39:59+00:00",
+      "location": "Tel Aviv",
+      "source": "greenhouse",
+      "title": "Data Analyst– Product Data & AI Quality",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8276305"
+    },
     "f9e972d07ef4334d": {
       "company": "G-STAT",
       "first_seen": "2026-10-06T11:39:56+00:00",
@@ -4698,5 +4722,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-13T08:49:19+00:00"
+  "updated_at": "2026-10-13T16:40:00+00:00"
 }
