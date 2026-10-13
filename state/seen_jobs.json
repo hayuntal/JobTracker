@@ -1,5 +1,5 @@
 {
-  "count": 590,
+  "count": 592,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -32,6 +32,14 @@
       "source": "linkedin",
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-iai-israel-aerospace-industries-4475639591"
+    },
+    "019b175a10f6be61": {
+      "company": "JustBacked",
+      "first_seen": "2026-10-13T21:42:41+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-justbacked-4476465918"
     },
     "020750deceebc7d7": {
       "company": "mylo AI",
@@ -176,6 +184,14 @@
       "source": "linkedin",
       "title": "Lead Product Analyst",
       "url": "https://il.linkedin.com/jobs/view/lead-product-analyst-at-haat-delivery-4467317754"
+    },
+    "0b91dce9d49866ef": {
+      "company": "DRS RADA Technologies",
+      "first_seen": "2026-10-13T21:42:41+00:00",
+      "location": "Netanya, Center District, Israel",
+      "source": "linkedin",
+      "title": "Junior Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/junior-data-engineer-at-drs-rada-technologies-4479064487"
     },
     "0bbcc20713201857": {
       "company": "Checkout.com",
@@ -4722,5 +4738,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-13T16:40:00+00:00"
+  "updated_at": "2026-10-13T21:42:41+00:00"
 }
