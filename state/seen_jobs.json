@@ -1,5 +1,5 @@
 {
-  "count": 593,
+  "count": 595,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -1441,6 +1441,14 @@
       "title": "Data Analyst, Algorithms",
       "url": "https://www.taboola.com/careers/job/8076468?gh_jid=8076468"
     },
+    "4b15e0db0ce23183": {
+      "company": "Extreme",
+      "first_seen": "2026-10-14T10:59:05+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-extreme-4479290133"
+    },
     "4b412b03a372d450": {
       "company": "Payoneer",
       "first_seen": "2026-09-17T15:24:56+00:00",
@@ -1872,6 +1880,14 @@
       "source": "linkedin",
       "title": "Machine Learning Engineer",
       "url": "https://il.linkedin.com/jobs/view/machine-learning-engineer-at-dialog-4456581622"
+    },
+    "636148a0be73048e": {
+      "company": "Jobgether",
+      "first_seen": "2026-10-14T10:59:05+00:00",
+      "location": "Israel",
+      "source": "linkedin",
+      "title": "Finance Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/finance-data-analyst-at-jobgether-4478406922"
     },
     "6398433d69c9876c": {
       "company": "Placer.ai",
@@ -4746,5 +4762,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-14T00:49:06+00:00"
+  "updated_at": "2026-10-14T10:59:05+00:00"
 }
