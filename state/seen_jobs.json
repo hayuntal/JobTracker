@@ -1,5 +1,5 @@
 {
-  "count": 597,
+  "count": 599,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3489,6 +3489,14 @@
       "title": "Senior Data Engineer, PE",
       "url": "https://il.linkedin.com/jobs/view/senior-data-engineer-pe-at-nvidia-4441114891"
     },
+    "bf9c9b3c3d082f12": {
+      "company": "Upstream Security",
+      "first_seen": "2026-10-15T12:23:38+00:00",
+      "location": "Herzliya, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Data Engineer",
+      "url": "https://il.linkedin.com/jobs/view/data-engineer-at-upstream-security-4479816578"
+    },
     "bfe24c2727cba9e7": {
       "company": "Extreme",
       "first_seen": "2026-08-09T07:47:59+00:00",
@@ -3984,6 +3992,14 @@
       "source": "linkedin",
       "title": "Founding ML Engineer",
       "url": "https://il.linkedin.com/jobs/view/founding-ml-engineer-at-apptor-ai-4465550110"
+    },
+    "d7f26c66844b6f9e": {
+      "company": "comblack",
+      "first_seen": "2026-10-15T12:23:38+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Data Analyst",
+      "url": "https://il.linkedin.com/jobs/view/data-analyst-at-comblack-4479823524"
     },
     "d80a3626c239c78b": {
       "company": "SGTech - Zero Carbon, Sustainable Farming",
@@ -4778,5 +4794,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-15T06:50:38+00:00"
+  "updated_at": "2026-10-15T12:23:39+00:00"
 }
