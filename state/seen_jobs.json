@@ -1,5 +1,5 @@
 {
-  "count": 599,
+  "count": 600,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -2497,6 +2497,14 @@
       "title": "Fraud Data Analyst",
       "url": "https://il.linkedin.com/jobs/view/fraud-data-analyst-at-checkout-com-4411198404"
     },
+    "87d291deccb45ac3": {
+      "company": "Lightrun",
+      "first_seen": "2026-10-15T17:34:03+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-lightrun-4356094310"
+    },
     "87db89cd78f8f045": {
       "company": "Global-e",
       "first_seen": "2026-08-09T09:32:36+00:00",
@@ -4794,5 +4802,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-15T12:23:39+00:00"
+  "updated_at": "2026-10-15T17:34:03+00:00"
 }
