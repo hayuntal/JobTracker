@@ -1,5 +1,5 @@
 {
-  "count": 600,
+  "count": 601,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3505,6 +3505,14 @@
       "title": "Data Engineer",
       "url": "https://il.linkedin.com/jobs/view/data-engineer-at-upstream-security-4479816578"
     },
+    "bfa14bda7f19c73a": {
+      "company": "מרטנס | Mertens – מקבוצת מלם תים",
+      "first_seen": "2026-10-16T17:09:50+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "Geospatial Data Scientist (37787)",
+      "url": "https://il.linkedin.com/jobs/view/geospatial-data-scientist-37787-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4479847246"
+    },
     "bfe24c2727cba9e7": {
       "company": "Extreme",
       "first_seen": "2026-08-09T07:47:59+00:00",
@@ -4802,5 +4810,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-15T17:34:03+00:00"
+  "updated_at": "2026-10-16T17:09:51+00:00"
 }
