@@ -1,5 +1,5 @@
 {
-  "count": 602,
+  "count": 603,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -4545,6 +4545,14 @@
       "title": "Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/data-scientist-at-nogamy-4459312629"
     },
+    "f10aa00e95a8f6e7": {
+      "company": "NeoDawn",
+      "first_seen": "2026-10-17T19:57:03+00:00",
+      "location": "Center District, Israel",
+      "source": "linkedin",
+      "title": "AI Engineer",
+      "url": "https://il.linkedin.com/jobs/view/ai-engineer-at-neodawn-4477787630"
+    },
     "f160e61687ba1cb6": {
       "company": "Omnisys",
       "first_seen": "2026-10-06T11:39:56+00:00",
@@ -4818,5 +4826,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-17T11:55:49+00:00"
+  "updated_at": "2026-10-17T19:57:04+00:00"
 }
