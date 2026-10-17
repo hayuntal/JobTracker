@@ -1,5 +1,5 @@
 {
-  "count": 601,
+  "count": 602,
   "seen": {
     "00009fc29df1ba65": {
       "company": "Amazon",
@@ -3289,6 +3289,14 @@
       "title": "Senior Data Scientist",
       "url": "https://il.linkedin.com/jobs/view/senior-data-scientist-at-log-on-software-4463041493"
     },
+    "b59ed3f0c422dc67": {
+      "company": "Amazon Science",
+      "first_seen": "2026-10-17T11:55:48+00:00",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "source": "linkedin",
+      "title": "Applied Scientist, Prime Video Sports Personalization",
+      "url": "https://il.linkedin.com/jobs/view/applied-scientist-prime-video-sports-personalization-at-amazon-science-4477730719"
+    },
     "b5a0188c9b77ec57": {
       "company": "ARAN Software",
       "first_seen": "2026-08-09T11:23:07+00:00",
@@ -4810,5 +4818,5 @@
       "url": "https://www.yotpo.com/careers/gid-7698505?gh_jid=7698505"
     }
   },
-  "updated_at": "2026-10-16T17:09:51+00:00"
+  "updated_at": "2026-10-17T11:55:49+00:00"
 }
